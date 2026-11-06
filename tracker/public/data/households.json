@@ -6,6 +6,8 @@
    "householdsYear": 2025,
    "population": 9197213,
    "populationYear": 2025,
+   "cars": 5286101,
+   "carsYear": 2025,
    "name": "Austria"
   },
   "BE": {
@@ -13,6 +15,8 @@
    "householdsYear": 2025,
    "population": 11883495,
    "populationYear": 2025,
+   "cars": 6136034,
+   "carsYear": 2025,
    "name": "Belgium"
   },
   "BG": {
@@ -20,6 +24,8 @@
    "householdsYear": 2025,
    "population": 6437360,
    "populationYear": 2025,
+   "cars": 3254325,
+   "carsYear": 2025,
    "name": "Bulgaria"
   },
   "CY": {
@@ -27,6 +33,8 @@
    "householdsYear": 2025,
    "population": 982966,
    "populationYear": 2025,
+   "cars": 667841,
+   "carsYear": 2025,
    "name": "Cyprus"
   },
   "CZ": {
@@ -34,6 +42,8 @@
    "householdsYear": 2025,
    "population": 10909500,
    "populationYear": 2025,
+   "cars": 6774399,
+   "carsYear": 2025,
    "name": "Czechia"
   },
   "DE": {
@@ -41,6 +51,8 @@
    "householdsYear": 2025,
    "population": 83577140,
    "populationYear": 2025,
+   "cars": 49486487,
+   "carsYear": 2025,
    "name": "Germany"
   },
   "DK": {
@@ -48,6 +60,8 @@
    "householdsYear": 2025,
    "population": 5992734,
    "populationYear": 2025,
+   "cars": 3018026,
+   "carsYear": 2025,
    "name": "Denmark"
   },
   "EE": {
@@ -55,6 +69,8 @@
    "householdsYear": 2025,
    "population": 1369995,
    "populationYear": 2025,
+   "cars": 809095,
+   "carsYear": 2025,
    "name": "Estonia"
   },
   "ES": {
@@ -62,6 +78,8 @@
    "householdsYear": 2025,
    "population": 49128297,
    "populationYear": 2025,
+   "cars": 27281373,
+   "carsYear": 2025,
    "name": "Spain"
   },
   "FI": {
@@ -69,6 +87,8 @@
    "householdsYear": 2025,
    "population": 5635971,
    "populationYear": 2025,
+   "cars": 3792918,
+   "carsYear": 2025,
    "name": "Finland"
   },
   "FR": {
@@ -76,6 +96,8 @@
    "householdsYear": 2025,
    "population": 68882600,
    "populationYear": 2025,
+   "cars": 39957994,
+   "carsYear": 2025,
    "name": "France"
   },
   "GR": {
@@ -83,6 +105,8 @@
    "householdsYear": 2025,
    "population": 10372335,
    "populationYear": 2025,
+   "cars": 6188525,
+   "carsYear": 2025,
    "name": "Greece"
   },
   "HR": {
@@ -90,6 +114,8 @@
    "householdsYear": 2025,
    "population": 3874350,
    "populationYear": 2025,
+   "cars": 2058313,
+   "carsYear": 2025,
    "name": "Croatia"
   },
   "HU": {
@@ -97,6 +123,8 @@
    "householdsYear": 2025,
    "population": 9539502,
    "populationYear": 2025,
+   "cars": 4374763,
+   "carsYear": 2025,
    "name": "Hungary"
   },
   "IE": {
@@ -104,6 +132,8 @@
    "householdsYear": 2025,
    "population": 5440278,
    "populationYear": 2025,
+   "cars": 2619083,
+   "carsYear": 2025,
    "name": "Ireland"
   },
   "IT": {
@@ -111,6 +141,8 @@
    "householdsYear": 2025,
    "population": 58943464,
    "populationYear": 2025,
+   "cars": 41795962,
+   "carsYear": 2025,
    "name": "Italy"
   },
   "LT": {
@@ -118,6 +150,8 @@
    "householdsYear": 2025,
    "population": 2890664,
    "populationYear": 2025,
+   "cars": 1816856,
+   "carsYear": 2025,
    "name": "Lithuania"
   },
   "LU": {
@@ -125,6 +159,8 @@
    "householdsYear": 2025,
    "population": 681973,
    "populationYear": 2025,
+   "cars": 461762,
+   "carsYear": 2025,
    "name": "Luxembourg"
   },
   "LV": {
@@ -132,6 +168,8 @@
    "householdsYear": 2025,
    "population": 1860565,
    "populationYear": 2025,
+   "cars": 802784,
+   "carsYear": 2025,
    "name": "Latvia"
   },
   "MT": {
@@ -139,6 +177,8 @@
    "householdsYear": 2025,
    "population": 574250,
    "populationYear": 2025,
+   "cars": 335693,
+   "carsYear": 2025,
    "name": "Malta"
   },
   "NL": {
@@ -146,6 +186,8 @@
    "householdsYear": 2025,
    "population": 18044027,
    "populationYear": 2025,
+   "cars": 9415540,
+   "carsYear": 2025,
    "name": "Netherlands"
   },
   "PL": {
@@ -153,6 +195,8 @@
    "householdsYear": 2025,
    "population": 36497495,
    "populationYear": 2025,
+   "cars": 23233513,
+   "carsYear": 2025,
    "name": "Poland"
   },
   "PT": {
@@ -160,6 +204,8 @@
    "householdsYear": 2025,
    "population": 10749635,
    "populationYear": 2025,
+   "cars": 6410754,
+   "carsYear": 2025,
    "name": "Portugal"
   },
   "RO": {
@@ -167,6 +213,8 @@
    "householdsYear": 2025,
    "population": 19043151,
    "populationYear": 2025,
+   "cars": 8774808,
+   "carsYear": 2025,
    "name": "Romania"
   },
   "SE": {
@@ -174,6 +222,8 @@
    "householdsYear": 2025,
    "population": 10587710,
    "populationYear": 2025,
+   "cars": 5039431,
+   "carsYear": 2025,
    "name": "Sweden"
   },
   "SI": {
@@ -181,6 +231,8 @@
    "householdsYear": 2025,
    "population": 2130850,
    "populationYear": 2025,
+   "cars": 1286588,
+   "carsYear": 2025,
    "name": "Slovenia"
   },
   "SK": {
@@ -188,6 +240,8 @@
    "householdsYear": 2025,
    "population": 5419451,
    "populationYear": 2025,
+   "cars": 2768900,
+   "carsYear": 2025,
    "name": "Slovakia"
   },
   "EU": {
@@ -195,6 +249,8 @@
    "householdsYear": 2025,
    "population": 450646971,
    "populationYear": 2025,
+   "cars": 263847868,
+   "carsYear": 2025,
    "name": "European Union"
   }
  }

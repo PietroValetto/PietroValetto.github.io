@@ -1,0 +1,54 @@
+{
+ "stale": false,
+ "brownUrl": "https://iranwarcost.watson.brown.edu/",
+ "brownAsOf": "2026-11-05",
+ "euAsOf": "2026-11-02",
+ "eurPerUsd": 0.89095,
+ "fxDate": "2026-11-05",
+ "fxSource": "ECB euro reference rate",
+ "us": {
+  "households": 130999651,
+  "fuels": {
+   "petrol": {
+    "totalExtraCostUSD": 84454347299,
+    "totalSamePeriodUSD": 83160249582,
+    "warStartPriceUSDPerGallon": 2.982,
+    "currentPriceUSDPerGallon": 4.1,
+    "pctChange": 37.49,
+    "increaseEURPerLitre": 0.2631,
+    "litresPerHouseholdPerYear": 3939
+   },
+   "diesel": {
+    "totalExtraCostUSD": 68729411102,
+    "totalSamePeriodUSD": 67690070038,
+    "warStartPriceUSDPerGallon": 3.67,
+    "currentPriceUSDPerGallon": 6.256,
+    "pctChange": 70.46,
+    "increaseEURPerLitre": 0.6087,
+    "litresPerHouseholdPerYear": 1727
+   }
+  },
+  "totalExtraCostUSD": 153183758401,
+  "totalSamePeriodUSD": 150850319620,
+  "perHouseholdUSD": 1169.34,
+  "perHouseholdSamePeriodUSD": 1151.53,
+  "perHouseholdSamePeriodEUR": 1025.95
+ },
+ "eu": {
+  "households": 203172200,
+  "totalExtraCostEUR": 77354352245,
+  "fuels": {
+   "petrol": {
+    "pctChange": 17.83,
+    "increaseEURPerLitre": 0.2919,
+    "litresPerHouseholdPerYear": 500
+   },
+   "diesel": {
+    "pctChange": 35.09,
+    "increaseEURPerLitre": 0.5595,
+    "litresPerHouseholdPerYear": 1157
+   }
+  },
+  "perHouseholdEUR": 380.73
+ }
+}

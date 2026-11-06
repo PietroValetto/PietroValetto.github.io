@@ -40,6 +40,7 @@ These follow the layout of the US tracker. Each `series` is keyed `EU`, `AT` …
 - `{petrol,diesel}-counterfactual.json`: daily no-war price for both war-start baselines
 - `{petrol,diesel}-current.json`: latest bulletin price, previous week and war-start price for each country
 - `{petrol,diesel}-deficit.json`: total and per-household cost, daily rate and ranks for the EU and each country, for both baselines
+- `us-comparison.json`: US figures recomputed from Brown's public data with the same engine, for the same period, converted at the ECB rate (the EU vs US tab)
 - `monthly-demand.json`, `households.json`, `meta.json` (sources, gaps, sensitivity checks)
 
 Map boundaries: © EuroGeographics for the administrative boundaries (Eurostat GISCO NUTS 2021).

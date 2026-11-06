@@ -34,8 +34,11 @@ def _prices(ws, kind: str) -> dict:
     return out
 
 
-def _vat(ws) -> dict:
-    """{area: [(since_date, {fuel: vat_pct})]} sorted newest first."""
+def _history(ws) -> dict:
+    """Tax history sheets (VAT, Excise duties): {area: [(since_date, {fuel: value or None})]}, newest first.
+
+    A None value means that row did not change the rate for that fuel.
+    """
     out, cur = {}, None
     for r in list(ws.iter_rows(values_only=True))[4:]:
         if isinstance(r[0], str) and r[0].endswith("_"):
@@ -46,6 +49,21 @@ def _vat(ws) -> dict:
         out[cur].append((r[1].date(), {"petrol": r[2], "diesel": r[3]}))
     for k in out:
         out[k].sort(key=lambda x: x[0], reverse=True)
+    return out
+
+
+# Excise is published in national currency per 1000 L; everything else in the bulletin is in EUR.
+CURRENCY = {"CZ": "CZK", "DK": "DKK", "HU": "HUF", "PL": "PLN", "RO": "RON", "SE": "SEK"}
+
+
+def tax_changes(hist: dict, area: str, fuel: str, since: dt.date) -> list[dict]:
+    """Rate changes for one fuel on or after `since`, oldest first: [{date, from, to}]."""
+    rows = sorted((d, v[fuel]) for d, v in hist.get(area, []) if v.get(fuel) is not None)
+    out, prev = [], None
+    for d, v in rows:
+        if prev is not None and d >= since and abs(float(v) - float(prev)) > 1e-9:
+            out.append({"date": d.isoformat(), "from": float(prev), "to": float(v)})
+        prev = v
     return out
 
 
@@ -62,7 +80,9 @@ def _consumption(ws) -> dict:
         for a in EU27:
             out[r[0]][a] = {}
             for f, (suffix, _, _) in FUELS.items():
-                v = r[col.get(f"{a}_consumption_{suffix}", -1)] if f"{a}_consumption_{suffix}" in col else None
+                # The bulletin's own header has a typo: heating oil is "XX_consumption_heXXing_oil".
+                key = f"{a}_consumption_he{a}ing_oil" if suffix == "heating_oil" else f"{a}_consumption_{suffix}"
+                v = r[col[key]] if key in col else None
                 if isinstance(v, (int, float)):
                     out[r[0]][a][f] = float(v)
     return out
@@ -81,7 +101,8 @@ def load(force_download: bool = True) -> dict:
     data = {
         "with_tax": _prices(wb["Prices with taxes"], "with_tax"),
         "wo_tax": _prices(wb["Prices wo taxes"], "wo_tax"),
-        "vat": _vat(wb["VAT"]),
+        "vat": _history(wb["VAT"]),
+        "excise": _history(wb["Excise duties"]),
         "consumption": _consumption(wb["Consumption"]),
     }
     wb.close()

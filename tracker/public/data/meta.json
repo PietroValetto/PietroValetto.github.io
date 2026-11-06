@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-06T11:30:36.715368+00:00",
+ "builtAt": "2026-11-06T11:32:33.276004+00:00",
  "latestBulletin": "2026-11-02",
  "bulletinWeeks": 44,
  "sensitivity": {
@@ -12,10 +12,16 @@
    "lastBulletin": 61318544124,
    "excluding2022Seasonality": 69933602519,
    "euDirectFormula": 60755558373
+  },
+  "heating": {
+   "lastBulletin": 12243581392,
+   "excluding2022Seasonality": 13986902726,
+   "euDirectFormula": 12452331064
   }
  },
  "litresPerTonne": {
   "petrol": 1342.0,
-  "diesel": 1195.0
+  "diesel": 1195.0,
+  "heating": 1183.0
  }
 }

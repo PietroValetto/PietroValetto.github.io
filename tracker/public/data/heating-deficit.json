@@ -1,0 +1,1667 @@
+{
+ "warStartDate": "2026-02-28",
+ "lastPrewarBulletin": "2026-02-23",
+ "febBulletins": [
+  "2026-02-02",
+  "2026-02-09",
+  "2026-02-16",
+  "2026-02-23"
+ ],
+ "endDate": "2026-11-02",
+ "measuredThrough": "2026-11-03T00:00:00+02:00",
+ "daysSinceWar": 248,
+ "scenarios": {
+  "lastBulletin": {
+   "EU": {
+    "warStartPrice": 1.0287,
+    "currentPrice": 1.748,
+    "priceIncrease": 0.7193,
+    "pctChange": 69.92,
+    "noWarPriceToday": 1.1022,
+    "litresPerDayThisMonth": 133078975,
+    "totalExtraCost": 12243581392,
+    "perHouseholdCost": 60.26,
+    "dailyRate": 81212714,
+    "households": 203172200,
+    "administeredPrice": false,
+    "administeredSince": null,
+    "taxRelief": 565510183,
+    "vatWindfall": 2134848595,
+    "stateCostFixedPrice": 9373701,
+    "reliefPerLitreNow": 0.0081,
+    "totalShock": 12818465277,
+    "countriesWithoutPrices": [
+     "BG",
+     "NL",
+     "SK"
+    ]
+   },
+   "countries": {
+    "AT": {
+     "warStartPrice": 1.0987,
+     "currentPrice": 1.8367,
+     "priceIncrease": 0.738,
+     "pctChange": 67.17,
+     "noWarPriceToday": 1.1727,
+     "litresPerDayThisMonth": 2318388,
+     "totalExtraCost": 336243694,
+     "perHouseholdCost": 79.86,
+     "dailyRate": 1539508,
+     "households": 4210500,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -152674,
+     "vatWindfall": 56015170,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0005,
+     "totalShock": 336091020,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 9,
+      "perHouseholdCost": 10,
+      "pctChange": 12,
+      "taxRelief": 13
+     }
+    },
+    "BE": {
+     "warStartPrice": 0.8124,
+     "currentPrice": 1.5349,
+     "priceIncrease": 0.7225,
+     "pctChange": 88.93,
+     "noWarPriceToday": 0.8857,
+     "litresPerDayThisMonth": 10367812,
+     "totalExtraCost": 1071272980,
+     "perHouseholdCost": 204.31,
+     "dailyRate": 6731234,
+     "households": 5243300,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -15715694,
+     "vatWindfall": 175926214,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0129,
+     "totalShock": 1055557286,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 4,
+      "perHouseholdCost": 3,
+      "pctChange": 1,
+      "taxRelief": 24
+     }
+    },
+    "BG": {
+     "warStartPrice": 0,
+     "currentPrice": 0,
+     "priceIncrease": 0,
+     "pctChange": 0,
+     "noWarPriceToday": 0,
+     "litresPerDayThisMonth": 0,
+     "totalExtraCost": 0,
+     "perHouseholdCost": 0,
+     "dailyRate": 0,
+     "taxRelief": 0,
+     "vatWindfall": 0,
+     "stateCostFixedPrice": 0,
+     "totalShock": 0,
+     "reliefPerLitreNow": 0,
+     "households": 2850000,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "noPriceData": true,
+     "rank": {
+      "totalExtraCost": 24,
+      "perHouseholdCost": 24,
+      "pctChange": 24,
+      "taxRelief": 8
+     }
+    },
+    "CY": {
+     "warStartPrice": 0.9485,
+     "currentPrice": 1.5907,
+     "priceIncrease": 0.6421,
+     "pctChange": 67.69,
+     "noWarPriceToday": 1.0283,
+     "litresPerDayThisMonth": 1147762,
+     "totalExtraCost": 131506514,
+     "perHouseholdCost": 337.11,
+     "dailyRate": 645422,
+     "households": 390100,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": 1746616,
+     "vatWindfall": 22208855,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.069,
+     "totalShock": 133253130,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 13,
+      "perHouseholdCost": 1,
+      "pctChange": 11,
+      "taxRelief": 6
+     }
+    },
+    "CZ": {
+     "warStartPrice": 0.8276,
+     "currentPrice": 1.563,
+     "priceIncrease": 0.7353,
+     "pctChange": 88.85,
+     "noWarPriceToday": 0.8937,
+     "litresPerDayThisMonth": 315467,
+     "totalExtraCost": 38143121,
+     "perHouseholdCost": 8.33,
+     "dailyRate": 211122,
+     "households": 4579000,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -302053,
+     "vatWindfall": 6306845,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0055,
+     "totalShock": 37841068,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "CZK"
+     },
+     "rank": {
+      "totalExtraCost": 17,
+      "perHouseholdCost": 20,
+      "pctChange": 2,
+      "taxRelief": 17
+     }
+    },
+    "DE": {
+     "warStartPrice": 0.9579,
+     "currentPrice": 1.7169,
+     "priceIncrease": 0.759,
+     "pctChange": 79.24,
+     "noWarPriceToday": 1.0217,
+     "litresPerDayThisMonth": 42755221,
+     "totalExtraCost": 3856953482,
+     "perHouseholdCost": 92.58,
+     "dailyRate": 29723659,
+     "households": 41662700,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": 27229074,
+     "vatWindfall": 647363759,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0064,
+     "totalShock": 3884182556,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 1,
+      "perHouseholdCost": 7,
+      "pctChange": 5,
+      "taxRelief": 3
+     }
+    },
+    "DK": {
+     "warStartPrice": 1.7739,
+     "currentPrice": 2.4899,
+     "priceIncrease": 0.7161,
+     "pctChange": 40.37,
+     "noWarPriceToday": 1.8796,
+     "litresPerDayThisMonth": 3635753,
+     "totalExtraCost": 443073305,
+     "perHouseholdCost": 140.82,
+     "dailyRate": 2219075,
+     "households": 3146300,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -8049211,
+     "vatWindfall": 72504016,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0284,
+     "totalShock": 435024094,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "DKK"
+     },
+     "rank": {
+      "totalExtraCost": 7,
+      "perHouseholdCost": 5,
+      "pctChange": 21,
+      "taxRelief": 22
+     }
+    },
+    "EE": {
+     "warStartPrice": 1.031,
+     "currentPrice": 1.745,
+     "priceIncrease": 0.714,
+     "pctChange": 69.25,
+     "noWarPriceToday": 1.1191,
+     "litresPerDayThisMonth": 15171,
+     "totalExtraCost": 1335118,
+     "perHouseholdCost": 1.8,
+     "dailyRate": 9495,
+     "households": 742000,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -80742,
+     "vatWindfall": 209063,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0394,
+     "totalShock": 1254376,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 23,
+      "perHouseholdCost": 22,
+      "pctChange": 9,
+      "taxRelief": 12
+     }
+    },
+    "ES": {
+     "warStartPrice": 0.9116,
+     "currentPrice": 1.5169,
+     "priceIncrease": 0.6053,
+     "pctChange": 66.4,
+     "noWarPriceToday": 0.9851,
+     "litresPerDayThisMonth": 23280943,
+     "totalExtraCost": 1614999083,
+     "perHouseholdCost": 81.83,
+     "dailyRate": 12380199,
+     "households": 19736500,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": 563388315,
+     "vatWindfall": 363064566,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0858,
+     "totalShock": 2178387398,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 3,
+      "perHouseholdCost": 9,
+      "pctChange": 13,
+      "taxRelief": 1
+     }
+    },
+    "FI": {
+     "warStartPrice": 1.3287,
+     "currentPrice": 2.1062,
+     "priceIncrease": 0.7774,
+     "pctChange": 58.51,
+     "noWarPriceToday": 1.4164,
+     "litresPerDayThisMonth": 4795093,
+     "totalExtraCost": 569903455,
+     "perHouseholdCost": 191.32,
+     "dailyRate": 3307429,
+     "households": 2978800,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -26284315,
+     "vatWindfall": 90603190,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0341,
+     "totalShock": 543619140,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 6,
+      "perHouseholdCost": 4,
+      "pctChange": 16,
+      "taxRelief": 27
+     }
+    },
+    "FR": {
+     "warStartPrice": 1.2035,
+     "currentPrice": 1.9441,
+     "priceIncrease": 0.7406,
+     "pctChange": 61.53,
+     "noWarPriceToday": 1.2975,
+     "litresPerDayThisMonth": 15363227,
+     "totalExtraCost": 1691517380,
+     "perHouseholdCost": 52.24,
+     "dailyRate": 9933842,
+     "households": 32382000,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -4637286,
+     "vatWindfall": 281146682,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0032,
+     "totalShock": 1686880094,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 2,
+      "perHouseholdCost": 11,
+      "pctChange": 15,
+      "taxRelief": 20
+     }
+    },
+    "GR": {
+     "warStartPrice": 1.159,
+     "currentPrice": 1.566,
+     "priceIncrease": 0.407,
+     "pctChange": 35.12,
+     "noWarPriceToday": 1.2309,
+     "litresPerDayThisMonth": 7087377,
+     "totalExtraCost": 367068616,
+     "perHouseholdCost": 90.51,
+     "dailyRate": 2374764,
+     "households": 4055400,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -12657108,
+     "vatWindfall": 59068585,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0131,
+     "totalShock": 354411508,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 8,
+      "perHouseholdCost": 8,
+      "pctChange": 22,
+      "taxRelief": 23
+     }
+    },
+    "HR": {
+     "warStartPrice": 0.89,
+     "currentPrice": 1.66,
+     "priceIncrease": 0.77,
+     "pctChange": 86.52,
+     "noWarPriceToday": 0.9634,
+     "litresPerDayThisMonth": 467277,
+     "totalExtraCost": 35240052,
+     "perHouseholdCost": 24.03,
+     "dailyRate": 325483,
+     "households": 1466500,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -1487314,
+     "vatWindfall": 5625456,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0308,
+     "totalShock": 33752738,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 18,
+      "perHouseholdCost": 17,
+      "pctChange": 3,
+      "taxRelief": 18
+     }
+    },
+    "HU": {
+     "warStartPrice": 1.5207,
+     "currentPrice": 1.9784,
+     "priceIncrease": 0.4577,
+     "pctChange": 30.1,
+     "noWarPriceToday": 1.61,
+     "litresPerDayThisMonth": 47320,
+     "totalExtraCost": 4666923,
+     "perHouseholdCost": 1.16,
+     "dailyRate": 17429,
+     "households": 4008300,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": 482035,
+     "vatWindfall": 858160,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0223,
+     "totalShock": 5148958,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "HUF"
+     },
+     "rank": {
+      "totalExtraCost": 22,
+      "perHouseholdCost": 23,
+      "pctChange": 23,
+      "taxRelief": 7
+     }
+    },
+    "IE": {
+     "warStartPrice": 0.9644,
+     "currentPrice": 1.6234,
+     "priceIncrease": 0.6591,
+     "pctChange": 68.34,
+     "noWarPriceToday": 1.0327,
+     "litresPerDayThisMonth": 2531092,
+     "totalExtraCost": 297530545,
+     "perHouseholdCost": 127.79,
+     "dailyRate": 1495169,
+     "households": 2328300,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": 65052425,
+     "vatWindfall": 60430495,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0923,
+     "totalShock": 362582970,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 10,
+      "perHouseholdCost": 6,
+      "pctChange": 10,
+      "taxRelief": 2
+     }
+    },
+    "IT": {
+     "warStartPrice": 1.4037,
+     "currentPrice": 2.0705,
+     "priceIncrease": 0.6668,
+     "pctChange": 47.5,
+     "noWarPriceToday": 1.4874,
+     "litresPerDayThisMonth": 9576070,
+     "totalExtraCost": 1059312196,
+     "perHouseholdCost": 40.06,
+     "dailyRate": 5583431,
+     "households": 26443900,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -18369914,
+     "vatWindfall": 173490380,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0109,
+     "totalShock": 1040942282,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 5,
+      "perHouseholdCost": 13,
+      "pctChange": 19,
+      "taxRelief": 25
+     }
+    },
+    "LT": {
+     "warStartPrice": 0.9176,
+     "currentPrice": 1.5784,
+     "priceIncrease": 0.6608,
+     "pctChange": 72.02,
+     "noWarPriceToday": 0.9881,
+     "litresPerDayThisMonth": 339127,
+     "totalExtraCost": 33639936,
+     "perHouseholdCost": 19.11,
+     "dailyRate": 200186,
+     "households": 1760200,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -292020,
+     "vatWindfall": 5557986,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0055,
+     "totalShock": 33347916,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 19,
+      "perHouseholdCost": 18,
+      "pctChange": 7,
+      "taxRelief": 16
+     }
+    },
+    "LU": {
+     "warStartPrice": 0.901,
+     "currentPrice": 1.601,
+     "priceIncrease": 0.7,
+     "pctChange": 77.69,
+     "noWarPriceToday": 0.9749,
+     "litresPerDayThisMonth": 773587,
+     "totalExtraCost": 72785256,
+     "perHouseholdCost": 252.55,
+     "dailyRate": 484318,
+     "households": 288200,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": 4047076,
+     "vatWindfall": 12805389,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0368,
+     "totalShock": 76832332,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 15,
+      "perHouseholdCost": 2,
+      "pctChange": 6,
+      "taxRelief": 5
+     }
+    },
+    "LV": {
+     "warStartPrice": 1.1263,
+     "currentPrice": 1.8627,
+     "priceIncrease": 0.7364,
+     "pctChange": 65.39,
+     "noWarPriceToday": 1.2078,
+     "litresPerDayThisMonth": 248816,
+     "totalExtraCost": 27782662,
+     "perHouseholdCost": 31.29,
+     "dailyRate": 162954,
+     "households": 888000,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -240127,
+     "vatWindfall": 4590422,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0061,
+     "totalShock": 27542535,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 21,
+      "perHouseholdCost": 14,
+      "pctChange": 14,
+      "taxRelief": 15
+     }
+    },
+    "MT": {
+     "warStartPrice": 1.0,
+     "currentPrice": 1.0,
+     "priceIncrease": 0.0,
+     "pctChange": 0.0,
+     "noWarPriceToday": 1.0,
+     "litresPerDayThisMonth": 92022,
+     "totalExtraCost": 0,
+     "perHouseholdCost": 0.0,
+     "dailyRate": 0,
+     "households": 242800,
+     "administeredPrice": true,
+     "administeredSince": "2015-02-02",
+     "taxRelief": 0,
+     "vatWindfall": 0,
+     "stateCostFixedPrice": 9373701,
+     "reliefPerLitreNow": 0.0,
+     "totalShock": 9373701,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 25,
+      "perHouseholdCost": 25,
+      "pctChange": 25,
+      "taxRelief": 9
+     }
+    },
+    "NL": {
+     "warStartPrice": 0,
+     "currentPrice": 0,
+     "priceIncrease": 0,
+     "pctChange": 0,
+     "noWarPriceToday": 0,
+     "litresPerDayThisMonth": 0,
+     "totalExtraCost": 0,
+     "perHouseholdCost": 0,
+     "dailyRate": 0,
+     "taxRelief": 0,
+     "vatWindfall": 0,
+     "stateCostFixedPrice": 0,
+     "totalShock": 0,
+     "reliefPerLitreNow": 0,
+     "households": 8658800,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "noPriceData": true,
+     "rank": {
+      "totalExtraCost": 26,
+      "perHouseholdCost": 26,
+      "pctChange": 26,
+      "taxRelief": 10
+     }
+    },
+    "PL": {
+     "warStartPrice": 1.0186,
+     "currentPrice": 1.7268,
+     "priceIncrease": 0.7082,
+     "pctChange": 69.53,
+     "noWarPriceToday": 1.1052,
+     "litresPerDayThisMonth": 2982446,
+     "totalExtraCost": 253471980,
+     "perHouseholdCost": 16.33,
+     "dailyRate": 1853963,
+     "households": 15521300,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -5911437,
+     "vatWindfall": 41260090,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0143,
+     "totalShock": 247560543,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "PLN"
+     },
+     "rank": {
+      "totalExtraCost": 11,
+      "perHouseholdCost": 19,
+      "pctChange": 8,
+      "taxRelief": 21
+     }
+    },
+    "PT": {
+     "warStartPrice": 1.53,
+     "currentPrice": 2.27,
+     "priceIncrease": 0.74,
+     "pctChange": 48.37,
+     "noWarPriceToday": 1.6129,
+     "litresPerDayThisMonth": 1248578,
+     "totalExtraCost": 140323866,
+     "perHouseholdCost": 30.76,
+     "dailyRate": 820398,
+     "households": 4562100,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -3598270,
+     "vatWindfall": 22787599,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.018,
+     "totalShock": 136725596,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 12,
+      "perHouseholdCost": 15,
+      "pctChange": 18,
+      "taxRelief": 19
+     }
+    },
+    "RO": {
+     "warStartPrice": 0.8632,
+     "currentPrice": 1.5967,
+     "priceIncrease": 0.7336,
+     "pctChange": 84.98,
+     "noWarPriceToday": 0.9406,
+     "litresPerDayThisMonth": 307580,
+     "totalExtraCost": 29655256,
+     "perHouseholdCost": 3.9,
+     "dailyRate": 201831,
+     "households": 7594400,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -216324,
+     "vatWindfall": 4906489,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0048,
+     "totalShock": 29438932,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "RON"
+     },
+     "rank": {
+      "totalExtraCost": 20,
+      "perHouseholdCost": 21,
+      "pctChange": 4,
+      "taxRelief": 14
+     }
+    },
+    "SE": {
+     "warStartPrice": 1.211,
+     "currentPrice": 1.911,
+     "priceIncrease": 0.7001,
+     "pctChange": 57.81,
+     "noWarPriceToday": 1.2845,
+     "litresPerDayThisMonth": 1205698,
+     "totalExtraCost": 127284814,
+     "perHouseholdCost": 26.31,
+     "dailyRate": 755391,
+     "households": 4837300,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -22995093,
+     "vatWindfall": 17381620,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0875,
+     "totalShock": 104289721,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "SEK"
+     },
+     "rank": {
+      "totalExtraCost": 14,
+      "perHouseholdCost": 16,
+      "pctChange": 17,
+      "taxRelief": 26
+     }
+    },
+    "SI": {
+     "warStartPrice": 1.1087,
+     "currentPrice": 1.6002,
+     "priceIncrease": 0.4915,
+     "pctChange": 44.33,
+     "noWarPriceToday": 1.178,
+     "litresPerDayThisMonth": 559953,
+     "totalExtraCost": 39871159,
+     "perHouseholdCost": 45.89,
+     "dailyRate": 236411,
+     "households": 868900,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": 24554224,
+     "vatWindfall": 10737564,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.2887,
+     "totalShock": 64425383,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 16,
+      "perHouseholdCost": 12,
+      "pctChange": 20,
+      "taxRelief": 4
+     }
+    },
+    "SK": {
+     "warStartPrice": 0,
+     "currentPrice": 0,
+     "priceIncrease": 0,
+     "pctChange": 0,
+     "noWarPriceToday": 0,
+     "litresPerDayThisMonth": 0,
+     "totalExtraCost": 0,
+     "perHouseholdCost": 0,
+     "dailyRate": 0,
+     "taxRelief": 0,
+     "vatWindfall": 0,
+     "stateCostFixedPrice": 0,
+     "totalShock": 0,
+     "reliefPerLitreNow": 0,
+     "households": 1726600,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "noPriceData": true,
+     "rank": {
+      "totalExtraCost": 27,
+      "perHouseholdCost": 27,
+      "pctChange": 27,
+      "taxRelief": 11
+     }
+    }
+   }
+  },
+  "febAvg": {
+   "EU": {
+    "warStartPrice": 1.0161,
+    "currentPrice": 1.748,
+    "priceIncrease": 0.7319,
+    "pctChange": 72.03,
+    "noWarPriceToday": 1.0883,
+    "litresPerDayThisMonth": 133078975,
+    "totalExtraCost": 12611249174,
+    "perHouseholdCost": 62.07,
+    "dailyRate": 82976951,
+    "households": 203172200,
+    "administeredPrice": false,
+    "administeredSince": null,
+    "taxRelief": 569320989,
+    "vatWindfall": 2196761695,
+    "stateCostFixedPrice": 9373701,
+    "reliefPerLitreNow": 0.0081,
+    "totalShock": 13189943865,
+    "countriesWithoutPrices": [
+     "BG",
+     "NL",
+     "SK"
+    ]
+   },
+   "countries": {
+    "AT": {
+     "warStartPrice": 1.083,
+     "currentPrice": 1.8367,
+     "priceIncrease": 0.7538,
+     "pctChange": 69.6,
+     "noWarPriceToday": 1.1554,
+     "litresPerDayThisMonth": 2318388,
+     "totalExtraCost": 346966838,
+     "perHouseholdCost": 82.41,
+     "dailyRate": 1579511,
+     "households": 4210500,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -156310,
+     "vatWindfall": 57801755,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0005,
+     "totalShock": 346810528,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 9,
+      "perHouseholdCost": 10,
+      "pctChange": 11,
+      "taxRelief": 13
+     }
+    },
+    "BE": {
+     "warStartPrice": 0.7857,
+     "currentPrice": 1.5349,
+     "priceIncrease": 0.7492,
+     "pctChange": 95.36,
+     "noWarPriceToday": 0.8565,
+     "litresPerDayThisMonth": 10367812,
+     "totalExtraCost": 1132302898,
+     "perHouseholdCost": 215.95,
+     "dailyRate": 7033958,
+     "households": 5243300,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -16204847,
+     "vatWindfall": 186016342,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0131,
+     "totalShock": 1116098051,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 4,
+      "perHouseholdCost": 3,
+      "pctChange": 1,
+      "taxRelief": 25
+     }
+    },
+    "BG": {
+     "warStartPrice": 0,
+     "currentPrice": 0,
+     "priceIncrease": 0,
+     "pctChange": 0,
+     "noWarPriceToday": 0,
+     "litresPerDayThisMonth": 0,
+     "totalExtraCost": 0,
+     "perHouseholdCost": 0,
+     "dailyRate": 0,
+     "taxRelief": 0,
+     "vatWindfall": 0,
+     "stateCostFixedPrice": 0,
+     "totalShock": 0,
+     "reliefPerLitreNow": 0,
+     "households": 2850000,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "noPriceData": true,
+     "rank": {
+      "totalExtraCost": 24,
+      "perHouseholdCost": 24,
+      "pctChange": 24,
+      "taxRelief": 8
+     }
+    },
+    "CY": {
+     "warStartPrice": 0.9402,
+     "currentPrice": 1.5907,
+     "priceIncrease": 0.6504,
+     "pctChange": 69.17,
+     "noWarPriceToday": 1.0192,
+     "litresPerDayThisMonth": 1147762,
+     "totalExtraCost": 134078672,
+     "perHouseholdCost": 343.7,
+     "dailyRate": 655839,
+     "households": 390100,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": 1767626,
+     "vatWindfall": 22641050,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0691,
+     "totalShock": 135846298,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 14,
+      "perHouseholdCost": 1,
+      "pctChange": 12,
+      "taxRelief": 6
+     }
+    },
+    "CZ": {
+     "warStartPrice": 0.8294,
+     "currentPrice": 1.563,
+     "priceIncrease": 0.7335,
+     "pctChange": 88.44,
+     "noWarPriceToday": 0.8957,
+     "litresPerDayThisMonth": 315467,
+     "totalExtraCost": 38004267,
+     "perHouseholdCost": 8.3,
+     "dailyRate": 210504,
+     "households": 4579000,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -310760,
+     "vatWindfall": 6282251,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0056,
+     "totalShock": 37693507,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "CZK"
+     },
+     "rank": {
+      "totalExtraCost": 17,
+      "perHouseholdCost": 20,
+      "pctChange": 4,
+      "taxRelief": 17
+     }
+    },
+    "DE": {
+     "warStartPrice": 0.9494,
+     "currentPrice": 1.7169,
+     "priceIncrease": 0.7675,
+     "pctChange": 80.84,
+     "noWarPriceToday": 1.0124,
+     "litresPerDayThisMonth": 42755221,
+     "totalExtraCost": 3939743130,
+     "perHouseholdCost": 94.56,
+     "dailyRate": 30120109,
+     "households": 41662700,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": 27905205,
+     "vatWindfall": 661274723,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0064,
+     "totalShock": 3967648335,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 1,
+      "perHouseholdCost": 7,
+      "pctChange": 6,
+      "taxRelief": 3
+     }
+    },
+    "DK": {
+     "warStartPrice": 1.7456,
+     "currentPrice": 2.4899,
+     "priceIncrease": 0.7443,
+     "pctChange": 42.64,
+     "noWarPriceToday": 1.8488,
+     "litresPerDayThisMonth": 3635753,
+     "totalExtraCost": 469716568,
+     "perHouseholdCost": 149.29,
+     "dailyRate": 2331061,
+     "households": 3146300,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -9032822,
+     "vatWindfall": 76780624,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0295,
+     "totalShock": 460683746,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "DKK"
+     },
+     "rank": {
+      "totalExtraCost": 7,
+      "perHouseholdCost": 5,
+      "pctChange": 21,
+      "taxRelief": 22
+     }
+    },
+    "EE": {
+     "warStartPrice": 1.025,
+     "currentPrice": 1.745,
+     "priceIncrease": 0.72,
+     "pctChange": 70.24,
+     "noWarPriceToday": 1.1126,
+     "litresPerDayThisMonth": 15171,
+     "totalExtraCost": 1355566,
+     "perHouseholdCost": 1.83,
+     "dailyRate": 9594,
+     "households": 742000,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -81068,
+     "vatWindfall": 212416,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0395,
+     "totalShock": 1274498,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 23,
+      "perHouseholdCost": 22,
+      "pctChange": 10,
+      "taxRelief": 12
+     }
+    },
+    "ES": {
+     "warStartPrice": 0.9008,
+     "currentPrice": 1.5169,
+     "priceIncrease": 0.6161,
+     "pctChange": 68.39,
+     "noWarPriceToday": 0.9734,
+     "litresPerDayThisMonth": 23280943,
+     "totalExtraCost": 1666683332,
+     "perHouseholdCost": 84.45,
+     "dailyRate": 12653505,
+     "households": 19736500,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": 562973104,
+     "vatWindfall": 371609406,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0858,
+     "totalShock": 2229656436,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 3,
+      "perHouseholdCost": 9,
+      "pctChange": 13,
+      "taxRelief": 1
+     }
+    },
+    "FI": {
+     "warStartPrice": 1.3057,
+     "currentPrice": 2.1062,
+     "priceIncrease": 0.8005,
+     "pctChange": 61.31,
+     "noWarPriceToday": 1.3913,
+     "litresPerDayThisMonth": 4795093,
+     "totalExtraCost": 595557867,
+     "perHouseholdCost": 199.93,
+     "dailyRate": 3427885,
+     "households": 2978800,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -27377902,
+     "vatWindfall": 94696661,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0351,
+     "totalShock": 568179965,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 6,
+      "perHouseholdCost": 4,
+      "pctChange": 16,
+      "taxRelief": 27
+     }
+    },
+    "FR": {
+     "warStartPrice": 1.1927,
+     "currentPrice": 1.9441,
+     "priceIncrease": 0.7513,
+     "pctChange": 62.99,
+     "noWarPriceToday": 1.286,
+     "litresPerDayThisMonth": 15363227,
+     "totalExtraCost": 1730387736,
+     "perHouseholdCost": 53.44,
+     "dailyRate": 10110658,
+     "households": 32382000,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -14791506,
+     "vatWindfall": 285932705,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0061,
+     "totalShock": 1715596230,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 2,
+      "perHouseholdCost": 11,
+      "pctChange": 15,
+      "taxRelief": 24
+     }
+    },
+    "GR": {
+     "warStartPrice": 1.1538,
+     "currentPrice": 1.566,
+     "priceIncrease": 0.4123,
+     "pctChange": 35.73,
+     "noWarPriceToday": 1.2252,
+     "litresPerDayThisMonth": 7087377,
+     "totalExtraCost": 371757896,
+     "perHouseholdCost": 91.67,
+     "dailyRate": 2415333,
+     "households": 4055400,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -12802996,
+     "vatWindfall": 59825817,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0133,
+     "totalShock": 358954900,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 8,
+      "perHouseholdCost": 8,
+      "pctChange": 22,
+      "taxRelief": 23
+     }
+    },
+    "HR": {
+     "warStartPrice": 0.8775,
+     "currentPrice": 1.66,
+     "priceIncrease": 0.7825,
+     "pctChange": 89.17,
+     "noWarPriceToday": 0.9498,
+     "litresPerDayThisMonth": 467277,
+     "totalExtraCost": 36133523,
+     "perHouseholdCost": 24.64,
+     "dailyRate": 331847,
+     "households": 1466500,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -1521868,
+     "vatWindfall": 5768609,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0313,
+     "totalShock": 34611655,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 18,
+      "perHouseholdCost": 17,
+      "pctChange": 3,
+      "taxRelief": 18
+     }
+    },
+    "HU": {
+     "warStartPrice": 1.5183,
+     "currentPrice": 1.9784,
+     "priceIncrease": 0.4601,
+     "pctChange": 30.3,
+     "noWarPriceToday": 1.6073,
+     "litresPerDayThisMonth": 47320,
+     "totalExtraCost": 4712530,
+     "perHouseholdCost": 1.18,
+     "dailyRate": 17560,
+     "households": 4008300,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": 500809,
+     "vatWindfall": 868890,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0233,
+     "totalShock": 5213339,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "HUF"
+     },
+     "rank": {
+      "totalExtraCost": 22,
+      "perHouseholdCost": 23,
+      "pctChange": 23,
+      "taxRelief": 7
+     }
+    },
+    "IE": {
+     "warStartPrice": 0.9518,
+     "currentPrice": 1.6234,
+     "priceIncrease": 0.6716,
+     "pctChange": 70.56,
+     "noWarPriceToday": 1.0189,
+     "litresPerDayThisMonth": 2531092,
+     "totalExtraCost": 306758168,
+     "perHouseholdCost": 131.75,
+     "dailyRate": 1530068,
+     "households": 2328300,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": 65567143,
+     "vatWindfall": 62054219,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.093,
+     "totalShock": 372325311,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 10,
+      "perHouseholdCost": 6,
+      "pctChange": 9,
+      "taxRelief": 2
+     }
+    },
+    "IT": {
+     "warStartPrice": 1.3939,
+     "currentPrice": 2.0705,
+     "priceIncrease": 0.6766,
+     "pctChange": 48.54,
+     "noWarPriceToday": 1.4767,
+     "litresPerDayThisMonth": 9576070,
+     "totalExtraCost": 1083897724,
+     "perHouseholdCost": 40.99,
+     "dailyRate": 5686388,
+     "households": 26443900,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -18762111,
+     "vatWindfall": 177522602,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0111,
+     "totalShock": 1065135613,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 5,
+      "perHouseholdCost": 13,
+      "pctChange": 19,
+      "taxRelief": 26
+     }
+    },
+    "LT": {
+     "warStartPrice": 0.9016,
+     "currentPrice": 1.5784,
+     "priceIncrease": 0.6768,
+     "pctChange": 75.07,
+     "noWarPriceToday": 0.9706,
+     "litresPerDayThisMonth": 339127,
+     "totalExtraCost": 34792688,
+     "perHouseholdCost": 19.77,
+     "dailyRate": 206103,
+     "households": 1760200,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -301253,
+     "vatWindfall": 5748572,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0056,
+     "totalShock": 34491435,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 19,
+      "perHouseholdCost": 18,
+      "pctChange": 7,
+      "taxRelief": 16
+     }
+    },
+    "LU": {
+     "warStartPrice": 0.8712,
+     "currentPrice": 1.601,
+     "priceIncrease": 0.7298,
+     "pctChange": 83.76,
+     "noWarPriceToday": 0.9423,
+     "litresPerDayThisMonth": 773587,
+     "totalExtraCost": 77763368,
+     "perHouseholdCost": 269.82,
+     "dailyRate": 509593,
+     "households": 288200,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": 4300533,
+     "vatWindfall": 13677317,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0384,
+     "totalShock": 82063901,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 15,
+      "perHouseholdCost": 2,
+      "pctChange": 5,
+      "taxRelief": 5
+     }
+    },
+    "LV": {
+     "warStartPrice": 1.1179,
+     "currentPrice": 1.8627,
+     "priceIncrease": 0.7448,
+     "pctChange": 66.63,
+     "noWarPriceToday": 1.1986,
+     "litresPerDayThisMonth": 248816,
+     "totalExtraCost": 28299694,
+     "perHouseholdCost": 31.87,
+     "dailyRate": 165232,
+     "households": 888000,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -244300,
+     "vatWindfall": 4675899,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0062,
+     "totalShock": 28055394,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 21,
+      "perHouseholdCost": 14,
+      "pctChange": 14,
+      "taxRelief": 15
+     }
+    },
+    "MT": {
+     "warStartPrice": 1.0,
+     "currentPrice": 1.0,
+     "priceIncrease": 0.0,
+     "pctChange": 0.0,
+     "noWarPriceToday": 1.0,
+     "litresPerDayThisMonth": 92022,
+     "totalExtraCost": 0,
+     "perHouseholdCost": 0.0,
+     "dailyRate": 0,
+     "households": 242800,
+     "administeredPrice": true,
+     "administeredSince": "2015-02-02",
+     "taxRelief": 0,
+     "vatWindfall": 0,
+     "stateCostFixedPrice": 9373701,
+     "reliefPerLitreNow": 0.0,
+     "totalShock": 9373701,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 25,
+      "perHouseholdCost": 25,
+      "pctChange": 25,
+      "taxRelief": 9
+     }
+    },
+    "NL": {
+     "warStartPrice": 0,
+     "currentPrice": 0,
+     "priceIncrease": 0,
+     "pctChange": 0,
+     "noWarPriceToday": 0,
+     "litresPerDayThisMonth": 0,
+     "totalExtraCost": 0,
+     "perHouseholdCost": 0,
+     "dailyRate": 0,
+     "taxRelief": 0,
+     "vatWindfall": 0,
+     "stateCostFixedPrice": 0,
+     "totalShock": 0,
+     "reliefPerLitreNow": 0,
+     "households": 8658800,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "noPriceData": true,
+     "rank": {
+      "totalExtraCost": 26,
+      "perHouseholdCost": 26,
+      "pctChange": 26,
+      "taxRelief": 10
+     }
+    },
+    "PL": {
+     "warStartPrice": 1.0016,
+     "currentPrice": 1.7268,
+     "priceIncrease": 0.7253,
+     "pctChange": 72.41,
+     "noWarPriceToday": 1.0866,
+     "litresPerDayThisMonth": 2982446,
+     "totalExtraCost": 262873404,
+     "perHouseholdCost": 16.94,
+     "dailyRate": 1909454,
+     "households": 15521300,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -6107295,
+     "vatWindfall": 42794352,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0146,
+     "totalShock": 256766109,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "PLN"
+     },
+     "rank": {
+      "totalExtraCost": 11,
+      "perHouseholdCost": 19,
+      "pctChange": 8,
+      "taxRelief": 20
+     }
+    },
+    "PT": {
+     "warStartPrice": 1.5255,
+     "currentPrice": 2.27,
+     "priceIncrease": 0.7445,
+     "pctChange": 48.8,
+     "noWarPriceToday": 1.608,
+     "litresPerDayThisMonth": 1248578,
+     "totalExtraCost": 141752272,
+     "perHouseholdCost": 31.07,
+     "dailyRate": 826528,
+     "households": 4562100,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -3632241,
+     "vatWindfall": 23020005,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0182,
+     "totalShock": 138120031,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 12,
+      "perHouseholdCost": 15,
+      "pctChange": 18,
+      "taxRelief": 19
+     }
+    },
+    "RO": {
+     "warStartPrice": 0.8383,
+     "currentPrice": 1.5967,
+     "priceIncrease": 0.7585,
+     "pctChange": 90.48,
+     "noWarPriceToday": 0.9133,
+     "litresPerDayThisMonth": 307580,
+     "totalExtraCost": 31299262,
+     "perHouseholdCost": 4.12,
+     "dailyRate": 210210,
+     "households": 7594400,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -228910,
+     "vatWindfall": 5178392,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.005,
+     "totalShock": 31070352,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "RON"
+     },
+     "rank": {
+      "totalExtraCost": 20,
+      "perHouseholdCost": 21,
+      "pctChange": 2,
+      "taxRelief": 14
+     }
+    },
+    "SE": {
+     "warStartPrice": 1.1902,
+     "currentPrice": 1.911,
+     "priceIncrease": 0.7208,
+     "pctChange": 60.56,
+     "noWarPriceToday": 1.2568,
+     "litresPerDayThisMonth": 1205698,
+     "totalExtraCost": 134163144,
+     "perHouseholdCost": 27.74,
+     "dailyRate": 788818,
+     "households": 4837300,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": -6653748,
+     "vatWindfall": 21251566,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0336,
+     "totalShock": 127509396,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "SEK"
+     },
+     "rank": {
+      "totalExtraCost": 13,
+      "perHouseholdCost": 16,
+      "pctChange": 17,
+      "taxRelief": 21
+     }
+    },
+    "SI": {
+     "warStartPrice": 1.0911,
+     "currentPrice": 1.6002,
+     "priceIncrease": 0.5091,
+     "pctChange": 46.66,
+     "noWarPriceToday": 1.1588,
+     "litresPerDayThisMonth": 559953,
+     "totalExtraCost": 42248628,
+     "perHouseholdCost": 48.62,
+     "dailyRate": 247192,
+     "households": 868900,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "taxRelief": 24516506,
+     "vatWindfall": 11127522,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.2884,
+     "totalShock": 66765134,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
+     "rank": {
+      "totalExtraCost": 16,
+      "perHouseholdCost": 12,
+      "pctChange": 20,
+      "taxRelief": 4
+     }
+    },
+    "SK": {
+     "warStartPrice": 0,
+     "currentPrice": 0,
+     "priceIncrease": 0,
+     "pctChange": 0,
+     "noWarPriceToday": 0,
+     "litresPerDayThisMonth": 0,
+     "totalExtraCost": 0,
+     "perHouseholdCost": 0,
+     "dailyRate": 0,
+     "taxRelief": 0,
+     "vatWindfall": 0,
+     "stateCostFixedPrice": 0,
+     "totalShock": 0,
+     "reliefPerLitreNow": 0,
+     "households": 1726600,
+     "administeredPrice": false,
+     "administeredSince": null,
+     "noPriceData": true,
+     "rank": {
+      "totalExtraCost": 27,
+      "perHouseholdCost": 27,
+      "pctChange": 27,
+      "taxRelief": 11
+     }
+    }
+   }
+  }
+ }
+}

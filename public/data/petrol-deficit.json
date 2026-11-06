@@ -24,7 +24,15 @@
     "dailyRate": 73532182,
     "households": 203172200,
     "administeredPrice": false,
-    "administeredSince": null
+    "administeredSince": null,
+    "upstreamCrude": 11967415467,
+    "downstreamMargin": 4934624327,
+    "taxNet": -866231671,
+    "perLitreNow": {
+     "crude": 0.2657,
+     "margin": 0.0275,
+     "taxes": -0.0488
+    }
    },
    "countries": {
     "AT": {
@@ -40,6 +48,14 @@
      "households": 4210500,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 253759844,
+     "downstreamMargin": 73125373,
+     "taxNet": 21406359,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": -0.0361,
+      "taxes": -0.034
+     },
      "rank": {
       "totalExtraCost": 12,
       "perHouseholdCost": 11,
@@ -59,6 +75,14 @@
      "households": 5243300,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 385725764,
+     "downstreamMargin": 190765847,
+     "taxNet": 121063238,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0384,
+      "taxes": 0.0639
+     },
      "rank": {
       "totalExtraCost": 5,
       "perHouseholdCost": 5,
@@ -78,6 +102,14 @@
      "households": 2850000,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 90069843,
+     "downstreamMargin": 24542140,
+     "taxNet": 22922457,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0206,
+      "taxes": 0.0573
+     },
      "rank": {
       "totalExtraCost": 17,
       "perHouseholdCost": 19,
@@ -97,6 +129,14 @@
      "households": 390100,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 51502468,
+     "downstreamMargin": 22624769,
+     "taxNet": -8143445,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.107,
+      "taxes": -0.0125
+     },
      "rank": {
       "totalExtraCost": 23,
       "perHouseholdCost": 2,
@@ -116,6 +156,14 @@
      "households": 4579000,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 268527433,
+     "downstreamMargin": 131753478,
+     "taxNet": 81334670,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.029,
+      "taxes": 0.0585
+     },
      "rank": {
       "totalExtraCost": 10,
       "perHouseholdCost": 8,
@@ -135,6 +183,14 @@
      "households": 41662700,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 3051895096,
+     "downstreamMargin": 1742117516,
+     "taxNet": -250199835,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0901,
+      "taxes": -0.0995
+     },
      "rank": {
       "totalExtraCost": 1,
       "perHouseholdCost": 7,
@@ -154,6 +210,14 @@
      "households": 3146300,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 199247113,
+     "downstreamMargin": 175554727,
+     "taxNet": 90834353,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.1368,
+      "taxes": 0.1003
+     },
      "rank": {
       "totalExtraCost": 11,
       "perHouseholdCost": 4,
@@ -173,6 +237,14 @@
      "households": 742000,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 32595697,
+     "downstreamMargin": 8069926,
+     "taxNet": 13210840,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0149,
+      "taxes": 0.0887
+     },
      "rank": {
       "totalExtraCost": 24,
       "perHouseholdCost": 13,
@@ -192,6 +264,14 @@
      "households": 19736500,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 970362836,
+     "downstreamMargin": 524433188,
+     "taxNet": -801350946,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.1073,
+      "taxes": -0.1637
+     },
      "rank": {
       "totalExtraCost": 6,
       "perHouseholdCost": 23,
@@ -211,6 +291,14 @@
      "households": 2978800,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 202823888,
+     "downstreamMargin": 192218829,
+     "taxNet": 100735893,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0915,
+      "taxes": 0.0911
+     },
      "rank": {
       "totalExtraCost": 9,
       "perHouseholdCost": 3,
@@ -230,6 +318,14 @@
      "households": 32382000,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 1670427309,
+     "downstreamMargin": 720510492,
+     "taxNet": 478187560,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0671,
+      "taxes": 0.0666
+     },
      "rank": {
       "totalExtraCost": 2,
       "perHouseholdCost": 10,
@@ -249,6 +345,14 @@
      "households": 4055400,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 335921671,
+     "downstreamMargin": 88142198,
+     "taxNet": 100041973,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0087,
+      "taxes": 0.0659
+     },
      "rank": {
       "totalExtraCost": 8,
       "perHouseholdCost": 6,
@@ -268,6 +372,14 @@
      "households": 1466500,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 84421563,
+     "downstreamMargin": 26748447,
+     "taxNet": -27951000,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0051,
+      "taxes": -0.0385
+     },
      "rank": {
       "totalExtraCost": 20,
       "perHouseholdCost": 16,
@@ -287,6 +399,14 @@
      "households": 4008300,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 239672875,
+     "downstreamMargin": -41689061,
+     "taxNet": -3804632,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": -0.0433,
+      "taxes": 0.0155
+     },
      "rank": {
       "totalExtraCost": 15,
       "perHouseholdCost": 18,
@@ -306,6 +426,14 @@
      "households": 2328300,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 117549391,
+     "downstreamMargin": 50672964,
+     "taxNet": -125812994,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.1037,
+      "taxes": -0.1884
+     },
      "rank": {
       "totalExtraCost": 25,
       "perHouseholdCost": 26,
@@ -325,6 +453,14 @@
      "households": 26443900,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 1422817713,
+     "downstreamMargin": 440246086,
+     "taxNet": -45296778,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": -0.0196,
+      "taxes": 0.0542
+     },
      "rank": {
       "totalExtraCost": 3,
       "perHouseholdCost": 15,
@@ -344,6 +480,14 @@
      "households": 1760200,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 49192814,
+     "downstreamMargin": 18694439,
+     "taxNet": 14256323,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0397,
+      "taxes": 0.0641
+     },
      "rank": {
       "totalExtraCost": 21,
       "perHouseholdCost": 20,
@@ -363,6 +507,14 @@
      "households": 288200,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 60132587,
+     "downstreamMargin": 19757392,
+     "taxNet": 4479315,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": -0.002,
+      "taxes": -0.0052
+     },
      "rank": {
       "totalExtraCost": 19,
       "perHouseholdCost": 1,
@@ -382,6 +534,14 @@
      "households": 888000,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 25717435,
+     "downstreamMargin": 9095282,
+     "taxNet": 5860495,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0413,
+      "taxes": -0.0142
+     },
      "rank": {
       "totalExtraCost": 26,
       "perHouseholdCost": 21,
@@ -401,6 +561,14 @@
      "households": 242800,
      "administeredPrice": true,
      "administeredSince": "2020-06-15",
+     "upstreamCrude": 13537897,
+     "downstreamMargin": -13537897,
+     "taxNet": 0,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": -0.2657,
+      "taxes": 0.0
+     },
      "rank": {
       "totalExtraCost": 27,
       "perHouseholdCost": 27,
@@ -420,6 +588,14 @@
      "households": 8658800,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 647659915,
+     "downstreamMargin": 5651808,
+     "taxNet": 137195298,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": -0.1285,
+      "taxes": 0.0288
+     },
      "rank": {
       "totalExtraCost": 4,
       "perHouseholdCost": 9,
@@ -439,6 +615,14 @@
      "households": 15521300,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 870168946,
+     "downstreamMargin": 377814148,
+     "taxNet": -581112646,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0104,
+      "taxes": -0.2436
+     },
      "rank": {
       "totalExtraCost": 7,
       "perHouseholdCost": 22,
@@ -458,6 +642,14 @@
      "households": 4562100,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 183920873,
+     "downstreamMargin": 74748676,
+     "taxNet": -7142346,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0199,
+      "taxes": -0.0138
+     },
      "rank": {
       "totalExtraCost": 13,
       "perHouseholdCost": 17,
@@ -477,6 +669,14 @@
      "households": 7594400,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 230682183,
+     "downstreamMargin": -8044890,
+     "taxNet": 21779770,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0011,
+      "taxes": 0.0229
+     },
      "rank": {
       "totalExtraCost": 14,
       "perHouseholdCost": 25,
@@ -496,6 +696,14 @@
      "households": 4837300,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 335822985,
+     "downstreamMargin": 54014571,
+     "taxNet": -220301341,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": -0.024,
+      "taxes": -0.1712
+     },
      "rank": {
       "totalExtraCost": 16,
       "perHouseholdCost": 24,
@@ -515,6 +723,14 @@
      "households": 868900,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 68096624,
+     "downstreamMargin": 30059947,
+     "taxNet": -31814478,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0721,
+      "taxes": -0.12
+     },
      "rank": {
       "totalExtraCost": 22,
       "perHouseholdCost": 12,
@@ -534,6 +750,14 @@
      "households": 1726600,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 105162704,
+     "downstreamMargin": -3466068,
+     "taxNet": 23390226,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": -0.0482,
+      "taxes": 0.05
+     },
      "rank": {
       "totalExtraCost": 18,
       "perHouseholdCost": 14,
@@ -555,7 +779,15 @@
     "dailyRate": 75269779,
     "households": 203172200,
     "administeredPrice": false,
-    "administeredSince": null
+    "administeredSince": null,
+    "upstreamCrude": 12465497809,
+    "downstreamMargin": 4865660752,
+    "taxNet": -870119429,
+    "perLitreNow": {
+     "crude": 0.2727,
+     "margin": 0.0293,
+     "taxes": -0.0485
+    }
    },
    "countries": {
     "AT": {
@@ -571,6 +803,14 @@
      "households": 4210500,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 264407083,
+     "downstreamMargin": 89993062,
+     "taxNet": 26910865,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": -0.025,
+      "taxes": -0.0304
+     },
      "rank": {
       "totalExtraCost": 11,
       "perHouseholdCost": 10,
@@ -590,6 +830,14 @@
      "households": 5243300,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 401453828,
+     "downstreamMargin": 174531854,
+     "taxNet": 120956993,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0312,
+      "taxes": 0.0638
+     },
      "rank": {
       "totalExtraCost": 7,
       "perHouseholdCost": 4,
@@ -609,6 +857,14 @@
      "households": 2850000,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 93838228,
+     "downstreamMargin": 20310637,
+     "taxNet": 22829833,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0127,
+      "taxes": 0.0571
+     },
      "rank": {
       "totalExtraCost": 17,
       "perHouseholdCost": 20,
@@ -628,6 +884,14 @@
      "households": 390100,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 53639887,
+     "downstreamMargin": 20430984,
+     "taxNet": -8154155,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0999,
+      "taxes": -0.0125
+     },
      "rank": {
       "totalExtraCost": 23,
       "perHouseholdCost": 2,
@@ -647,6 +911,14 @@
      "households": 4579000,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 279658981,
+     "downstreamMargin": 123356150,
+     "taxNet": 83084013,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0237,
+      "taxes": 0.0596
+     },
      "rank": {
       "totalExtraCost": 10,
       "perHouseholdCost": 8,
@@ -666,6 +938,14 @@
      "households": 41662700,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 3178179014,
+     "downstreamMargin": 1852487120,
+     "taxNet": -205179306,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0962,
+      "taxes": -0.097
+     },
      "rank": {
       "totalExtraCost": 1,
       "perHouseholdCost": 7,
@@ -685,6 +965,14 @@
      "households": 3146300,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 207464821,
+     "downstreamMargin": 187190984,
+     "taxNet": 95687828,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.1466,
+      "taxes": 0.1044
+     },
      "rank": {
       "totalExtraCost": 9,
       "perHouseholdCost": 3,
@@ -704,6 +992,14 @@
      "households": 742000,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 33974793,
+     "downstreamMargin": 7460819,
+     "taxNet": 13381108,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0118,
+      "taxes": 0.0896
+     },
      "rank": {
       "totalExtraCost": 24,
       "perHouseholdCost": 13,
@@ -723,6 +1019,14 @@
      "households": 19736500,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 1010993544,
+     "downstreamMargin": 531877824,
+     "taxNet": -791255125,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.1085,
+      "taxes": -0.1619
+     },
      "rank": {
       "totalExtraCost": 6,
       "perHouseholdCost": 24,
@@ -742,6 +1046,14 @@
      "households": 2978800,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 211414973,
+     "downstreamMargin": 78627372,
+     "taxNet": 73960798,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": -0.0007,
+      "taxes": 0.0694
+     },
      "rank": {
       "totalExtraCost": 12,
       "perHouseholdCost": 6,
@@ -761,6 +1073,14 @@
      "households": 32382000,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 1740252667,
+     "downstreamMargin": 494745623,
+     "taxNet": 446999658,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0445,
+      "taxes": 0.0635
+     },
      "rank": {
       "totalExtraCost": 2,
       "perHouseholdCost": 11,
@@ -780,6 +1100,14 @@
      "households": 4055400,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 350178716,
+     "downstreamMargin": 85195667,
+     "taxNet": 102756496,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0073,
+      "taxes": 0.0672
+     },
      "rank": {
       "totalExtraCost": 8,
       "perHouseholdCost": 5,
@@ -799,6 +1127,14 @@
      "households": 1466500,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 88075515,
+     "downstreamMargin": 27300812,
+     "taxNet": -26899421,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0061,
+      "taxes": -0.0365
+     },
      "rank": {
       "totalExtraCost": 19,
       "perHouseholdCost": 16,
@@ -818,6 +1154,14 @@
      "households": 4008300,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 249584272,
+     "downstreamMargin": -60996599,
+     "taxNet": -8148050,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": -0.0569,
+      "taxes": 0.0124
+     },
      "rank": {
       "totalExtraCost": 16,
       "perHouseholdCost": 22,
@@ -837,6 +1181,14 @@
      "households": 2328300,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 122395529,
+     "downstreamMargin": 46497045,
+     "taxNet": -125658844,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0977,
+      "taxes": -0.1882
+     },
      "rank": {
       "totalExtraCost": 25,
       "perHouseholdCost": 26,
@@ -856,6 +1208,14 @@
      "households": 26443900,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 1482220394,
+     "downstreamMargin": 434096448,
+     "taxNet": -33581108,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": -0.0203,
+      "taxes": 0.0555
+     },
      "rank": {
       "totalExtraCost": 3,
       "perHouseholdCost": 15,
@@ -875,6 +1235,14 @@
      "households": 1760200,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 51255365,
+     "downstreamMargin": 19603633,
+     "taxNet": 14880389,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0427,
+      "taxes": 0.0663
+     },
      "rank": {
       "totalExtraCost": 21,
       "perHouseholdCost": 19,
@@ -894,6 +1262,14 @@
      "households": 288200,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 62627526,
+     "downstreamMargin": 19197423,
+     "taxNet": 4808260,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": -0.0036,
+      "taxes": -0.0042
+     },
      "rank": {
       "totalExtraCost": 20,
       "perHouseholdCost": 1,
@@ -913,6 +1289,14 @@
      "households": 888000,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 26805968,
+     "downstreamMargin": 9011274,
+     "taxNet": 6071445,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0407,
+      "taxes": -0.0128
+     },
      "rank": {
       "totalExtraCost": 26,
       "perHouseholdCost": 21,
@@ -932,6 +1316,14 @@
      "households": 242800,
      "administeredPrice": true,
      "administeredSince": "2020-06-15",
+     "upstreamCrude": 14108045,
+     "downstreamMargin": -14108045,
+     "taxNet": 0,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": -0.2727,
+      "taxes": 0.0
+     },
      "rank": {
       "totalExtraCost": 27,
       "perHouseholdCost": 27,
@@ -951,6 +1343,14 @@
      "households": 8658800,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 674143765,
+     "downstreamMargin": 54840849,
+     "taxNet": 153086605,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": -0.1156,
+      "taxes": 0.033
+     },
      "rank": {
       "totalExtraCost": 4,
       "perHouseholdCost": 9,
@@ -970,6 +1370,14 @@
      "households": 15521300,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 906241214,
+     "downstreamMargin": 421485643,
+     "taxNet": -564767636,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0188,
+      "taxes": -0.2404
+     },
      "rank": {
       "totalExtraCost": 5,
       "perHouseholdCost": 18,
@@ -989,6 +1397,14 @@
      "households": 4562100,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 191622094,
+     "downstreamMargin": 75336224,
+     "taxNet": -5235929,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0204,
+      "taxes": -0.012
+     },
      "rank": {
       "totalExtraCost": 14,
       "perHouseholdCost": 17,
@@ -1008,6 +1424,14 @@
      "households": 7594400,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 240441552,
+     "downstreamMargin": -2616703,
+     "taxNet": 24621304,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0049,
+      "taxes": 0.0249
+     },
      "rank": {
       "totalExtraCost": 13,
       "perHouseholdCost": 25,
@@ -1027,6 +1451,14 @@
      "households": 4837300,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 350030487,
+     "downstreamMargin": 146666896,
+     "taxNet": -283682844,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0214,
+      "taxes": -0.2025
+     },
      "rank": {
       "totalExtraCost": 15,
       "perHouseholdCost": 23,
@@ -1046,6 +1478,14 @@
      "households": 868900,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 70951753,
+     "downstreamMargin": 30844401,
+     "taxNet": -31013770,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.074,
+      "taxes": -0.1181
+     },
      "rank": {
       "totalExtraCost": 22,
       "perHouseholdCost": 12,
@@ -1065,6 +1505,14 @@
      "households": 1726600,
      "administeredPrice": false,
      "administeredSince": null,
+     "upstreamCrude": 109537795,
+     "downstreamMargin": -7706645,
+     "taxNet": 23421164,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": -0.055,
+      "taxes": 0.0501
+     },
      "rank": {
       "totalExtraCost": 18,
       "perHouseholdCost": 14,
@@ -1073,5 +1521,223 @@
     }
    }
   }
- }
+ },
+ "flowSeries": [
+  {
+   "date": "2026-03-02",
+   "crude": 0.0035,
+   "margin": -0.0007,
+   "taxes": 0.0017
+  },
+  {
+   "date": "2026-03-09",
+   "crude": 0.0941,
+   "margin": -0.0208,
+   "taxes": 0.0154
+  },
+  {
+   "date": "2026-03-16",
+   "crude": 0.1424,
+   "margin": -0.0029,
+   "taxes": 0.0278
+  },
+  {
+   "date": "2026-03-23",
+   "crude": 0.2185,
+   "margin": -0.0009,
+   "taxes": 0.0002
+  },
+  {
+   "date": "2026-03-30",
+   "crude": 0.2335,
+   "margin": -0.0087,
+   "taxes": -0.0346
+  },
+  {
+   "date": "2026-04-06",
+   "crude": 0.2846,
+   "margin": -0.0381,
+   "taxes": -0.0522
+  },
+  {
+   "date": "2026-04-13",
+   "crude": 0.2762,
+   "margin": -0.0506,
+   "taxes": -0.0553
+  },
+  {
+   "date": "2026-04-20",
+   "crude": 0.1985,
+   "margin": 0.011,
+   "taxes": -0.0587
+  },
+  {
+   "date": "2026-04-27",
+   "crude": 0.2075,
+   "margin": 0.0135,
+   "taxes": -0.0568
+  },
+  {
+   "date": "2026-05-04",
+   "crude": 0.2575,
+   "margin": -0.0118,
+   "taxes": -0.0627
+  },
+  {
+   "date": "2026-05-11",
+   "crude": 0.1768,
+   "margin": 0.0782,
+   "taxes": -0.0605
+  },
+  {
+   "date": "2026-05-18",
+   "crude": 0.2145,
+   "margin": 0.0428,
+   "taxes": -0.0606
+  },
+  {
+   "date": "2026-05-25",
+   "crude": 0.2,
+   "margin": 0.0692,
+   "taxes": -0.0579
+  },
+  {
+   "date": "2026-06-01",
+   "crude": 0.1372,
+   "margin": 0.0789,
+   "taxes": -0.0675
+  },
+  {
+   "date": "2026-06-08",
+   "crude": 0.1458,
+   "margin": 0.0429,
+   "taxes": -0.0729
+  },
+  {
+   "date": "2026-06-15",
+   "crude": 0.1082,
+   "margin": 0.0631,
+   "taxes": -0.0761
+  },
+  {
+   "date": "2026-06-22",
+   "crude": 0.0487,
+   "margin": 0.0725,
+   "taxes": -0.078
+  },
+  {
+   "date": "2026-06-29",
+   "crude": 0.0177,
+   "margin": 0.0998,
+   "taxes": -0.0801
+  },
+  {
+   "date": "2026-07-06",
+   "crude": -0.0012,
+   "margin": 0.1164,
+   "taxes": -0.0159
+  },
+  {
+   "date": "2026-07-13",
+   "crude": 0.0324,
+   "margin": 0.1137,
+   "taxes": -0.0086
+  },
+  {
+   "date": "2026-07-20",
+   "crude": 0.076,
+   "margin": 0.1232,
+   "taxes": 0.0022
+  },
+  {
+   "date": "2026-07-27",
+   "crude": 0.1467,
+   "margin": 0.0792,
+   "taxes": 0.0074
+  },
+  {
+   "date": "2026-08-03",
+   "crude": 0.1124,
+   "margin": 0.1284,
+   "taxes": 0.013
+  },
+  {
+   "date": "2026-08-10",
+   "crude": 0.0959,
+   "margin": 0.1107,
+   "taxes": 0.0097
+  },
+  {
+   "date": "2026-08-17",
+   "crude": 0.1153,
+   "margin": 0.1244,
+   "taxes": -0.0045
+  },
+  {
+   "date": "2026-08-24",
+   "crude": 0.121,
+   "margin": 0.1322,
+   "taxes": -0.002
+  },
+  {
+   "date": "2026-08-31",
+   "crude": 0.0932,
+   "margin": 0.1737,
+   "taxes": 0.0006
+  },
+  {
+   "date": "2026-09-07",
+   "crude": 0.1535,
+   "margin": 0.174,
+   "taxes": 0.0408
+  },
+  {
+   "date": "2026-09-14",
+   "crude": 0.2318,
+   "margin": 0.1165,
+   "taxes": 0.0445
+  },
+  {
+   "date": "2026-09-21",
+   "crude": 0.2789,
+   "margin": 0.0962,
+   "taxes": 0.0502
+  },
+  {
+   "date": "2026-09-28",
+   "crude": 0.2565,
+   "margin": 0.1292,
+   "taxes": 0.052
+  },
+  {
+   "date": "2026-10-05",
+   "crude": 0.2808,
+   "margin": 0.0797,
+   "taxes": -0.0303
+  },
+  {
+   "date": "2026-10-12",
+   "crude": 0.3242,
+   "margin": 0.0369,
+   "taxes": -0.0365
+  },
+  {
+   "date": "2026-10-19",
+   "crude": 0.2969,
+   "margin": 0.0514,
+   "taxes": -0.0385
+  },
+  {
+   "date": "2026-10-26",
+   "crude": 0.2947,
+   "margin": 0.022,
+   "taxes": -0.0443
+  },
+  {
+   "date": "2026-11-02",
+   "crude": 0.2657,
+   "margin": 0.0275,
+   "taxes": -0.0488
+  }
+ ]
 }

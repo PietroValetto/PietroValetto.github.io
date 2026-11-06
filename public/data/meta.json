@@ -1,17 +1,17 @@
 {
- "builtAt": "2026-10-14T00:01:00.135067+00:00",
- "latestBulletin": "2026-10-05",
- "bulletinWeeks": 40,
+ "builtAt": "2026-11-06T11:30:36.715368+00:00",
+ "latestBulletin": "2026-11-02",
+ "bulletinWeeks": 44,
  "sensitivity": {
   "petrol": {
-   "lastBulletin": 13515206936,
-   "excluding2022Seasonality": 15544600211,
-   "euDirectFormula": 12698542435
+   "lastBulletin": 16035808121,
+   "excluding2022Seasonality": 18162641017,
+   "euDirectFormula": 15054135955
   },
   "diesel": {
-   "lastBulletin": 52082766493,
-   "excluding2022Seasonality": 59725159868,
-   "euDirectFormula": 51602347834
+   "lastBulletin": 61318544124,
+   "excluding2022Seasonality": 69933602519,
+   "euDirectFormula": 60755558373
   }
  },
  "litresPerTonne": {

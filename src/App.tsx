@@ -4,6 +4,7 @@ import { CountryPanel } from "./CountryPanel";
 import { AllData, Fuel, Scenario, loadAll } from "./data";
 import { FuelBreakdown } from "./FuelBreakdown";
 import { Headline } from "./Headline";
+import { MoneyFlow, PeopleRow } from "./MoneyFlow";
 import { Methodology } from "./Methodology";
 import { longDate } from "./format";
 
@@ -65,7 +66,9 @@ export default function App() {
       </p>
 
       <Headline data={data} scenario={scenario} fuel={fuel} onFuel={(f) => { setFuel(f); document.getElementById("breakdown")?.scrollIntoView({ behavior: "smooth" }); }} />
+      <PeopleRow data={data} />
       <FuelBreakdown data={data} fuel={fuel} scenario={scenario} />
+      <MoneyFlow data={data} fuel={fuel} scenario={scenario} />
       <CountryMap data={data} fuel={fuel} scenario={scenario} onSelect={openCountry} />
 
       <footer className="status">

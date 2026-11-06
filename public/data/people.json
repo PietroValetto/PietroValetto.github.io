@@ -1,0 +1,24 @@
+{
+ "asOf": "2026-11-02",
+ "tank": {
+  "petrol": 12.22,
+  "diesel": 24.79
+ },
+ "carSinceWar": {
+  "petrol": 101,
+  "diesel": 175
+ },
+ "truckSinceWar": 6380,
+ "truckPerWeek": 180,
+ "assumptions": {
+  "carKmPerYear": 10000,
+  "carLPer100km": {
+   "petrol": 7.08,
+   "diesel": 6.91
+  },
+  "truckKmPerYear": 116000,
+  "truckLPer100km": 26.38,
+  "tankLitres": 50,
+  "source": "T&E, 'A continent squeezed' (23 Sep 2026), methodology; truck excludes VAT"
+ }
+}

@@ -24,7 +24,7 @@ const langs = [...new Set(all.map((e) => e.data.lang))];
 const sections = await Promise.all(SECTIONS.map(async (s) => ({
   ...s,
   items: await Promise.all(all.filter((e) => e.data.section === s.id)
-    .sort((a, b) => (b.data.date ?? "").localeCompare(a.data.date ?? ""))
+    .sort((a, b) => Number(!a.data.url) - Number(!b.data.url) || (b.data.date ?? "").localeCompare(a.data.date ?? ""))  // linked items first, then newest
     .map(async (e) => ({ ...e.data, Content: (await render(e)).Content, hasBody: !!e.body?.trim() }))),
 })));
 ---
@@ -33,7 +33,13 @@ const sections = await Promise.all(SECTIONS.map(async (s) => ({
   <p class="lede">Writing, press and guest appearances. The flag shows the language of each piece.
     {langs.length > 1 && <span class="legend">{langs.map((l) => <span><LangFlag lang={l} />{({ en: "English", it: "Italian", fr: "French", de: "German", es: "Spanish", nl: "Dutch" } as Record<string, string>)[l] ?? l}</span>)}</span>}
   </p>
-  <nav class="jump" aria-label="Sections">{sections.filter((s) => s.items.length).map((s) => <a href={`#${s.id}`}>{s.label}</a>)}<a href="#socials">Socials</a></nav>
+  <nav class="jump" aria-label="Sections"><a href="#socials">Socials</a>{sections.filter((s) => s.items.length).map((s) => <a href={`#${s.id}`}>{s.label}</a>)}</nav>
+  <section id="socials">
+    <h2>Socials</h2>
+    <p class="sec-intro">Where I post short explainers and behind-the-scenes.</p>
+    <Socials variant="cards" />
+  </section>
+
   {sections.filter((s) => s.items.length).map((s) => (
     <section id={s.id}>
       <h2>{s.label}</h2>
@@ -58,11 +64,6 @@ const sections = await Promise.all(SECTIONS.map(async (s) => ({
       </ul>
     </section>
   ))}
-  <section id="socials">
-    <h2>Socials</h2>
-    <p class="sec-intro">Where I post short explainers and behind-the-scenes.</p>
-    <Socials variant="cards" />
-  </section>
 </Base>
 
 <style>

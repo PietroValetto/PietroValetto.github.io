@@ -17,12 +17,22 @@ export interface Entry {
   households: number;
   administeredPrice?: boolean;
   administeredSince?: string | null;
+  taxRelief: number;
+  vatWindfall: number;
+  stateCostFixedPrice: number;
+  totalShock: number;
+  reliefPerLitreNow: number;
+  countriesWithoutPrices?: string[];
+  noPriceData?: boolean;
+  taxChanges?: { vat: TaxChange[]; excise: TaxChange[]; exciseCurrency: string };
   upstreamCrude: number;
   downstreamMargin: number;
   taxNet: number;
   perLitreNow: { crude: number; margin: number; taxes: number };
   rank?: Record<string, number>;
 }
+
+export interface TaxChange { date: string; from: number; to: number }
 
 export interface FlowPoint { date: string; crude: number; margin: number; taxes: number }
 
@@ -49,7 +59,7 @@ export interface Current {
 }
 export interface Households {
   source: string;
-  areas: Record<string, { households: number; population: number; householdsYear: number; name: string }>;
+  areas: Record<string, { households: number; population: number; householdsYear: number; name: string; cars?: number; carsYear?: number }>;
 }
 export interface CrossCheck { pretaxPremium: number; upstream: number; downstream: number; pretaxPremiumToTE: number; upstreamToTE: number; downstreamToTE: number; comparisonEnd: string }
 export interface Meta {
@@ -69,8 +79,67 @@ export interface People {
 }
 export interface Demand { eurostatUpdated: string; gaps: string[] }
 
+export interface UsFuel {
+  totalExtraCostUSD: number;
+  totalSamePeriodUSD: number;
+  warStartPriceUSDPerGallon: number;
+  currentPriceUSDPerGallon: number;
+  pctChange: number;
+  increaseEURPerLitre: number;
+  litresPerHouseholdPerYear: number;
+}
+export interface UsComparison {
+  stale: boolean;
+  brownUrl: string;
+  brownAsOf: string;
+  euAsOf: string;
+  eurPerUsd: number;
+  fxDate: string;
+  us: {
+    households: number;
+    fuels: Record<Fuel, UsFuel>;
+    totalExtraCostUSD: number;
+    totalSamePeriodUSD: number;
+    perHouseholdUSD: number;
+    perHouseholdSamePeriodUSD: number;
+    perHouseholdSamePeriodEUR: number;
+  };
+  eu: {
+    households: number;
+    totalExtraCostEUR: number;
+    perHouseholdEUR: number;
+    fuels: Record<Fuel, { pctChange: number; increaseEURPerLitre: number; litresPerHouseholdPerYear: number }>;
+  };
+}
+
+export type EnergyItem = "electricity" | "gas" | "solid" | "heat";
+export interface HouseholdItem {
+  total: number;
+  pctChange?: number;
+  weightPerMille?: number;
+  monthlySpend?: number;
+  monthly?: { month: string; index: number; extra: number }[];
+}
+export interface HouseholdArea { items: Partial<Record<EnergyItem, HouseholdItem>>; total: number; dailyRate: number; lastMonth: string | null }
+export interface HouseholdEnergy {
+  baseMonth: string;
+  measuredThrough: string;
+  itemLabels: Record<EnergyItem, string>;
+  EU: HouseholdArea & { laggingCountries: string[] };
+  countries: Record<string, HouseholdArea>;
+}
+
 export interface FuelData { ts: TimeSeries; cf: Counterfactual; current: Current; deficit: Deficit }
-export interface AllData { fuels: Record<Fuel, FuelData>; households: Households; meta: Meta; demand: Demand; people: People | null }
+export interface AllData {
+  fuels: Record<Fuel, FuelData>;
+  households: Households;
+  meta: Meta;
+  demand: Demand;
+  us: UsComparison | null;
+  heating: FuelData | null;            // heating & off-road gas oil: Energy tab only, not in the fuel headline
+  household: HouseholdEnergy | null;   // household electricity, gas, solid fuels, district heat
+  people: People | null;               // per-person row; hides if missing
+}
 
 const get = <T,>(name: string): Promise<T> =>
   fetch(`${import.meta.env.BASE_URL}data/${name}.json`).then((r) => {
@@ -79,7 +148,7 @@ const get = <T,>(name: string): Promise<T> =>
   });
 
 export async function loadAll(): Promise<AllData> {
-  const fuel = async (f: Fuel): Promise<FuelData> => {
+  const fuel = async (f: Fuel | "heating"): Promise<FuelData> => {
     const [ts, cf, current, deficit] = await Promise.all([
       get<TimeSeries>(`${f}-time-series`),
       get<Counterfactual>(`${f}-counterfactual`),
@@ -88,11 +157,15 @@ export async function loadAll(): Promise<AllData> {
     ]);
     return { ts, cf, current, deficit };
   };
-  const [petrol, diesel, households, meta, demand, people] = await Promise.all([
+  const [petrol, diesel, households, meta, demand, us, heating, household, people] = await Promise.all([
     fuel("petrol"), fuel("diesel"), get<Households>("households"), get<Meta>("meta"), get<Demand>("monthly-demand"),
-    get<People>("people").catch(() => null), // optional: the per-person row hides if missing
+    // Optional extras: their tabs or rows hide if a file is missing.
+    get<UsComparison>("us-comparison").catch(() => null),
+    fuel("heating").catch(() => null),
+    get<HouseholdEnergy>("household-energy").catch(() => null),
+    get<People>("people").catch(() => null),
   ]);
-  return { fuels: { petrol, diesel }, households, meta, demand, people };
+  return { fuels: { petrol, diesel }, households, meta, demand, us, heating, household, people };
 }
 
 export const entry = (d: AllData, f: Fuel, s: Scenario, area: string): Entry =>

@@ -59,6 +59,39 @@ def monthly_litres() -> dict:
     return {"litresPerDay": out, "gaps": gaps, "updated": meta.get("updated")}
 
 
+def monthly_actual(since: str = "2026-01") -> dict:
+    """Actual litres/day for each month published since `since`: {area: {fuel: {"YYYY-MM": litres_per_day}}}."""
+    geos = [TO_EUROSTAT[c] for c in EU27] + ["EU27_2020"]
+    back = {v: k for k, v in TO_EUROSTAT.items()} | {"EU27_2020": "EU"}
+    params = [("nrg_bal", "GID_OBS"), ("unit", "THS_T"), ("sinceTimePeriod", since)]
+    params += [("siec", s) for _, s, _ in FUELS.values()] + [("geo", g) for g in geos]
+    rows, _ = _jsonstat("nrg_cb_oilm", params)
+    siec_to_fuel = {s: f for f, (_, s, _) in FUELS.items()}
+    out = {}
+    for r in rows:
+        fuel, area = siec_to_fuel[r["siec"]], back[r["geo"]]
+        y, m = int(r["time"][:4]), int(r["time"][5:7])
+        if float(r["value"]) <= 0:
+            continue
+        lpd = float(r["value"]) * 1000.0 * FUELS[fuel][2] / calendar.monthrange(y, m)[1]
+        out.setdefault(area, {}).setdefault(fuel, {})[r["time"]] = lpd
+    return out
+
+
+def cars() -> dict:
+    """Passenger cars in use (road_eqs_carpda, all fuels), latest year per country."""
+    geos = [TO_EUROSTAT[c] for c in EU27] + ["EU27_2020"]
+    back = {v: k for k, v in TO_EUROSTAT.items()} | {"EU27_2020": "EU"}
+    rows, _ = _jsonstat("road_eqs_carpda", [("unit", "NR"), ("mot_nrg", "TOTAL"), ("sinceTimePeriod", "2021")]
+                        + [("geo", g) for g in geos])
+    latest = {}
+    for r in rows:
+        a = back[r["geo"]]
+        if a not in latest or r["time"] > latest[a][0]:
+            latest[a] = (r["time"], round(r["value"]))
+    return {a: {"cars": v, "carsYear": int(t)} for a, (t, v) in latest.items()}
+
+
 def households() -> dict:
     geos = [TO_EUROSTAT[c] for c in EU27] + ["EU27_2020"]
     back = {v: k for k, v in TO_EUROSTAT.items()} | {"EU27_2020": "EU"}

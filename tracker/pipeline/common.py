@@ -30,7 +30,10 @@ NAMES = {
 FUELS = {
     "petrol": ("euro95", "O4652", 1342.0),   # Euro-super 95 / motor gasoline, ~0.745 kg/L
     "diesel": ("diesel", "O46711", 1195.0),  # automotive gas oil / road diesel, ~0.837 kg/L
+    "heating": ("heating_oil", "O46712", 1183.0),  # heating gas oil / heating and other gasoil, ~0.845 kg/L
 }
+# The Fuel tab's headline (comparable with Brown's US tracker) covers road fuels only.
+HEADLINE_FUELS = ("petrol", "diesel")
 
 WOB_URL = ("https://energy.ec.europa.eu/document/download/906e60ca-8b6a-44e7-8589-652854d2fd3f_en"
            "?filename=Weekly_Oil_Bulletin_Prices_History_maticni_4web.xlsx")

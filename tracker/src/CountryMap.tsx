@@ -1,58 +1,30 @@
-import { useEffect, useMemo, useState } from "react";
-import { geoAzimuthalEqualArea, geoPath } from "d3-geo";
-import { scaleLinear } from "d3-scale";
-import { feature } from "topojson-client";
-import type { Feature, FeatureCollection, Geometry } from "geojson";
-import type { Topology } from "topojson-specification";
-import { AllData, FUEL_LABEL, Fuel, Scenario } from "./data";
+import { useState } from "react";
+import { EuMap } from "./EuMap";
+import { AllData, Entry, FUEL_LABEL, Fuel, Scenario } from "./data";
 import { euro, euro2, euroShort, monthYear, perLitre, signed } from "./format";
 
-export type Metric = "currentPrice" | "priceIncrease" | "totalExtraCost" | "perHouseholdCost";
+export type Metric = "currentPrice" | "priceIncrease" | "totalExtraCost" | "perHouseholdCost" | "perCar" | "taxRelief";
 const METRICS: { key: Metric; label: string; fmt: (v: number) => string; short: (v: number) => string }[] = [
   { key: "currentPrice", label: "Current price", fmt: perLitre, short: perLitre },
   { key: "priceIncrease", label: "Price change", fmt: (v) => `${signed(v)} /L`, short: (v) => signed(v, 2) },
   { key: "totalExtraCost", label: "Total consumer cost", fmt: euro, short: euroShort },
   { key: "perHouseholdCost", label: "Household cost", fmt: euro2, short: (v) => euro(v) },
+  { key: "perCar", label: "Cost per car", fmt: euro2, short: (v) => euro(v) },
+  { key: "taxRelief", label: "Tax cuts", fmt: euro, short: euroShort },
 ];
-
-// Mainland-Europe frame: clips the French outermost regions and other far-flung territories.
-const FRAME: Feature = {
-  type: "Feature", properties: {},
-  geometry: { type: "Polygon", coordinates: [[[-11, 34.5], [-11, 70.5], [33, 70.5], [33, 34.5], [-11, 34.5]]] },
-};
-const W = 640, H = 600;
 
 type Props = { data: AllData; fuel: Fuel; scenario: Scenario; onSelect: (code: string) => void };
 
-const toWob = (id: string) => (id === "EL" ? "GR" : id);
-
 export function CountryMap({ data, fuel, scenario, onSelect }: Props) {
-  const [geo, setGeo] = useState<FeatureCollection<Geometry, { NUTS_ID: string; NAME_ENGL: string }> | null>(null);
   const [metric, setMetric] = useState<Metric>("totalExtraCost");
   const [hover, setHover] = useState<string | null>(null);
   const [sortDesc, setSortDesc] = useState(true);
 
-  useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}geo/nuts0.topo.json`)
-      .then((r) => r.json())
-      .then((topo: Topology) => {
-        const key = Object.keys(topo.objects)[0];
-        setGeo(feature(topo, topo.objects[key]) as unknown as FeatureCollection<Geometry, { NUTS_ID: string; NAME_ENGL: string }>);
-      });
-  }, []);
-
   const countries = data.fuels[fuel].deficit.scenarios[scenario].countries;
   const m = METRICS.find((x) => x.key === metric)!;
-  const values = Object.values(countries).map((e) => e[metric]);
-  const [lo, hi] = [Math.min(...values), Math.max(...values)];
-  const color = scaleLinear<string>().domain([lo, (lo + hi) / 2, hi]).range(["#F5EFE3", "#1F8A5B", "#12563A"]);
-
-  const path = useMemo(() => {
-    const proj = geoAzimuthalEqualArea().rotate([-10, -52]).fitExtent([[4, 4], [W - 4, H - 4]], FRAME).clipExtent([[0, 0], [W, H]]);
-    return geoPath(proj);
-  }, []);
-
-  const ranked = Object.entries(countries).sort((a, b) => (sortDesc ? b[1][metric] - a[1][metric] : a[1][metric] - b[1][metric]));
+  // Cost per car = the country's extra fuel cost / passenger cars in use (Eurostat road_eqs_carpda).
+  const val = (c: string, e: Entry) => (metric === "perCar" ? e.totalExtraCost / (data.households.areas[c]?.cars ?? Infinity) : e[metric]);
+  const ranked = Object.entries(countries).sort((a, b) => (sortDesc ? val(b[0], b[1]) - val(a[0], a[1]) : val(a[0], a[1]) - val(b[0], b[1])));
   const hovered = hover && countries[hover] ? hover : null;
   const name = (c: string) => data.households.areas[c]?.name ?? c;
   const euAvg = data.fuels[fuel].current.euAvg;
@@ -74,31 +46,9 @@ export function CountryMap({ data, fuel, scenario, onSelect }: Props) {
       <p className="hint">Click a country, or press Enter on one, for a detailed breakdown.</p>
 
       <div className="map-layout">
-        <div className="map-wrap">
-          <svg viewBox={`0 0 ${W} ${H}`} className="map" role="group" aria-label={`Map of ${m.label} by EU country`}>
-            {geo?.features.map((f) => {
-              const code = toWob(f.properties.NUTS_ID);
-              const e = countries[code];
-              const d = path(f) ?? "";
-              if (!e) return <path key={f.properties.NUTS_ID} d={d} className="map-other" />;
-              return (
-                <path key={code} d={d} fill={color(e[metric])} className={`map-country ${hovered === code ? "is-hover" : ""}`}
-                  tabIndex={0} role="button" aria-label={`${name(code)}: ${m.fmt(e[metric])}`}
-                  onMouseEnter={() => setHover(code)} onMouseLeave={() => setHover(null)} onFocus={() => setHover(code)} onBlur={() => setHover(null)}
-                  onClick={() => onSelect(code)} onKeyDown={(ev) => (ev.key === "Enter" || ev.key === " ") && (ev.preventDefault(), onSelect(code))} />
-              );
-            })}
-          </svg>
-          <div className="map-readout" aria-live="polite">
-            {hovered ? (<><strong>{name(hovered)}</strong> <span data-tabular>{m.fmt(countries[hovered][metric])}</span>
-              {countries[hovered].administeredPrice && <span className="muted"> · fixed price</span>}</>) : <span className="muted">Hover a country</span>}
-          </div>
-          <div className="scale">
-            <span data-tabular>{m.short(lo)}</span>
-            <span className="scale-bar" />
-            <span data-tabular>{m.short(hi)}</span>
-          </div>
-        </div>
+        <EuMap values={Object.fromEntries(Object.entries(countries).map(([c, e]) => [c, val(c, e)]))} label={m.label}
+          fmt={m.fmt} short={m.short} name={name} hover={hover} setHover={setHover} onSelect={onSelect}
+          note={(c) => (countries[c]?.administeredPrice ? "fixed price" : null)} />
 
         <div className="rank">
           <table>
@@ -121,7 +71,7 @@ export function CountryMap({ data, fuel, scenario, onSelect }: Props) {
                     <button className="link" onClick={() => onSelect(c)}>{name(c)}</button>
                     {e.administeredPrice && <sup className="fn" aria-label="fixed price, see note">*</sup>}
                   </td>
-                  <td className="num" data-tabular>{m.fmt(e[metric])}</td>
+                  <td className="num" data-tabular>{m.fmt(val(c, e))}</td>
                 </tr>
               ))}
             </tbody>

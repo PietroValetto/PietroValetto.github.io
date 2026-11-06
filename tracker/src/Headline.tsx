@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { AllData, FUELS, FUEL_LABEL, FUEL_SUB, Fuel, Scenario, entry } from "./data";
 import { euro, euroShort, longDate, pct, perLitre } from "./format";
+import { RangeLine } from "./Assumptions";
 
 /**
  * The Oil Bulletin is weekly, so the burden is measured up to the latest bulletin and then
@@ -22,9 +23,10 @@ interface Props {
   scenario: Scenario;
   fuel: Fuel;
   onFuel: (f: Fuel) => void;
+  onAssumptions?: () => void;
 }
 
-export function Headline({ data, scenario, fuel, onFuel }: Props) {
+export function Headline({ data, scenario, fuel, onFuel, onAssumptions }: Props) {
   const d = data.fuels.petrol.deficit;
   const eu = (f: Fuel) => entry(data, f, scenario, "EU");
   const live = {
@@ -53,6 +55,7 @@ export function Headline({ data, scenario, fuel, onFuel }: Props) {
           That's {euroShort(total)}. Measured to the {longDate(d.endDate)} Oil Bulletin ({euroShort(measured)}), then
           estimated in real time at the latest weekly rate.
         </p>
+        {onAssumptions && <RangeLine onOpen={onAssumptions} />}
         <div className="fuel-tiles">
           {FUELS.map((f) => {
             const e = eu(f);

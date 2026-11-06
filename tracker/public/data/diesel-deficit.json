@@ -25,6 +25,10 @@
     "households": 203172200,
     "administeredPrice": false,
     "administeredSince": null,
+    "taxRelief": 13807526672,
+    "vatWindfall": 12297146320,
+    "stateCostFixedPrice": 64588669,
+    "reliefPerLitreNow": 0.1333,
     "upstreamCrude": 31083338023,
     "downstreamMargin": 30912329282,
     "taxNet": -677123181,
@@ -32,7 +36,9 @@
      "crude": 0.2979,
      "margin": 0.2208,
      "taxes": -0.0229
-    }
+    },
+    "totalShock": 75190659464,
+    "countriesWithoutPrices": []
    },
    "countries": {
     "AT": {
@@ -48,6 +54,10 @@
      "households": 4210500,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 143607189,
+     "vatWindfall": 371709576,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0799,
      "upstreamCrude": 931139269,
      "downstreamMargin": 927408609,
      "taxNet": 228102387,
@@ -56,10 +66,43 @@
       "margin": 0.2202,
       "taxes": 0.0237
      },
+     "totalShock": 2230257454,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-04-01",
+        "from": 397.0,
+        "to": 347.0
+       },
+       {
+        "date": "2026-05-01",
+        "from": 347.0,
+        "to": 377.0
+       },
+       {
+        "date": "2026-07-06",
+        "from": 377.0,
+        "to": 389.0
+       },
+       {
+        "date": "2026-08-03",
+        "from": 389.0,
+        "to": 378.0
+       },
+       {
+        "date": "2026-10-05",
+        "from": 378.0,
+        "to": 330.0
+       }
+      ],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 7,
       "perHouseholdCost": 2,
-      "pctChange": 10
+      "pctChange": 10,
+      "taxRelief": 13
      }
     },
     "BE": {
@@ -75,6 +118,10 @@
      "households": 5243300,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 0,
+     "vatWindfall": 403498553,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0,
      "upstreamCrude": 896476464,
      "downstreamMargin": 1024945216,
      "taxNet": 403498553,
@@ -83,10 +130,17 @@
       "margin": 0.2889,
       "taxes": 0.1232
      },
+     "totalShock": 2324920232,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 6,
       "perHouseholdCost": 3,
-      "pctChange": 3
+      "pctChange": 3,
+      "taxRelief": 21
      }
     },
     "BG": {
@@ -102,6 +156,10 @@
      "households": 2850000,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 765,
+     "vatWindfall": 159906011,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0,
      "upstreamCrude": 397444015,
      "downstreamMargin": 402086041,
      "taxNet": 159905246,
@@ -110,10 +168,17 @@
       "margin": 0.2097,
       "taxes": 0.1015
      },
+     "totalShock": 959436068,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 14,
       "perHouseholdCost": 11,
-      "pctChange": 1
+      "pctChange": 1,
+      "taxRelief": 19
      }
     },
     "CY": {
@@ -129,6 +194,10 @@
      "households": 390100,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 22213188,
+     "vatWindfall": 21596102,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0833,
      "upstreamCrude": 58374113,
      "downstreamMargin": 55289580,
      "taxNet": -617086,
@@ -137,10 +206,23 @@
       "margin": 0.2207,
       "taxes": 0.0152
      },
+     "totalShock": 135259795,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-10-26",
+        "from": 400.0,
+        "to": 330.0
+       }
+      ],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 26,
       "perHouseholdCost": 14,
-      "pctChange": 7
+      "pctChange": 7,
+      "taxRelief": 17
      }
     },
     "CZ": {
@@ -156,6 +238,10 @@
      "households": 4579000,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 227217733,
+     "vatWindfall": 341450480,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.099,
      "upstreamCrude": 832217415,
      "downstreamMargin": 793737253,
      "taxNet": 114232747,
@@ -164,10 +250,33 @@
       "margin": 0.2472,
       "taxes": 0.0155
      },
+     "totalShock": 1967405148,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-04-13",
+        "from": 9950.0,
+        "to": 8011.0
+       },
+       {
+        "date": "2026-07-27",
+        "from": 8011.0,
+        "to": 9950.0
+       },
+       {
+        "date": "2026-10-05",
+        "from": 9950.0,
+        "to": 8011.0
+       }
+      ],
+      "exciseCurrency": "CZK"
+     },
      "rank": {
       "totalExtraCost": 9,
       "perHouseholdCost": 8,
-      "pctChange": 4
+      "pctChange": 4,
+      "taxRelief": 9
      }
     },
     "DE": {
@@ -183,6 +292,10 @@
      "households": 41662700,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 1777040269,
+     "vatWindfall": 2026780811,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.1671,
      "upstreamCrude": 5334866456,
      "downstreamMargin": 5332400968,
      "taxNet": 249740542,
@@ -191,10 +304,33 @@
       "margin": 0.2484,
       "taxes": -0.0633
      },
+     "totalShock": 12694048235,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-05-01",
+        "from": 470.400000000001,
+        "to": 330.0
+       },
+       {
+        "date": "2026-07-01",
+        "from": 330.0,
+        "to": 470.400000000001
+       },
+       {
+        "date": "2026-10-01",
+        "from": 470.400000000001,
+        "to": 330.0
+       }
+      ],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 2,
       "perHouseholdCost": 18,
-      "pctChange": 20
+      "pctChange": 20,
+      "taxRelief": 4
      }
     },
     "DK": {
@@ -210,6 +346,10 @@
      "households": 3146300,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": -4606489,
+     "vatWindfall": 173188948,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0003,
      "upstreamCrude": 360286050,
      "downstreamMargin": 332469742,
      "taxNet": 177795437,
@@ -218,10 +358,17 @@
       "margin": 0.2437,
       "taxes": 0.1351
      },
+     "totalShock": 865944740,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "DKK"
+     },
      "rank": {
       "totalExtraCost": 16,
       "perHouseholdCost": 16,
-      "pctChange": 8
+      "pctChange": 8,
+      "taxRelief": 26
      }
     },
     "EE": {
@@ -237,6 +384,10 @@
      "households": 742000,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": -10079327,
+     "vatWindfall": 56301691,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0228,
      "upstreamCrude": 123173781,
      "downstreamMargin": 111416598,
      "taxNet": 66381017,
@@ -245,10 +396,17 @@
       "margin": 0.218,
       "taxes": 0.1466
      },
+     "totalShock": 290892069,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 25,
       "perHouseholdCost": 5,
-      "pctChange": 2
+      "pctChange": 2,
+      "taxRelief": 27
      }
     },
     "ES": {
@@ -264,6 +422,10 @@
      "households": 19736500,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 3425704925,
+     "vatWindfall": 1204475790,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.242,
      "upstreamCrude": 3417747629,
      "downstreamMargin": 3967911350,
      "taxNet": -1874716539,
@@ -272,10 +434,49 @@
       "margin": 0.2411,
       "taxes": -0.1288
      },
+     "totalShock": 8936647365,
+     "taxChanges": {
+      "vat": [
+       {
+        "date": "2026-03-22",
+        "from": 21.0,
+        "to": 10.0
+       },
+       {
+        "date": "2026-07-06",
+        "from": 10.0,
+        "to": 21.0
+       }
+      ],
+      "excise": [
+       {
+        "date": "2026-03-23",
+        "from": 379.0,
+        "to": 330.0
+       },
+       {
+        "date": "2026-07-06",
+        "from": 330.0,
+        "to": 229.0
+       },
+       {
+        "date": "2026-08-03",
+        "from": 229.0,
+        "to": 279.0
+       },
+       {
+        "date": "2026-09-07",
+        "from": 279.0,
+        "to": 179.0
+       }
+      ],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 4,
       "perHouseholdCost": 15,
-      "pctChange": 17
+      "pctChange": 17,
+      "taxRelief": 1
      }
     },
     "FI": {
@@ -291,6 +492,10 @@
      "households": 2978800,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 0,
+     "vatWindfall": 215890496,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0,
      "upstreamCrude": 368851254,
      "downstreamMargin": 477778143,
      "taxNet": 215890496,
@@ -299,10 +504,17 @@
       "margin": 0.1968,
       "taxes": 0.1261
      },
+     "totalShock": 1062519894,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 13,
       "perHouseholdCost": 10,
-      "pctChange": 9
+      "pctChange": 9,
+      "taxRelief": 22
      }
     },
     "FR": {
@@ -318,6 +530,10 @@
      "households": 32382000,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 0,
+     "vatWindfall": 2261683513,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0,
      "upstreamCrude": 5402509117,
      "downstreamMargin": 5905908449,
      "taxNet": 2261683513,
@@ -326,10 +542,17 @@
       "margin": 0.2512,
       "taxes": 0.1098
      },
+     "totalShock": 13570101079,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 1,
       "perHouseholdCost": 4,
-      "pctChange": 6
+      "pctChange": 6,
+      "taxRelief": 23
      }
     },
     "GR": {
@@ -345,6 +568,10 @@
      "households": 4055400,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 10797654,
+     "vatWindfall": 181264020,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0,
      "upstreamCrude": 457707949,
      "downstreamMargin": 297558802,
      "taxNet": 170466366,
@@ -353,10 +580,17 @@
       "margin": 0.1232,
       "taxes": 0.1011
      },
+     "totalShock": 936530771,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 15,
       "perHouseholdCost": 22,
-      "pctChange": 11
+      "pctChange": 11,
+      "taxRelief": 18
      }
     },
     "HR": {
@@ -372,6 +606,10 @@
      "households": 1466500,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 178246350,
+     "vatWindfall": 148872113,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.1952,
      "upstreamCrude": 335311943,
      "downstreamMargin": 260176508,
      "taxNet": -29374238,
@@ -380,10 +618,48 @@
       "margin": 0.2216,
       "taxes": -0.0653
      },
+     "totalShock": 744360563,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-03-30",
+        "from": 406.13,
+        "to": 330.0
+       },
+       {
+        "date": "2026-06-22",
+        "from": 330.0,
+        "to": 340.0
+       },
+       {
+        "date": "2026-09-07",
+        "from": 340.0,
+        "to": 350.0
+       },
+       {
+        "date": "2026-09-14",
+        "from": 350.0,
+        "to": 260.0
+       },
+       {
+        "date": "2026-09-22",
+        "from": 260.0,
+        "to": 230.0
+       },
+       {
+        "date": "2026-10-26",
+        "from": 230.0,
+        "to": 250.0
+       }
+      ],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 18,
       "perHouseholdCost": 7,
-      "pctChange": 16
+      "pctChange": 16,
+      "taxRelief": 11
      }
     },
     "HU": {
@@ -399,6 +675,10 @@
      "households": 4008300,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 143652091,
+     "vatWindfall": 187964981,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0503,
      "upstreamCrude": 612652764,
      "downstreamMargin": 83513831,
      "taxNet": 44312890,
@@ -407,10 +687,43 @@
       "margin": 0.0483,
       "taxes": 0.0432
      },
+     "totalShock": 884131576,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-03-23",
+        "from": 148760.0,
+        "to": 130117.56
+       },
+       {
+        "date": "2026-03-30",
+        "from": 130117.56,
+        "to": 130040.27
+       },
+       {
+        "date": "2026-04-06",
+        "from": 130040.27,
+        "to": 130630.55
+       },
+       {
+        "date": "2026-04-13",
+        "from": 130630.55,
+        "to": 129539.68
+       },
+       {
+        "date": "2026-06-22",
+        "from": 129539.68,
+        "to": 128280.0
+       }
+      ],
+      "exciseCurrency": "HUF"
+     },
      "rank": {
       "totalExtraCost": 17,
       "perHouseholdCost": 26,
-      "pctChange": 23
+      "pctChange": 23,
+      "taxRelief": 12
      }
     },
     "IE": {
@@ -426,6 +739,10 @@
      "households": 2328300,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 689779213,
+     "vatWindfall": 218516112,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.3234,
      "upstreamCrude": 469801220,
      "downstreamMargin": 480268830,
      "taxNet": -471263101,
@@ -434,10 +751,28 @@
       "margin": 0.2258,
       "taxes": -0.2029
      },
+     "totalShock": 1168586162,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-03-25",
+        "from": 452.72,
+        "to": 263.11
+       },
+       {
+        "date": "2026-04-14",
+        "from": 263.11,
+        "to": 181.81
+       }
+      ],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 20,
       "perHouseholdCost": 24,
-      "pctChange": 26
+      "pctChange": 26,
+      "taxRelief": 6
      }
     },
     "IT": {
@@ -453,6 +788,10 @@
      "households": 26443900,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 2325193320,
+     "vatWindfall": 1654274181,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0488,
      "upstreamCrude": 3683443091,
      "downstreamMargin": 3835985007,
      "taxNet": -670919138,
@@ -461,10 +800,58 @@
       "margin": 0.1333,
       "taxes": 0.0461
      },
+     "totalShock": 9173702279,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-03-19",
+        "from": 672.9,
+        "to": 472.9
+       },
+       {
+        "date": "2026-05-25",
+        "from": 472.9,
+        "to": 572.9
+       },
+       {
+        "date": "2026-06-07",
+        "from": 572.9,
+        "to": 622.9
+       },
+       {
+        "date": "2026-07-06",
+        "from": 622.9,
+        "to": 672.9
+       },
+       {
+        "date": "2026-08-03",
+        "from": 672.9,
+        "to": 532.9
+       },
+       {
+        "date": "2026-10-05",
+        "from": 532.9,
+        "to": 622.9
+       },
+       {
+        "date": "2026-10-26",
+        "from": 622.9,
+        "to": 572.9
+       },
+       {
+        "date": "2026-10-28",
+        "from": 572.9,
+        "to": 622.9
+       }
+      ],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 3,
       "perHouseholdCost": 19,
-      "pctChange": 21
+      "pctChange": 21,
+      "taxRelief": 3
      }
     },
     "LT": {
@@ -480,6 +867,10 @@
      "households": 1760200,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 22576774,
+     "vatWindfall": 99518036,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0,
      "upstreamCrude": 275946134,
      "downstreamMargin": 197949277,
      "taxNet": 76941262,
@@ -488,10 +879,28 @@
       "margin": 0.1524,
       "taxes": 0.0946
      },
+     "totalShock": 573413447,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-04-20",
+        "from": 466.0,
+        "to": 450.0
+       },
+       {
+        "date": "2026-06-22",
+        "from": 450.0,
+        "to": 500.0
+       }
+      ],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 19,
       "perHouseholdCost": 12,
-      "pctChange": 13
+      "pctChange": 13,
+      "taxRelief": 16
      }
     },
     "LU": {
@@ -507,6 +916,10 @@
      "households": 288200,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 23269085,
+     "vatWindfall": 59189462,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.05,
      "upstreamCrude": 180913202,
      "downstreamMargin": 167260105,
      "taxNet": 35920377,
@@ -515,10 +928,23 @@
       "margin": 0.2431,
       "taxes": 0.042
      },
+     "totalShock": 407362769,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-07-01",
+        "from": 464.6,
+        "to": 421.87
+       }
+      ],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 22,
       "perHouseholdCost": 1,
-      "pctChange": 5
+      "pctChange": 5,
+      "taxRelief": 15
      }
     },
     "LV": {
@@ -534,6 +960,10 @@
      "households": 888000,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 68134248,
+     "vatWindfall": 67104880,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.1658,
      "upstreamCrude": 155587009,
      "downstreamMargin": 163960038,
      "taxNet": -1029368,
@@ -542,10 +972,23 @@
       "margin": 0.2617,
       "taxes": -0.0482
      },
+     "totalShock": 386651927,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-10-01",
+        "from": 467.0,
+        "to": 330.0
+       }
+      ],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 24,
       "perHouseholdCost": 9,
-      "pctChange": 14
+      "pctChange": 14,
+      "taxRelief": 14
      }
     },
     "MT": {
@@ -561,6 +1004,10 @@
      "households": 242800,
      "administeredPrice": true,
      "administeredSince": "2020-06-15",
+     "taxRelief": 0,
+     "vatWindfall": 0,
+     "stateCostFixedPrice": 64588669,
+     "reliefPerLitreNow": 0.0,
      "upstreamCrude": 27023168,
      "downstreamMargin": -27023168,
      "taxNet": 0,
@@ -569,10 +1016,17 @@
       "margin": -0.2979,
       "taxes": 0.0
      },
+     "totalShock": 64588669,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 27,
       "perHouseholdCost": 27,
-      "pctChange": 27
+      "pctChange": 27,
+      "taxRelief": 24
      }
     },
     "NL": {
@@ -588,6 +1042,10 @@
      "households": 8658800,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 519,
+     "vatWindfall": 329183539,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0,
      "upstreamCrude": 851189221,
      "downstreamMargin": 716351440,
      "taxNet": 329183020,
@@ -596,10 +1054,17 @@
       "margin": 0.1269,
       "taxes": 0.0892
      },
+     "totalShock": 1896724200,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 8,
       "perHouseholdCost": 23,
-      "pctChange": 19
+      "pctChange": 19,
+      "taxRelief": 20
      }
     },
     "PL": {
@@ -615,6 +1080,10 @@
      "households": 15521300,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 2676411948,
+     "vatWindfall": 806557803,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.3521,
      "upstreamCrude": 2870824267,
      "downstreamMargin": 2752229556,
      "taxNet": -1383109569,
@@ -623,10 +1092,44 @@
       "margin": 0.2531,
       "taxes": -0.2254
      },
+     "totalShock": 6916356202,
+     "taxChanges": {
+      "vat": [
+       {
+        "date": "2026-03-01",
+        "from": 23.0,
+        "to": 8.0
+       },
+       {
+        "date": "2026-08-17",
+        "from": 8.0,
+        "to": 23.0
+       }
+      ],
+      "excise": [
+       {
+        "date": "2026-03-30",
+        "from": 1693.52,
+        "to": 1413.52
+       },
+       {
+        "date": "2026-06-16",
+        "from": 1413.52,
+        "to": 1693.52
+       },
+       {
+        "date": "2026-10-05",
+        "from": 1693.52,
+        "to": 1413.52
+       }
+      ],
+      "exciseCurrency": "PLN"
+     },
      "rank": {
       "totalExtraCost": 5,
       "perHouseholdCost": 17,
-      "pctChange": 25
+      "pctChange": 25,
+      "taxRelief": 2
      }
     },
     "PT": {
@@ -642,6 +1145,10 @@
      "households": 4562100,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 306554614,
+     "vatWindfall": 314424811,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.1352,
      "upstreamCrude": 688860335,
      "downstreamMargin": 678204060,
      "taxNet": 7870197,
@@ -650,10 +1157,173 @@
       "margin": 0.2524,
       "taxes": -0.0087
      },
+     "totalShock": 1681489206,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-03-16",
+        "from": 337.21,
+        "to": 311.63
+       },
+       {
+        "date": "2026-03-20",
+        "from": 311.63,
+        "to": 285.37
+       },
+       {
+        "date": "2026-04-06",
+        "from": 285.37,
+        "to": 278.17
+       },
+       {
+        "date": "2026-04-20",
+        "from": 278.17,
+        "to": 293.21
+       },
+       {
+        "date": "2026-04-27",
+        "from": 293.21,
+        "to": 301.59
+       },
+       {
+        "date": "2026-05-01",
+        "from": 301.59,
+        "to": 286.12
+       },
+       {
+        "date": "2026-05-11",
+        "from": 286.12,
+        "to": 300.82
+       },
+       {
+        "date": "2026-05-18",
+        "from": 300.82,
+        "to": 301.09
+       },
+       {
+        "date": "2026-05-25",
+        "from": 301.09,
+        "to": 298.04
+       },
+       {
+        "date": "2026-06-01",
+        "from": 298.04,
+        "to": 317.18
+       },
+       {
+        "date": "2026-06-08",
+        "from": 317.18,
+        "to": 310.15
+       },
+       {
+        "date": "2026-06-15",
+        "from": 310.15,
+        "to": 318.19
+       },
+       {
+        "date": "2026-06-22",
+        "from": 318.19,
+        "to": 336.74
+       },
+       {
+        "date": "2026-07-06",
+        "from": 336.74,
+        "to": 331.26
+       },
+       {
+        "date": "2026-07-13",
+        "from": 331.26,
+        "to": 319.25
+       },
+       {
+        "date": "2026-07-20",
+        "from": 319.25,
+        "to": 301.47
+       },
+       {
+        "date": "2026-07-27",
+        "from": 301.47,
+        "to": 286.35
+       },
+       {
+        "date": "2026-08-03",
+        "from": 286.35,
+        "to": 282.84
+       },
+       {
+        "date": "2026-08-10",
+        "from": 282.84,
+        "to": 302.44
+       },
+       {
+        "date": "2026-08-17",
+        "from": 302.44,
+        "to": 281.08
+       },
+       {
+        "date": "2026-08-21",
+        "from": 281.08,
+        "to": 279.99
+       },
+       {
+        "date": "2026-08-27",
+        "from": 279.99,
+        "to": 289.97
+       },
+       {
+        "date": "2026-09-07",
+        "from": 289.97,
+        "to": 265.11
+       },
+       {
+        "date": "2026-09-14",
+        "from": 265.11,
+        "to": 264.02
+       },
+       {
+        "date": "2026-09-21",
+        "from": 264.02,
+        "to": 252.78
+       },
+       {
+        "date": "2026-09-28",
+        "from": 252.78,
+        "to": 261.31
+       },
+       {
+        "date": "2026-10-05",
+        "from": 261.31,
+        "to": 264.4
+       },
+       {
+        "date": "2026-10-12",
+        "from": 264.4,
+        "to": 265.13
+       },
+       {
+        "date": "2026-10-19",
+        "from": 265.13,
+        "to": 259.49
+       },
+       {
+        "date": "2026-10-26",
+        "from": 259.49,
+        "to": 258.13
+       },
+       {
+        "date": "2026-11-02",
+        "from": 258.13,
+        "to": 251.66
+       }
+      ],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 11,
       "perHouseholdCost": 13,
-      "pctChange": 12
+      "pctChange": 12,
+      "taxRelief": 8
      }
     },
     "RO": {
@@ -669,6 +1339,10 @@
      "households": 7594400,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 482089291,
+     "vatWindfall": 349937726,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.1574,
      "upstreamCrude": 1063626967,
      "downstreamMargin": 602743156,
      "taxNet": -132151565,
@@ -677,10 +1351,43 @@
       "margin": 0.1628,
       "taxes": -0.0607
      },
+     "totalShock": 2016307848,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-07-27",
+        "from": 2804.29,
+        "to": 2504.29
+       },
+       {
+        "date": "2026-09-07",
+        "from": 2504.29,
+        "to": 2103.22
+       },
+       {
+        "date": "2026-09-21",
+        "from": 2103.22,
+        "to": 2243.43
+       },
+       {
+        "date": "2026-10-05",
+        "from": 2243.43,
+        "to": 2103.22
+       },
+       {
+        "date": "2026-11-02",
+        "from": 2103.22,
+        "to": 2243.43
+       }
+      ],
+      "exciseCurrency": "RON"
+     },
      "rank": {
       "totalExtraCost": 10,
       "perHouseholdCost": 25,
-      "pctChange": 24
+      "pctChange": 24,
+      "taxRelief": 7
      }
     },
     "SE": {
@@ -696,6 +1403,10 @@
      "households": 4837300,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 1082610861,
+     "vatWindfall": 460290144,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.3965,
      "upstreamCrude": 744600355,
      "downstreamMargin": 1096560221,
      "taxNet": -622320717,
@@ -704,10 +1415,33 @@
       "margin": 0.3572,
       "taxes": -0.2327
      },
+     "totalShock": 2301450720,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-05-01",
+        "from": 3960.0,
+        "to": 3642.0
+       },
+       {
+        "date": "2026-07-06",
+        "from": 3642.0,
+        "to": 1242.0
+       },
+       {
+        "date": "2026-10-01",
+        "from": 1242.0,
+        "to": 1561.0
+       }
+      ],
+      "exciseCurrency": "SEK"
+     },
      "rank": {
       "totalExtraCost": 12,
       "perHouseholdCost": 21,
-      "pctChange": 22
+      "pctChange": 22,
+      "taxRelief": 5
      }
     },
     "SI": {
@@ -723,6 +1457,10 @@
      "households": 868900,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 217112451,
+     "vatWindfall": 100638886,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.2418,
      "upstreamCrude": 221066237,
      "downstreamMargin": 236383247,
      "taxNet": -116473565,
@@ -731,10 +1469,28 @@
       "margin": 0.2513,
       "taxes": -0.121
      },
+     "totalShock": 558088370,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-03-16",
+        "from": 438.69,
+        "to": 362.77
+       },
+       {
+        "date": "2026-03-24",
+        "from": 362.77,
+        "to": 330.0
+       }
+      ],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 23,
       "perHouseholdCost": 6,
-      "pctChange": 18
+      "pctChange": 18,
+      "taxRelief": 10
      }
     },
     "SK": {
@@ -750,6 +1506,10 @@
      "households": 1726600,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 0,
+     "vatWindfall": 82927655,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0,
      "upstreamCrude": 321698598,
      "downstreamMargin": 38856423,
      "taxNet": 82927655,
@@ -758,10 +1518,17 @@
       "margin": 0.0655,
       "taxes": 0.0836
      },
+     "totalShock": 443482676,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 21,
       "perHouseholdCost": 20,
-      "pctChange": 15
+      "pctChange": 15,
+      "taxRelief": 25
      }
     }
    }
@@ -780,6 +1547,10 @@
     "households": 203172200,
     "administeredPrice": false,
     "administeredSince": null,
+    "taxRelief": 12728256670,
+    "vatWindfall": 12254838735,
+    "stateCostFixedPrice": 64588669,
+    "reliefPerLitreNow": 0.1266,
     "upstreamCrude": 32365091346,
     "downstreamMargin": 29530686235,
     "taxNet": 384695979,
@@ -787,7 +1558,9 @@
      "crude": 0.3058,
      "margin": 0.2128,
      "taxes": -0.0163
-    }
+    },
+    "totalShock": 75073318898,
+    "countriesWithoutPrices": []
    },
    "countries": {
     "AT": {
@@ -803,6 +1576,10 @@
      "households": 4210500,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 143582728,
+     "vatWindfall": 386502333,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0799,
      "upstreamCrude": 969543235,
      "downstreamMargin": 962968431,
      "taxNet": 242919605,
@@ -811,10 +1588,43 @@
       "margin": 0.2281,
       "taxes": 0.0269
      },
+     "totalShock": 2319013999,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-04-01",
+        "from": 397.0,
+        "to": 347.0
+       },
+       {
+        "date": "2026-05-01",
+        "from": 347.0,
+        "to": 377.0
+       },
+       {
+        "date": "2026-07-06",
+        "from": 377.0,
+        "to": 389.0
+       },
+       {
+        "date": "2026-08-03",
+        "from": 389.0,
+        "to": 378.0
+       },
+       {
+        "date": "2026-10-05",
+        "from": 378.0,
+        "to": 330.0
+       }
+      ],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 7,
       "perHouseholdCost": 2,
-      "pctChange": 9
+      "pctChange": 9,
+      "taxRelief": 13
      }
     },
     "BE": {
@@ -830,6 +1640,10 @@
      "households": 5243300,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 0,
+     "vatWindfall": 388851421,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0,
      "upstreamCrude": 932966744,
      "downstreamMargin": 918706691,
      "taxNet": 388851421,
@@ -838,10 +1652,17 @@
       "margin": 0.2654,
       "taxes": 0.1199
      },
+     "totalShock": 2240524855,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 6,
       "perHouseholdCost": 3,
-      "pctChange": 5
+      "pctChange": 5,
+      "taxRelief": 21
      }
     },
     "BG": {
@@ -857,6 +1678,10 @@
      "households": 2850000,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 765,
+     "vatWindfall": 160862231,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0,
      "upstreamCrude": 414218500,
      "downstreamMargin": 390092656,
      "taxNet": 160861466,
@@ -865,10 +1690,17 @@
       "margin": 0.2042,
       "taxes": 0.102
      },
+     "totalShock": 965173388,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 13,
       "perHouseholdCost": 10,
-      "pctChange": 1
+      "pctChange": 1,
+      "taxRelief": 19
      }
     },
     "CY": {
@@ -884,6 +1716,10 @@
      "households": 390100,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 22213188,
+     "vatWindfall": 22084211,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0833,
      "upstreamCrude": 60783871,
      "downstreamMargin": 55448817,
      "taxNet": -128977,
@@ -892,10 +1728,23 @@
       "margin": 0.2216,
       "taxes": 0.0169
      },
+     "totalShock": 138316899,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-10-26",
+        "from": 400.0,
+        "to": 330.0
+       }
+      ],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 26,
       "perHouseholdCost": 13,
-      "pctChange": 7
+      "pctChange": 7,
+      "taxRelief": 17
      }
     },
     "CZ": {
@@ -911,6 +1760,10 @@
      "households": 4579000,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 224725104,
+     "vatWindfall": 344438322,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0984,
      "upstreamCrude": 866376850,
      "downstreamMargin": 773805638,
      "taxNet": 119713218,
@@ -919,10 +1772,33 @@
       "margin": 0.2427,
       "taxes": 0.0168
      },
+     "totalShock": 1984620809,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-04-13",
+        "from": 9950.0,
+        "to": 8011.0
+       },
+       {
+        "date": "2026-07-27",
+        "from": 8011.0,
+        "to": 9950.0
+       },
+       {
+        "date": "2026-10-05",
+        "from": 9950.0,
+        "to": 8011.0
+       }
+      ],
+      "exciseCurrency": "CZK"
+     },
      "rank": {
       "totalExtraCost": 9,
       "perHouseholdCost": 8,
-      "pctChange": 4
+      "pctChange": 4,
+      "taxRelief": 9
      }
     },
     "DE": {
@@ -938,6 +1814,10 @@
      "households": 41662700,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 1006968972,
+     "vatWindfall": 1960579463,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.1396,
      "upstreamCrude": 5555040370,
      "downstreamMargin": 4763798906,
      "taxNet": 953610490,
@@ -946,10 +1826,33 @@
       "margin": 0.2276,
       "taxes": -0.0383
      },
+     "totalShock": 12279418739,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-05-01",
+        "from": 470.400000000001,
+        "to": 330.0
+       },
+       {
+        "date": "2026-07-01",
+        "from": 330.0,
+        "to": 470.400000000001
+       },
+       {
+        "date": "2026-10-01",
+        "from": 470.400000000001,
+        "to": 330.0
+       }
+      ],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 2,
       "perHouseholdCost": 19,
-      "pctChange": 20
+      "pctChange": 20,
+      "taxRelief": 4
      }
     },
     "DK": {
@@ -965,6 +1868,10 @@
      "households": 3146300,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": -4465400,
+     "vatWindfall": 183438851,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0004,
      "upstreamCrude": 375049492,
      "downstreamMargin": 358705912,
      "taxNet": 187904251,
@@ -973,10 +1880,17 @@
       "margin": 0.2586,
       "taxes": 0.1407
      },
+     "totalShock": 917194254,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "DKK"
+     },
      "rank": {
       "totalExtraCost": 15,
       "perHouseholdCost": 14,
-      "pctChange": 6
+      "pctChange": 6,
+      "taxRelief": 26
      }
     },
     "EE": {
@@ -992,6 +1906,10 @@
      "households": 742000,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": -10281537,
+     "vatWindfall": 53821818,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0231,
      "upstreamCrude": 128270099,
      "downstreamMargin": 95987475,
      "taxNet": 64103355,
@@ -1000,10 +1918,17 @@
       "margin": 0.1936,
       "taxes": 0.143
      },
+     "totalShock": 278079392,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 25,
       "perHouseholdCost": 7,
-      "pctChange": 2
+      "pctChange": 2,
+      "taxRelief": 27
      }
     },
     "ES": {
@@ -1019,6 +1944,10 @@
      "households": 19736500,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 3425704920,
+     "vatWindfall": 1227518471,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.242,
      "upstreamCrude": 3559143694,
      "downstreamMargin": 3967498934,
      "taxNet": -1845109969,
@@ -1027,10 +1956,49 @@
       "margin": 0.2414,
       "taxes": -0.1271
      },
+     "totalShock": 9107237578,
+     "taxChanges": {
+      "vat": [
+       {
+        "date": "2026-03-22",
+        "from": 21.0,
+        "to": 10.0
+       },
+       {
+        "date": "2026-07-06",
+        "from": 10.0,
+        "to": 21.0
+       }
+      ],
+      "excise": [
+       {
+        "date": "2026-03-23",
+        "from": 379.0,
+        "to": 330.0
+       },
+       {
+        "date": "2026-07-06",
+        "from": 330.0,
+        "to": 229.0
+       },
+       {
+        "date": "2026-08-03",
+        "from": 229.0,
+        "to": 279.0
+       },
+       {
+        "date": "2026-09-07",
+        "from": 279.0,
+        "to": 179.0
+       }
+      ],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 4,
       "perHouseholdCost": 15,
-      "pctChange": 19
+      "pctChange": 19,
+      "taxRelief": 1
      }
     },
     "FI": {
@@ -1046,6 +2014,10 @@
      "households": 2978800,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 0,
+     "vatWindfall": 169978774,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0,
      "upstreamCrude": 383993532,
      "downstreamMargin": 282589896,
      "taxNet": 169978774,
@@ -1054,10 +2026,17 @@
       "margin": 0.0915,
       "taxes": 0.1013
      },
+     "totalShock": 836562202,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 16,
       "perHouseholdCost": 18,
-      "pctChange": 22
+      "pctChange": 22,
+      "taxRelief": 22
      }
     },
     "FR": {
@@ -1073,6 +2052,10 @@
      "households": 32382000,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 0,
+     "vatWindfall": 2199226797,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0,
      "upstreamCrude": 5625183602,
      "downstreamMargin": 5370950385,
      "taxNet": 2199226797,
@@ -1081,10 +2064,17 @@
       "margin": 0.2319,
       "taxes": 0.1075
      },
+     "totalShock": 13195360784,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 1,
       "perHouseholdCost": 5,
-      "pctChange": 8
+      "pctChange": 8,
+      "taxRelief": 23
      }
     },
     "GR": {
@@ -1100,6 +2090,10 @@
      "households": 4055400,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 10797654,
+     "vatWindfall": 183434235,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0,
      "upstreamCrude": 476849939,
      "downstreamMargin": 287459374,
      "taxNet": 172636581,
@@ -1108,10 +2102,17 @@
       "margin": 0.1193,
       "taxes": 0.102
      },
+     "totalShock": 947743548,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 14,
       "perHouseholdCost": 23,
-      "pctChange": 11
+      "pctChange": 11,
+      "taxRelief": 18
      }
     },
     "HR": {
@@ -1127,6 +2128,10 @@
      "households": 1466500,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 178246350,
+     "vatWindfall": 150692806,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.1952,
      "upstreamCrude": 349290937,
      "downstreamMargin": 253480286,
      "taxNet": -27553545,
@@ -1135,10 +2140,48 @@
       "margin": 0.218,
       "taxes": -0.0642
      },
+     "totalShock": 753464028,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-03-30",
+        "from": 406.13,
+        "to": 330.0
+       },
+       {
+        "date": "2026-06-22",
+        "from": 330.0,
+        "to": 340.0
+       },
+       {
+        "date": "2026-09-07",
+        "from": 340.0,
+        "to": 350.0
+       },
+       {
+        "date": "2026-09-14",
+        "from": 350.0,
+        "to": 260.0
+       },
+       {
+        "date": "2026-09-22",
+        "from": 260.0,
+        "to": 230.0
+       },
+       {
+        "date": "2026-10-26",
+        "from": 230.0,
+        "to": 250.0
+       }
+      ],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 18,
       "perHouseholdCost": 6,
-      "pctChange": 15
+      "pctChange": 15,
+      "taxRelief": 11
      }
     },
     "HU": {
@@ -1154,6 +2197,10 @@
      "households": 4008300,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 147501827,
+     "vatWindfall": 190501213,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0515,
      "upstreamCrude": 637899788,
      "downstreamMargin": 67660259,
      "taxNet": 42999386,
@@ -1162,10 +2209,43 @@
       "margin": 0.0435,
       "taxes": 0.0429
      },
+     "totalShock": 896061260,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-03-23",
+        "from": 148760.0,
+        "to": 130117.56
+       },
+       {
+        "date": "2026-03-30",
+        "from": 130117.56,
+        "to": 130040.27
+       },
+       {
+        "date": "2026-04-06",
+        "from": 130040.27,
+        "to": 130630.55
+       },
+       {
+        "date": "2026-04-13",
+        "from": 130630.55,
+        "to": 129539.68
+       },
+       {
+        "date": "2026-06-22",
+        "from": 129539.68,
+        "to": 128280.0
+       }
+      ],
+      "exciseCurrency": "HUF"
+     },
      "rank": {
       "totalExtraCost": 17,
       "perHouseholdCost": 26,
-      "pctChange": 23
+      "pctChange": 23,
+      "taxRelief": 12
      }
     },
     "IE": {
@@ -1181,6 +2261,10 @@
      "households": 2328300,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 689779213,
+     "vatWindfall": 220345080,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.3234,
      "upstreamCrude": 489066364,
      "downstreamMargin": 468955722,
      "taxNet": -469434133,
@@ -1189,10 +2273,28 @@
       "margin": 0.2213,
       "taxes": -0.2022
      },
+     "totalShock": 1178367166,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-03-25",
+        "from": 452.72,
+        "to": 263.11
+       },
+       {
+        "date": "2026-04-14",
+        "from": 263.11,
+        "to": 181.81
+       }
+      ],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 20,
       "perHouseholdCost": 25,
-      "pctChange": 26
+      "pctChange": 26,
+      "taxRelief": 6
      }
     },
     "IT": {
@@ -1208,6 +2310,10 @@
      "households": 26443900,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 2325193320,
+     "vatWindfall": 1687379697,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0488,
      "upstreamCrude": 3835373791,
      "downstreamMargin": 3834533924,
      "taxNet": -637813623,
@@ -1216,10 +2322,58 @@
       "margin": 0.1336,
       "taxes": 0.0479
      },
+     "totalShock": 9357287413,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-03-19",
+        "from": 672.9,
+        "to": 472.9
+       },
+       {
+        "date": "2026-05-25",
+        "from": 472.9,
+        "to": 572.9
+       },
+       {
+        "date": "2026-06-07",
+        "from": 572.9,
+        "to": 622.9
+       },
+       {
+        "date": "2026-07-06",
+        "from": 622.9,
+        "to": 672.9
+       },
+       {
+        "date": "2026-08-03",
+        "from": 672.9,
+        "to": 532.9
+       },
+       {
+        "date": "2026-10-05",
+        "from": 532.9,
+        "to": 622.9
+       },
+       {
+        "date": "2026-10-26",
+        "from": 622.9,
+        "to": 572.9
+       },
+       {
+        "date": "2026-10-28",
+        "from": 572.9,
+        "to": 622.9
+       }
+      ],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 3,
       "perHouseholdCost": 20,
-      "pctChange": 21
+      "pctChange": 21,
+      "taxRelief": 3
      }
     },
     "LT": {
@@ -1235,6 +2389,10 @@
      "households": 1760200,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 22576774,
+     "vatWindfall": 101892398,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0,
      "upstreamCrude": 287440388,
      "downstreamMargin": 197761506,
      "taxNet": 79315624,
@@ -1243,10 +2401,28 @@
       "margin": 0.1526,
       "taxes": 0.0963
      },
+     "totalShock": 587094292,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-04-20",
+        "from": 466.0,
+        "to": 450.0
+       },
+       {
+        "date": "2026-06-22",
+        "from": 450.0,
+        "to": 500.0
+       }
+      ],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 19,
       "perHouseholdCost": 11,
-      "pctChange": 12
+      "pctChange": 12,
+      "taxRelief": 16
      }
     },
     "LU": {
@@ -1262,6 +2438,10 @@
      "households": 288200,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 23269085,
+     "vatWindfall": 63771097,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.05,
      "upstreamCrude": 188421820,
      "downstreamMargin": 186702278,
      "taxNet": 40502012,
@@ -1270,10 +2450,23 @@
       "margin": 0.2647,
       "taxes": 0.047
      },
+     "totalShock": 438895194,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-07-01",
+        "from": 464.6,
+        "to": 421.87
+       }
+      ],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 22,
       "perHouseholdCost": 1,
-      "pctChange": 3
+      "pctChange": 3,
+      "taxRelief": 15
      }
     },
     "LV": {
@@ -1289,6 +2482,10 @@
      "households": 888000,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 68134248,
+     "vatWindfall": 68332620,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.1658,
      "upstreamCrude": 162073159,
      "downstreamMargin": 163320268,
      "taxNet": 198371,
@@ -1297,10 +2494,23 @@
       "margin": 0.2613,
       "taxes": -0.0467
      },
+     "totalShock": 393726046,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-10-01",
+        "from": 467.0,
+        "to": 330.0
+       }
+      ],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 24,
       "perHouseholdCost": 9,
-      "pctChange": 13
+      "pctChange": 13,
+      "taxRelief": 14
      }
     },
     "MT": {
@@ -1316,6 +2526,10 @@
      "households": 242800,
      "administeredPrice": true,
      "administeredSince": "2020-06-15",
+     "taxRelief": 0,
+     "vatWindfall": 0,
+     "stateCostFixedPrice": 64588669,
+     "reliefPerLitreNow": 0.0,
      "upstreamCrude": 28153008,
      "downstreamMargin": -28153008,
      "taxNet": 0,
@@ -1324,10 +2538,17 @@
       "margin": -0.3058,
       "taxes": 0.0
      },
+     "totalShock": 64588669,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 27,
       "perHouseholdCost": 27,
-      "pctChange": 27
+      "pctChange": 27,
+      "taxRelief": 24
      }
     },
     "NL": {
@@ -1343,6 +2564,10 @@
      "households": 8658800,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 519,
+     "vatWindfall": 360097129,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.0,
      "upstreamCrude": 885875852,
      "downstreamMargin": 828872381,
      "taxNet": 360096610,
@@ -1351,10 +2576,17 @@
       "margin": 0.1538,
       "taxes": 0.0965
      },
+     "totalShock": 2074845363,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 8,
       "perHouseholdCost": 22,
-      "pctChange": 17
+      "pctChange": 17,
+      "taxRelief": 20
      }
     },
     "PL": {
@@ -1370,6 +2602,10 @@
      "households": 15521300,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 2681819769,
+     "vatWindfall": 830616686,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.3525,
      "upstreamCrude": 2988526860,
      "downstreamMargin": 2818664979,
      "taxNet": -1346165646,
@@ -1378,10 +2614,44 @@
       "margin": 0.2581,
       "taxes": -0.2228
      },
+     "totalShock": 7142845962,
+     "taxChanges": {
+      "vat": [
+       {
+        "date": "2026-03-01",
+        "from": 23.0,
+        "to": 8.0
+       },
+       {
+        "date": "2026-08-17",
+        "from": 8.0,
+        "to": 23.0
+       }
+      ],
+      "excise": [
+       {
+        "date": "2026-03-30",
+        "from": 1693.52,
+        "to": 1413.52
+       },
+       {
+        "date": "2026-06-16",
+        "from": 1413.52,
+        "to": 1693.52
+       },
+       {
+        "date": "2026-10-05",
+        "from": 1693.52,
+        "to": 1413.52
+       }
+      ],
+      "exciseCurrency": "PLN"
+     },
      "rank": {
       "totalExtraCost": 5,
       "perHouseholdCost": 16,
-      "pctChange": 25
+      "pctChange": 25,
+      "taxRelief": 2
      }
     },
     "PT": {
@@ -1397,6 +2667,10 @@
      "households": 4562100,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 306554614,
+     "vatWindfall": 322577755,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.1352,
      "upstreamCrude": 717364666,
      "downstreamMargin": 685147312,
      "taxNet": 16023141,
@@ -1405,10 +2679,173 @@
       "margin": 0.2547,
       "taxes": -0.0063
      },
+     "totalShock": 1725089733,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-03-16",
+        "from": 337.21,
+        "to": 311.63
+       },
+       {
+        "date": "2026-03-20",
+        "from": 311.63,
+        "to": 285.37
+       },
+       {
+        "date": "2026-04-06",
+        "from": 285.37,
+        "to": 278.17
+       },
+       {
+        "date": "2026-04-20",
+        "from": 278.17,
+        "to": 293.21
+       },
+       {
+        "date": "2026-04-27",
+        "from": 293.21,
+        "to": 301.59
+       },
+       {
+        "date": "2026-05-01",
+        "from": 301.59,
+        "to": 286.12
+       },
+       {
+        "date": "2026-05-11",
+        "from": 286.12,
+        "to": 300.82
+       },
+       {
+        "date": "2026-05-18",
+        "from": 300.82,
+        "to": 301.09
+       },
+       {
+        "date": "2026-05-25",
+        "from": 301.09,
+        "to": 298.04
+       },
+       {
+        "date": "2026-06-01",
+        "from": 298.04,
+        "to": 317.18
+       },
+       {
+        "date": "2026-06-08",
+        "from": 317.18,
+        "to": 310.15
+       },
+       {
+        "date": "2026-06-15",
+        "from": 310.15,
+        "to": 318.19
+       },
+       {
+        "date": "2026-06-22",
+        "from": 318.19,
+        "to": 336.74
+       },
+       {
+        "date": "2026-07-06",
+        "from": 336.74,
+        "to": 331.26
+       },
+       {
+        "date": "2026-07-13",
+        "from": 331.26,
+        "to": 319.25
+       },
+       {
+        "date": "2026-07-20",
+        "from": 319.25,
+        "to": 301.47
+       },
+       {
+        "date": "2026-07-27",
+        "from": 301.47,
+        "to": 286.35
+       },
+       {
+        "date": "2026-08-03",
+        "from": 286.35,
+        "to": 282.84
+       },
+       {
+        "date": "2026-08-10",
+        "from": 282.84,
+        "to": 302.44
+       },
+       {
+        "date": "2026-08-17",
+        "from": 302.44,
+        "to": 281.08
+       },
+       {
+        "date": "2026-08-21",
+        "from": 281.08,
+        "to": 279.99
+       },
+       {
+        "date": "2026-08-27",
+        "from": 279.99,
+        "to": 289.97
+       },
+       {
+        "date": "2026-09-07",
+        "from": 289.97,
+        "to": 265.11
+       },
+       {
+        "date": "2026-09-14",
+        "from": 265.11,
+        "to": 264.02
+       },
+       {
+        "date": "2026-09-21",
+        "from": 264.02,
+        "to": 252.78
+       },
+       {
+        "date": "2026-09-28",
+        "from": 252.78,
+        "to": 261.31
+       },
+       {
+        "date": "2026-10-05",
+        "from": 261.31,
+        "to": 264.4
+       },
+       {
+        "date": "2026-10-12",
+        "from": 264.4,
+        "to": 265.13
+       },
+       {
+        "date": "2026-10-19",
+        "from": 265.13,
+        "to": 259.49
+       },
+       {
+        "date": "2026-10-26",
+        "from": 259.49,
+        "to": 258.13
+       },
+       {
+        "date": "2026-11-02",
+        "from": 258.13,
+        "to": 251.66
+       }
+      ],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 11,
       "perHouseholdCost": 12,
-      "pctChange": 10
+      "pctChange": 10,
+      "taxRelief": 8
      }
     },
     "RO": {
@@ -1424,6 +2861,10 @@
      "households": 7594400,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 483379894,
+     "vatWindfall": 361977728,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.1577,
      "upstreamCrude": 1107920447,
      "downstreamMargin": 615783022,
      "taxNet": -121402166,
@@ -1432,10 +2873,43 @@
       "margin": 0.1656,
       "taxes": -0.0587
      },
+     "totalShock": 2085681197,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-07-27",
+        "from": 2804.29,
+        "to": 2504.29
+       },
+       {
+        "date": "2026-09-07",
+        "from": 2504.29,
+        "to": 2103.22
+       },
+       {
+        "date": "2026-09-21",
+        "from": 2103.22,
+        "to": 2243.43
+       },
+       {
+        "date": "2026-10-05",
+        "from": 2243.43,
+        "to": 2103.22
+       },
+       {
+        "date": "2026-11-02",
+        "from": 2103.22,
+        "to": 2243.43
+       }
+      ],
+      "exciseCurrency": "RON"
+     },
      "rank": {
       "totalExtraCost": 10,
       "perHouseholdCost": 24,
-      "pctChange": 24
+      "pctChange": 24,
+      "taxRelief": 7
      }
     },
     "SE": {
@@ -1451,6 +2925,10 @@
      "households": 4837300,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 765442212,
+     "vatWindfall": 426634790,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.315,
      "upstreamCrude": 775136869,
      "downstreamMargin": 931402291,
      "taxNet": -338807422,
@@ -1459,10 +2937,33 @@
       "margin": 0.3132,
       "taxes": -0.1602
      },
+     "totalShock": 2133173950,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-05-01",
+        "from": 3960.0,
+        "to": 3642.0
+       },
+       {
+        "date": "2026-07-06",
+        "from": 3642.0,
+        "to": 1242.0
+       },
+       {
+        "date": "2026-10-01",
+        "from": 1242.0,
+        "to": 1561.0
+       }
+      ],
+      "exciseCurrency": "SEK"
+     },
      "rank": {
       "totalExtraCost": 12,
       "perHouseholdCost": 17,
-      "pctChange": 18
+      "pctChange": 18,
+      "taxRelief": 5
      }
     },
     "SI": {
@@ -1478,6 +2979,10 @@
      "households": 868900,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 217112451,
+     "vatWindfall": 104745223,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": 0.2418,
      "upstreamCrude": 230209447,
      "downstreamMargin": 245905202,
      "taxNet": -112367228,
@@ -1486,10 +2991,28 @@
       "margin": 0.2602,
       "taxes": -0.1173
      },
+     "totalShock": 580859872,
+     "taxChanges": {
+      "vat": [],
+      "excise": [
+       {
+        "date": "2026-03-16",
+        "from": 438.69,
+        "to": 362.77
+       },
+       {
+        "date": "2026-03-24",
+        "from": 362.77,
+        "to": 330.0
+       }
+      ],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 23,
       "perHouseholdCost": 4,
-      "pctChange": 16
+      "pctChange": 16,
+      "taxRelief": 10
      }
     },
     "SK": {
@@ -1505,6 +3028,10 @@
      "households": 1726600,
      "administeredPrice": false,
      "administeredSince": null,
+     "taxRelief": 0,
+     "vatWindfall": 84537586,
+     "stateCostFixedPrice": 0,
+     "reliefPerLitreNow": -0.0,
      "upstreamCrude": 334918022,
      "downstreamMargin": 32636698,
      "taxNet": 84537586,
@@ -1513,10 +3040,17 @@
       "margin": 0.062,
       "taxes": 0.0846
      },
+     "totalShock": 452092306,
+     "taxChanges": {
+      "vat": [],
+      "excise": [],
+      "exciseCurrency": "EUR"
+     },
      "rank": {
       "totalExtraCost": 21,
       "perHouseholdCost": 21,
-      "pctChange": 14
+      "pctChange": 14,
+      "taxRelief": 25
      }
     }
    }

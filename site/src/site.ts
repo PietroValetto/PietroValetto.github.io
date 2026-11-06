@@ -16,6 +16,14 @@ export const SITE = {
     x: "", // TODO
     bluesky: "", // TODO
   },
+  // Social profiles: shown on the home page (own line) and on the Media page.
+  socials: [
+    { name: "Instagram", handle: "@pietrovaletto.eu", url: "https://www.instagram.com/pietrovaletto.eu/", icon: "instagram" },
+    { name: "TikTok", handle: "@pietro.eu", url: "https://www.tiktok.com/@pietro.eu", icon: "tiktok" },
+    { name: "LinkedIn", handle: "Pietro Valetto", url: "https://www.linkedin.com/in/pietro-valetto/", icon: "linkedin" },
+    { name: "YouTube", handle: "@pietroval", url: "https://www.youtube.com/@pietroval", icon: "youtube" },
+    { name: "Threads", handle: "@pietrovaletto", url: "https://www.threads.net/@pietrovaletto", icon: "threads" },
+  ],
   pe: {
     substack: "https://populareconomics.substack.com",
     embed: "https://populareconomics.substack.com/embed",

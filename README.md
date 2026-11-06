@@ -14,7 +14,8 @@ Live at https://pietrovaletto.github.io/ (GitHub Pages, free).
 |---|---|
 | Change the home-page bio | `site/src/content/home.md` |
 | Add a paper or project | a new `.md` in `site/src/content/research/` (copy an existing one; `kind` picks the section) |
-| Add press, a talk or an op-ed | a new `.md` in `site/src/content/media/` |
+| Add press, a talk, an op-ed or a podcast | a new `.md` in `site/src/content/media/` (`section`: writing / featured / appearances; `lang`: en, it, de…; `blurb`: one line). Then run `python3 scripts/fetch_thumbs.py` to download its thumbnail |
+| Change social links | `socials` in `site/src/site.ts` |
 | Add profile links (ORCID, X, YouTube…) | `site/src/site.ts`; empty links are hidden |
 | Update the CV | edit `cv/cv.html`, run `cv/build.sh`, commit `site/public/cv.pdf` |
 

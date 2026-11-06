@@ -21,10 +21,14 @@ const media = defineCollection({
   schema: z.object({
     title: z.string(),
     outlet: z.string(),
-    when: z.string().optional(), // free text, e.g. "Sep 2026"
-    order: z.number().default(0), // higher shows first
-    type: z.enum(["op-ed", "interview", "talk", "press", "report", "podcast"]),
+    section: z.enum(["writing", "featured", "appearances"]),
+    // writing: pieces by Pietro · featured: coverage of him as a creator · appearances: podcasts and videos
+    type: z.enum(["op-ed", "policy brief", "research column", "article", "interview", "feature", "list", "podcast", "video", "talk", "report"]),
+    lang: z.string().default("en"), // ISO code: en, it, fr, de, es, nl
+    date: z.string().optional(), // "YYYY-MM-DD" or "YYYY-MM" or "YYYY"; sorts newest first
     url: z.string().optional(),
+    thumb: z.string().optional(), // path under public/, e.g. /media/thumbs/x.jpg (filled by scripts/fetch-thumbs.mjs)
+    blurb: z.string().optional(), // one-line description shown next to the thumbnail
   }),
 });
 

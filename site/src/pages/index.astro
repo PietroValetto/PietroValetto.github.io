@@ -1,12 +1,13 @@
 ---
 import Base from "../layouts/Base.astro";
 import { SITE } from "../site";
+import Socials from "../components/Socials.astro";
 import { Content as Bio } from "../content/home.md";
 
 const l = SITE.links;
 const links = [
   ["CV (PDF)", "/cv.pdf"], ["Email", `mailto:${SITE.email}`], ["Google Scholar", l.scholar], ["ORCID", l.orcid],
-  ["University page", l.uantwerp], ["GitHub", l.github], ["LinkedIn", l.linkedin], ["X", l.x], ["Bluesky", l.bluesky],
+  ["University page", l.uantwerp], ["GitHub", l.github],
 ].filter(([, u]) => u);
 ---
 <Base>
@@ -19,6 +20,7 @@ const links = [
   </div>
   <div class="bio"><Bio /></div>
   <ul class="links">{links.map(([label, url]) => <li><a href={url}>{label}</a></li>)}</ul>
+  <div class="follow"><span class="follow-label">Follow along</span><Socials /></div>
 
   <h2>Projects</h2>
   <div class="card project">
@@ -38,6 +40,8 @@ const links = [
 </Base>
 
 <style>
+  .follow { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin-top: 18px; }
+  .follow-label { color: var(--slate); font-size: 14.5px; }
   .intro { display: flex; align-items: center; gap: 28px; margin-bottom: 28px; }
   .intro .subtitle { margin: 0; }
   .portrait { width: 152px; height: 152px; border-radius: 50%; object-fit: cover; flex: none; background: var(--green); }

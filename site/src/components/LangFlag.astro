@@ -1,0 +1,46 @@
+---
+// Small language flag. Windows doesn't render emoji flags, so these are inline SVGs.
+interface Props { lang: string }
+const { lang } = Astro.props;
+const NAMES: Record<string, string> = { en: "English", it: "Italian", fr: "French", de: "German", es: "Spanish", nl: "Dutch", pt: "Portuguese" };
+const label = NAMES[lang] ?? lang.toUpperCase();
+// Vertical/horizontal tricolours: [orientation, colours]
+const TRI: Record<string, [string, string[]]> = {
+  it: ["v", ["#009246", "#FFFFFF", "#CE2B37"]],
+  fr: ["v", ["#0055A4", "#FFFFFF", "#EF4135"]],
+  de: ["h", ["#000000", "#DD0000", "#FFCE00"]],
+  nl: ["h", ["#AE1C28", "#FFFFFF", "#21468B"]],
+};
+const tri = TRI[lang];
+---
+<span class="flag" title={label} aria-label={`In ${label}`} role="img">
+  {lang === "en" ? (
+    <svg viewBox="0 0 60 30" aria-hidden="true">
+      <clipPath id="ukc"><path d="M0,0 v30 h60 v-30 z" /></clipPath>
+      <clipPath id="ukt"><path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z" /></clipPath>
+      <g clip-path="url(#ukc)">
+        <path d="M0,0 v30 h60 v-30 z" fill="#012169" />
+        <path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6" />
+        <path d="M0,0 L60,30 M60,0 L0,30" clip-path="url(#ukt)" stroke="#C8102E" stroke-width="4" />
+        <path d="M30,0 v30 M0,15 h60" stroke="#fff" stroke-width="10" />
+        <path d="M30,0 v30 M0,15 h60" stroke="#C8102E" stroke-width="6" />
+      </g>
+    </svg>
+  ) : lang === "es" ? (
+    <svg viewBox="0 0 3 2" aria-hidden="true"><rect width="3" height="2" fill="#AA151B" /><rect y="0.5" width="3" height="1" fill="#F1BF00" /></svg>
+  ) : tri ? (
+    <svg viewBox="0 0 3 2" aria-hidden="true" preserveAspectRatio="none">
+      {tri[1].map((c, i) => tri[0] === "v"
+        ? <rect x={i} width="1" height="2" fill={c} />
+        : <rect y={i * (2 / 3)} width="3" height={2 / 3} fill={c} />)}
+    </svg>
+  ) : (
+    <span class="flag-code">{lang.toUpperCase()}</span>
+  )}
+</span>
+
+<style>
+  .flag { display: inline-flex; vertical-align: -2px; margin-right: 8px; }
+  .flag svg { width: 21px; height: 14px; border-radius: 2px; box-shadow: 0 0 0 1px rgba(27, 23, 18, 0.15); display: block; }
+  .flag-code { font-size: 11px; font-weight: 600; border: 1px solid var(--rule); border-radius: 3px; padding: 0 4px; color: var(--slate); }
+</style>

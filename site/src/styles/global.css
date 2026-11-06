@@ -6,16 +6,6 @@
   --serif: "Source Serif 4", Georgia, serif; --sans: Inter, system-ui, -apple-system, sans-serif;
   color-scheme: light;
 }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #15120E; --card: #1E1A15; --ink: #F5EFE3; --slate: #B5AE9F; --mute: #7D776C;
-    --rule: #332D25; --link: #5CC795; --green: #2FA36F; --on-green: #0E0C09; color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #15120E; --card: #1E1A15; --ink: #F5EFE3; --slate: #B5AE9F; --mute: #7D776C;
-  --rule: #332D25; --link: #5CC795; --green: #2FA36F; --on-green: #0E0C09; color-scheme: dark;
-}
 
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }

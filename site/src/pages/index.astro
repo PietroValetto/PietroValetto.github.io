@@ -10,8 +10,13 @@ const links = [
 ].filter(([, u]) => u);
 ---
 <Base>
-  <h1>{SITE.name}</h1>
-  <p class="subtitle">{SITE.role}<br />{SITE.affiliation}</p>
+  <div class="intro">
+    <img class="portrait" src="/photo.jpg" alt="Portrait of Pietro Valetto" width="320" height="320" />
+    <div>
+      <h1>{SITE.name}</h1>
+      <p class="subtitle">{SITE.role}<br />{SITE.affiliation}</p>
+    </div>
+  </div>
   <div class="bio"><Bio /></div>
   <ul class="links">{links.map(([label, url]) => <li><a href={url}>{label}</a></li>)}</ul>
 
@@ -33,6 +38,10 @@ const links = [
 </Base>
 
 <style>
+  .intro { display: flex; align-items: center; gap: 28px; margin-bottom: 28px; }
+  .intro .subtitle { margin: 0; }
+  .portrait { width: 152px; height: 152px; border-radius: 50%; object-fit: cover; flex: none; background: var(--green); }
+  @media (max-width: 560px) { .intro { flex-direction: column; align-items: flex-start; gap: 18px; } .portrait { width: 128px; height: 128px; } }
   .bio :global(p) { margin-bottom: 14px; }
   .project { display: flex; gap: 16px 24px; align-items: center; justify-content: space-between; margin-bottom: 12px; }
   .project h3 a { color: var(--ink); text-decoration: none; }

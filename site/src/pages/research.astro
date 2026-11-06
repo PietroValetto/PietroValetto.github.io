@@ -21,7 +21,7 @@ const sections = await Promise.all(groups.map(async (g) => ({
 ---
 <Base title="Research" description="Publications, working papers, policy reports and data projects by Pietro Valetto.">
   <h1>Research</h1>
-  <p class="lede">AI and labour markets, inequality, wealth and the welfare state. Full list in the <a href="/cv.pdf">CV</a>.</p>
+  <p class="lede">Wealth inequality, poverty and the welfare state in the EU and US, housing wealth, and AI in the EU labour market. Full list in the <a href="/cv.pdf">CV</a>.</p>
   {sections.filter((s) => s.items.length).map((s) => (
     <section>
       <h2>{s.label}</h2>

@@ -5,7 +5,7 @@ export const SITE = {
   role: "PhD Researcher in Social Policy",
   affiliation: "Centre for Social Policy Herman Deleeck, University of Antwerp",
   description:
-    "Pietro Valetto is a PhD researcher at the University of Antwerp working on AI, labour markets and the financing of European welfare states. He also writes Popular Economics.",
+    "Pietro Valetto is a PhD researcher at the University of Antwerp studying wealth inequality, poverty and welfare eligibility in the EU and US, and the impact of AI on the EU labour market. He also writes Popular Economics.",
   email: "pietro.valetto@uantwerpen.be",
   links: {
     scholar: "https://scholar.google.com/citations?user=08xMyNsAAAAJ",

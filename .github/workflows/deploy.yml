@@ -1,0 +1,64 @@
+name: Build and deploy
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Oil Bulletin is usually published Thursday/Friday; Monday catches late releases.
+    # Each run also refreshes the Substack "Latest issues" list.
+    - cron: "0 8 * * 1,4,5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        if: github.event_name != 'push'
+        with:
+          python-version: "3.12"
+      - name: Rebuild tracker data from the Weekly Oil Bulletin and Eurostat
+        if: github.event_name != 'push'
+        working-directory: tracker
+        run: |
+          pip install -r pipeline/requirements.txt
+          python pipeline/build.py
+      - name: Commit refreshed data
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tracker/public/data
+          git diff --cached --quiet || git commit -m "Data: Oil Bulletin $(python -c 'import json;print(json.load(open("tracker/public/data/meta.json"))["latestBulletin"])')"
+          git push
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Build site and tracker
+        run: ./build.sh
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

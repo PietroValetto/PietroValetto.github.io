@@ -1,0 +1,23 @@
+---
+import Base from "../layouts/Base.astro";
+import { getCollection, render } from "astro:content";
+
+const items = await Promise.all(
+  (await getCollection("media")).sort((a, b) => b.data.order - a.data.order)
+    .map(async (e) => ({ ...e.data, Content: (await render(e)).Content, hasBody: !!e.body?.trim() })),
+);
+const TYPE = { "op-ed": "Op-ed", interview: "Interview", talk: "Talk", press: "Press", report: "Report", podcast: "Podcast" };
+---
+<Base title="Media" description="Op-eds, interviews and talks by Pietro Valetto.">
+  <h1>Media</h1>
+  <p class="lede">Op-eds, interviews and talks.</p>
+  <ul class="items">
+    {items.map(({ title, url, outlet, when, type, Content, hasBody }) => (
+      <li>
+        <h3>{url ? <a href={url}>{title}</a> : title}</h3>
+        <p class="meta">{[TYPE[type], outlet, when].filter(Boolean).join(" · ")}</p>
+        {hasBody && <div class="blurb"><Content /></div>}
+      </li>
+    ))}
+  </ul>
+</Base>

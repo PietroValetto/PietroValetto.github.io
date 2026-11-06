@@ -1,0 +1,43 @@
+---
+import Base from "../layouts/Base.astro";
+import { SITE } from "../site";
+import { Content as Bio } from "../content/home.md";
+
+const l = SITE.links;
+const links = [
+  ["CV (PDF)", "/cv.pdf"], ["Email", `mailto:${SITE.email}`], ["Google Scholar", l.scholar], ["ORCID", l.orcid],
+  ["University page", l.uantwerp], ["GitHub", l.github], ["LinkedIn", l.linkedin], ["X", l.x], ["Bluesky", l.bluesky],
+].filter(([, u]) => u);
+---
+<Base>
+  <h1>{SITE.name}</h1>
+  <p class="subtitle">{SITE.role}<br />{SITE.affiliation}</p>
+  <div class="bio"><Bio /></div>
+  <ul class="links">{links.map(([label, url]) => <li><a href={url}>{label}</a></li>)}</ul>
+
+  <h2>Projects</h2>
+  <div class="card project">
+    <div>
+      <h3><a href="/tracker/">EU Iran-War Fuel Cost Tracker</a></h3>
+      <p class="blurb">How much more Europeans have paid for petrol and diesel since the war began, for every member state. Updated weekly.</p>
+    </div>
+    <a class="btn btn-ghost" href="/tracker/">Open tracker</a>
+  </div>
+  <div class="card project">
+    <div>
+      <h3><a href="/popular-economics/">Popular Economics</a></h3>
+      <p class="blurb">A newsletter and video series on the economic forces behind everyday life.</p>
+    </div>
+    <a class="btn btn-ghost" href={SITE.pe.substack}>Read on Substack</a>
+  </div>
+</Base>
+
+<style>
+  .bio :global(p) { margin-bottom: 14px; }
+  .project { display: flex; gap: 16px 24px; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+  .project h3 a { color: var(--ink); text-decoration: none; }
+  .project h3 a:hover { color: var(--link); text-decoration: underline; }
+  .project .blurb { margin-top: 4px; color: var(--slate); }
+  .project .btn { white-space: nowrap; }
+  @media (max-width: 560px) { .project { flex-direction: column; align-items: flex-start; } }
+</style>

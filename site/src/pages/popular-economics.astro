@@ -1,0 +1,48 @@
+---
+import Base from "../layouts/Base.astro";
+import LiveCounter from "../components/LiveCounter.astro";
+import { SITE } from "../site";
+import { latestPosts } from "../lib/substack";
+
+const posts = await latestPosts(6);
+const pe = SITE.pe;
+const channels = [["Substack", pe.substack], ["YouTube", pe.youtube], ["Podcast", pe.podcast], ["Instagram", pe.instagram]].filter(([, u]) => u);
+const fmt = (d: Date) => d.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
+---
+<Base title="Popular Economics" description="Popular Economics: a newsletter and video series by Pietro Valetto on the economic forces behind everyday life.">
+  <h1>Popular Economics</h1>
+  <p class="lede">A newsletter and video series on the economic forces behind everyday life.</p>
+
+  <LiveCounter />
+
+  <h2>What it is</h2>
+  <p>Popular Economics takes the research economists publish and the data governments release, and turns it into stories anyone can follow: who pays when fuel prices jump, who got rich from the AI stock boom, why housing feels out of reach. Every piece is built on primary sources, with charts you can check.</p>
+  <p>The goal: break down the hidden economic forces shaping your wallet, so you can make informed decisions and push for an economy that works for everyday people. It's free.</p>
+  <ul class="links">{channels.map(([label, url]) => <li><a href={url}>{label}</a></li>)}</ul>
+
+  <h2 id="subscribe">Subscribe</h2>
+  <p class="lede">New issues straight to your inbox. Free.</p>
+  <iframe class="signup" src={pe.embed} title="Subscribe to Popular Economics on Substack" loading="lazy" scrolling="no"></iframe>
+  <p class="fineprint">Sign-up is handled by Substack: your email goes to the Popular Economics subscriber list, and Substack sends the confirmation.</p>
+
+  {posts.length > 0 && (
+    <section>
+      <h2>Latest issues</h2>
+      <ul class="items">
+        {posts.map((p) => (
+          <li>
+            <h3><a href={p.url}>{p.title}</a></h3>
+            <p class="meta">{fmt(p.date)}</p>
+            {p.subtitle && <p class="blurb">{p.subtitle}</p>}
+          </li>
+        ))}
+      </ul>
+      <p style="margin-top:16px"><a href={`${pe.substack}/archive`}>All issues →</a></p>
+    </section>
+  )}
+</Base>
+
+<style>
+  .signup { width: 100%; height: 320px; border: 1px solid var(--rule); border-radius: 10px; background: #fff; display: block; }
+  .fineprint { color: var(--slate); font-size: 13.5px; margin-top: 8px; }
+</style>

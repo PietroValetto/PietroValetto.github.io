@@ -1,0 +1,41 @@
+---
+import { trackerSnapshot } from "../lib/tracker";
+
+const t = trackerSnapshot();
+const eur = new Intl.NumberFormat("en-IE", { style: "currency", currency: "EUR", maximumFractionDigits: 0 });
+const date = new Date(t.bulletinDate + "T12:00:00Z").toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+---
+<section class="card tracker-card" aria-labelledby="tracker-h">
+  <p class="kicker" id="tracker-h">Live · EU Iran-War Fuel Cost Tracker</p>
+  <p class="tc-label">Extra cost to EU consumers at the pump since the war began</p>
+  <p class="tc-number" data-live-counter data-measured={t.measured} data-rate={t.dailyRate}
+     data-since={t.measuredThrough} data-households={t.households}>{eur.format(t.measured)}</p>
+  <p class="tc-hh"><strong data-live-hh>{eur.format(t.measured / t.households)}</strong> per EU household, petrol and diesel</p>
+  <p class="tc-note">Measured to the {date} Oil Bulletin, then estimated in real time at the latest weekly rate.</p>
+  <a class="btn" href="/tracker/">See the full analysis →</a>
+</section>
+
+<script>
+  const eur = new Intl.NumberFormat("en-IE", { style: "currency", currency: "EUR", maximumFractionDigits: 0 });
+  for (const el of document.querySelectorAll<HTMLElement>("[data-live-counter]")) {
+    const measured = Number(el.dataset.measured), rate = Number(el.dataset.rate);
+    const since = new Date(el.dataset.since!).getTime(), hh = Number(el.dataset.households);
+    const hhEl = el.parentElement!.querySelector<HTMLElement>("[data-live-hh]");
+    const tick = () => {
+      const v = measured + Math.max(0, (Date.now() - since) / 86_400_000) * rate;
+      el.textContent = eur.format(v);
+      if (hhEl) hhEl.textContent = eur.format(v / hh);
+    };
+    tick();
+    const slow = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    setInterval(tick, slow ? 1000 : 100);
+  }
+</script>
+
+<style>
+  .tracker-card { border-top: 4px solid var(--amber); }
+  .tc-label { color: var(--slate); margin: 0 0 4px; font-size: 15.5px; }
+  .tc-number { font: 700 clamp(34px, 8.5vw, 52px)/1.1 var(--serif); font-variant-numeric: tabular-nums; margin: 0 0 8px; letter-spacing: -0.02em; }
+  .tc-hh { margin: 0 0 4px; }
+  .tc-note { color: var(--slate); font-size: 14px; margin: 0 0 18px; }
+</style>

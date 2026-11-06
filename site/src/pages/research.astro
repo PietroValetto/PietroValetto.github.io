@@ -1,0 +1,39 @@
+---
+import Base from "../layouts/Base.astro";
+import { getCollection, render } from "astro:content";
+
+const groups = [
+  { kind: "publication", label: "Publications" },
+  { kind: "working-paper", label: "Working papers" },
+  { kind: "in-progress", label: "Work in progress" },
+  { kind: "policy", label: "Policy reports" },
+  { kind: "data", label: "Data projects" },
+] as const;
+const all = await getCollection("research");
+const sections = await Promise.all(groups.map(async (g) => ({
+  ...g,
+  items: await Promise.all(
+    all.filter((e) => e.data.kind === g.kind)
+      .sort((a, b) => (b.data.year ?? 9999) - (a.data.year ?? 9999) || b.data.order - a.data.order)
+      .map(async (e) => ({ ...e.data, Content: (await render(e)).Content })),
+  ),
+})));
+---
+<Base title="Research" description="Publications, working papers, policy reports and data projects by Pietro Valetto.">
+  <h1>Research</h1>
+  <p class="lede">AI and labour markets, inequality, wealth and the welfare state. Full list in the <a href="/cv.pdf">CV</a>.</p>
+  {sections.filter((s) => s.items.length).map((s) => (
+    <section>
+      <h2>{s.label}</h2>
+      <ul class="items">
+        {s.items.map(({ title, url, authors, venue, year, Content }) => (
+          <li>
+            <h3>{url ? <a href={url}>{title}</a> : title}</h3>
+            {(authors || venue || year) && <p class="meta">{[authors, venue, year].filter(Boolean).join(" · ")}</p>}
+            <div class="blurb"><Content /></div>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</Base>

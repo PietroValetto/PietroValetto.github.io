@@ -48,6 +48,11 @@ jobs:
           node-version: 24
       - name: Build site and tracker
         run: ./build.sh
+      - name: Save refreshed Substack list
+        if: github.event_name != 'push'
+        run: |
+          git add site/src/data/substack-posts.json
+          git diff --cached --quiet || { git commit -m "Update saved Substack posts" && git push; }
 
       - uses: actions/upload-pages-artifact@v3
         with:

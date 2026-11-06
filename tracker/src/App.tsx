@@ -4,6 +4,7 @@ import { CountryPanel } from "./CountryPanel";
 import { AllData, Fuel, Scenario, loadAll } from "./data";
 import { FuelBreakdown } from "./FuelBreakdown";
 import { Headline } from "./Headline";
+import { MoneyFlow, PeopleRow } from "./MoneyFlow";
 import { Methodology } from "./Methodology";
 import { longDate } from "./format";
 import { UsComparison } from "./UsComparison";
@@ -103,7 +104,9 @@ export default function App() {
       {tab === "fuel" && (
         <>
           <Headline data={data} scenario={scenario} fuel={fuel} onAssumptions={() => setShowAssumptions(true)} onFuel={(f) => { setFuel(f); document.getElementById("breakdown")?.scrollIntoView({ behavior: "smooth" }); }} />
+          <PeopleRow data={data} />
           <FuelBreakdown data={data} fuel={fuel} scenario={scenario} />
+          <MoneyFlow data={data} fuel={fuel} scenario={scenario} />
           <TaxSplit data={data} scenario={scenario} onSelect={openCountry} />
           <CountryMap data={data} fuel={fuel} scenario={scenario} onSelect={openCountry} />
         </>

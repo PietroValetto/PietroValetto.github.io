@@ -29,6 +29,14 @@
     "vatWindfall": 3384251990,
     "stateCostFixedPrice": 22500550,
     "reliefPerLitreNow": 0.1119,
+    "upstreamCrude": 11967415467,
+    "downstreamMargin": 4934624327,
+    "taxNet": -866231671,
+    "perLitreNow": {
+     "crude": 0.2657,
+     "margin": 0.0275,
+     "taxes": -0.0488
+    },
     "totalShock": 20478859799,
     "countriesWithoutPrices": []
    },
@@ -50,6 +58,14 @@
      "vatWindfall": 65377044,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.08,
+     "upstreamCrude": 253759844,
+     "downstreamMargin": 73125373,
+     "taxNet": 21406359,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": -0.0361,
+      "taxes": -0.034
+     },
      "totalShock": 392262261,
      "taxChanges": {
       "vat": [],
@@ -106,6 +122,14 @@
      "vatWindfall": 121063238,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0,
+     "upstreamCrude": 385725764,
+     "downstreamMargin": 190765847,
+     "taxNet": 121063238,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0384,
+      "taxes": 0.0639
+     },
      "totalShock": 697554849,
      "taxChanges": {
       "vat": [],
@@ -136,6 +160,14 @@
      "vatWindfall": 22922397,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": -0.0,
+     "upstreamCrude": 90069843,
+     "downstreamMargin": 24542140,
+     "taxNet": 22922457,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0206,
+      "taxes": 0.0573
+     },
      "totalShock": 137534379,
      "taxChanges": {
       "vat": [],
@@ -166,6 +198,14 @@
      "vatWindfall": 14084175,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0833,
+     "upstreamCrude": 51502468,
+     "downstreamMargin": 22624769,
+     "taxNet": -8143445,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.107,
+      "taxes": -0.0125
+     },
      "totalShock": 88211412,
      "taxChanges": {
       "vat": [],
@@ -202,6 +242,14 @@
      "vatWindfall": 84058991,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0034,
+     "upstreamCrude": 268527433,
+     "downstreamMargin": 131753478,
+     "taxNet": 81334670,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.029,
+      "taxes": 0.0585
+     },
      "totalShock": 484339902,
      "taxChanges": {
       "vat": [],
@@ -232,6 +280,14 @@
      "vatWindfall": 910862396,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.1671,
+     "upstreamCrude": 3051895096,
+     "downstreamMargin": 1742117516,
+     "taxNet": -250199835,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0901,
+      "taxes": -0.0995
+     },
      "totalShock": 5704875007,
      "taxChanges": {
       "vat": [],
@@ -278,6 +334,14 @@
      "vatWindfall": 93700460,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0004,
+     "upstreamCrude": 199247113,
+     "downstreamMargin": 175554727,
+     "taxNet": 90834353,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.1368,
+      "taxes": 0.1003
+     },
      "totalShock": 468502300,
      "taxChanges": {
       "vat": [],
@@ -308,6 +372,14 @@
      "vatWindfall": 9759749,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": -0.0213,
+     "upstreamCrude": 32595697,
+     "downstreamMargin": 8069926,
+     "taxNet": 13210840,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0149,
+      "taxes": 0.0887
+     },
      "totalShock": 50425373,
      "taxChanges": {
       "vat": [],
@@ -344,6 +416,14 @@
      "vatWindfall": 252543049,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.242,
+     "upstreamCrude": 970362836,
+     "downstreamMargin": 524433188,
+     "taxNet": -801350946,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.1073,
+      "taxes": -0.1637
+     },
      "totalShock": 1808703189,
      "taxChanges": {
       "vat": [
@@ -411,6 +491,14 @@
      "vatWindfall": 100735893,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0,
+     "upstreamCrude": 202823888,
+     "downstreamMargin": 192218829,
+     "taxNet": 100735893,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0915,
+      "taxes": 0.0911
+     },
      "totalShock": 495778609,
      "taxChanges": {
       "vat": [],
@@ -441,6 +529,14 @@
      "vatWindfall": 478187560,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0,
+     "upstreamCrude": 1670427309,
+     "downstreamMargin": 720510492,
+     "taxNet": 478187560,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0671,
+      "taxes": 0.0666
+     },
      "totalShock": 2869125361,
      "taxChanges": {
       "vat": [],
@@ -471,6 +567,14 @@
      "vatWindfall": 101775328,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0,
+     "upstreamCrude": 335921671,
+     "downstreamMargin": 88142198,
+     "taxNet": 100041973,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0087,
+      "taxes": 0.0659
+     },
      "totalShock": 525839197,
      "taxChanges": {
       "vat": [],
@@ -501,6 +605,14 @@
      "vatWindfall": 27792502,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.1063,
+     "upstreamCrude": 84421563,
+     "downstreamMargin": 26748447,
+     "taxNet": -27951000,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0051,
+      "taxes": -0.0385
+     },
      "totalShock": 138962512,
      "taxChanges": {
       "vat": [],
@@ -567,6 +679,14 @@
      "vatWindfall": 53455630,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0446,
+     "upstreamCrude": 239672875,
+     "downstreamMargin": -41689061,
+     "taxNet": -3804632,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": -0.0433,
+      "taxes": 0.0155
+     },
      "totalShock": 251439445,
      "taxChanges": {
       "vat": [],
@@ -628,6 +748,14 @@
      "vatWindfall": 38691142,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.2734,
+     "upstreamCrude": 117549391,
+     "downstreamMargin": 50672964,
+     "taxNet": -125812994,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.1037,
+      "taxes": -0.1884
+     },
      "totalShock": 206913497,
      "taxChanges": {
       "vat": [],
@@ -669,6 +797,14 @@
      "vatWindfall": 409874036,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0,
+     "upstreamCrude": 1422817713,
+     "downstreamMargin": 440246086,
+     "taxNet": -45296778,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": -0.0196,
+      "taxes": 0.0542
+     },
      "totalShock": 2272937834,
      "taxChanges": {
       "vat": [],
@@ -715,6 +851,14 @@
      "vatWindfall": 14256323,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0,
+     "upstreamCrude": 49192814,
+     "downstreamMargin": 18694439,
+     "taxNet": 14256323,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0397,
+      "taxes": 0.0641
+     },
      "totalShock": 82143576,
      "taxChanges": {
       "vat": [],
@@ -745,6 +889,14 @@
      "vatWindfall": 13581296,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.05,
+     "upstreamCrude": 60132587,
+     "downstreamMargin": 19757392,
+     "taxNet": 4479315,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": -0.002,
+      "taxes": -0.0052
+     },
      "totalShock": 93471275,
      "taxChanges": {
       "vat": [],
@@ -781,6 +933,14 @@
      "vatWindfall": 7310671,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0786,
+     "upstreamCrude": 25717435,
+     "downstreamMargin": 9095282,
+     "taxNet": 5860495,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0413,
+      "taxes": -0.0142
+     },
      "totalShock": 42123387,
      "taxChanges": {
       "vat": [],
@@ -817,6 +977,14 @@
      "vatWindfall": 0,
      "stateCostFixedPrice": 22500550,
      "reliefPerLitreNow": 0.0,
+     "upstreamCrude": 13537897,
+     "downstreamMargin": -13537897,
+     "taxNet": 0,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": -0.2657,
+      "taxes": 0.0
+     },
      "totalShock": 22500550,
      "taxChanges": {
       "vat": [],
@@ -847,6 +1015,14 @@
      "vatWindfall": 137195462,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0,
+     "upstreamCrude": 647659915,
+     "downstreamMargin": 5651808,
+     "taxNet": 137195298,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": -0.1285,
+      "taxes": 0.0288
+     },
      "totalShock": 790507185,
      "taxChanges": {
       "vat": [],
@@ -877,6 +1053,14 @@
      "vatWindfall": 178332759,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.3071,
+     "upstreamCrude": 870168946,
+     "downstreamMargin": 377814148,
+     "taxNet": -581112646,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0104,
+      "taxes": -0.2436
+     },
      "totalShock": 1535019205,
      "taxChanges": {
       "vat": [
@@ -934,6 +1118,14 @@
      "vatWindfall": 59493996,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0795,
+     "upstreamCrude": 183920873,
+     "downstreamMargin": 74748676,
+     "taxNet": -7142346,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0199,
+      "taxes": -0.0138
+     },
      "totalShock": 318163545,
      "taxChanges": {
       "vat": [],
@@ -1105,6 +1297,14 @@
      "vatWindfall": 46753832,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0331,
+     "upstreamCrude": 230682183,
+     "downstreamMargin": -8044890,
+     "taxNet": 21779770,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0011,
+      "taxes": 0.0229
+     },
      "totalShock": 269391125,
      "taxChanges": {
       "vat": [],
@@ -1135,6 +1335,14 @@
      "vatWindfall": 97459389,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.2316,
+     "upstreamCrude": 335822985,
+     "downstreamMargin": 54014571,
+     "taxNet": -220301341,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": -0.024,
+      "taxes": -0.1712
+     },
      "totalShock": 487296945,
      "taxChanges": {
       "vat": [],
@@ -1181,6 +1389,14 @@
      "vatWindfall": 21594446,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.1944,
+     "upstreamCrude": 68096624,
+     "downstreamMargin": 30059947,
+     "taxNet": -31814478,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": 0.0721,
+      "taxes": -0.12
+     },
      "totalShock": 119751017,
      "taxChanges": {
       "vat": [],
@@ -1227,6 +1443,14 @@
      "vatWindfall": 23390226,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0,
+     "upstreamCrude": 105162704,
+     "downstreamMargin": -3466068,
+     "taxNet": 23390226,
+     "perLitreNow": {
+      "crude": 0.2657,
+      "margin": -0.0482,
+      "taxes": 0.05
+     },
      "totalShock": 125086862,
      "taxChanges": {
       "vat": [],
@@ -1260,6 +1484,14 @@
     "vatWindfall": 3463131065,
     "stateCostFixedPrice": 22500550,
     "reliefPerLitreNow": 0.1134,
+    "upstreamCrude": 12465497809,
+    "downstreamMargin": 4865660752,
+    "taxNet": -870119429,
+    "perLitreNow": {
+     "crude": 0.2727,
+     "margin": 0.0293,
+     "taxes": -0.0485
+    },
     "totalShock": 20997229149,
     "countriesWithoutPrices": []
    },
@@ -1281,6 +1513,14 @@
      "vatWindfall": 70880029,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.08,
+     "upstreamCrude": 264407083,
+     "downstreamMargin": 89993062,
+     "taxNet": 26910865,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": -0.025,
+      "taxes": -0.0304
+     },
      "totalShock": 425280175,
      "taxChanges": {
       "vat": [],
@@ -1337,6 +1577,14 @@
      "vatWindfall": 120956993,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0,
+     "upstreamCrude": 401453828,
+     "downstreamMargin": 174531854,
+     "taxNet": 120956993,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0312,
+      "taxes": 0.0638
+     },
      "totalShock": 696942675,
      "taxChanges": {
       "vat": [],
@@ -1367,6 +1615,14 @@
      "vatWindfall": 22829773,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": -0.0,
+     "upstreamCrude": 93838228,
+     "downstreamMargin": 20310637,
+     "taxNet": 22829833,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0127,
+      "taxes": 0.0571
+     },
      "totalShock": 136978638,
      "taxChanges": {
       "vat": [],
@@ -1397,6 +1653,14 @@
      "vatWindfall": 14073465,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0833,
+     "upstreamCrude": 53639887,
+     "downstreamMargin": 20430984,
+     "taxNet": -8154155,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0999,
+      "taxes": -0.0125
+     },
      "totalShock": 88144336,
      "taxChanges": {
       "vat": [],
@@ -1433,6 +1697,14 @@
      "vatWindfall": 84633178,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0026,
+     "upstreamCrude": 279658981,
+     "downstreamMargin": 123356150,
+     "taxNet": 83084013,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0237,
+      "taxes": 0.0596
+     },
      "totalShock": 487648309,
      "taxChanges": {
       "vat": [],
@@ -1463,6 +1735,14 @@
      "vatWindfall": 955826565,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.1671,
+     "upstreamCrude": 3178179014,
+     "downstreamMargin": 1852487120,
+     "taxNet": -205179306,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0962,
+      "taxes": -0.097
+     },
      "totalShock": 5986492699,
      "taxChanges": {
       "vat": [],
@@ -1509,6 +1789,14 @@
      "vatWindfall": 98663951,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0005,
+     "upstreamCrude": 207464821,
+     "downstreamMargin": 187190984,
+     "taxNet": 95687828,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.1466,
+      "taxes": 0.1044
+     },
      "totalShock": 493319756,
      "taxChanges": {
       "vat": [],
@@ -1539,6 +1827,14 @@
      "vatWindfall": 9944547,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": -0.0213,
+     "upstreamCrude": 33974793,
+     "downstreamMargin": 7460819,
+     "taxNet": 13381108,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0118,
+      "taxes": 0.0896
+     },
      "totalShock": 51380159,
      "taxChanges": {
       "vat": [],
@@ -1575,6 +1871,14 @@
      "vatWindfall": 260441236,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.242,
+     "upstreamCrude": 1010993544,
+     "downstreamMargin": 531877824,
+     "taxNet": -791255125,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.1085,
+      "taxes": -0.1619
+     },
      "totalShock": 1866874356,
      "taxChanges": {
       "vat": [
@@ -1642,6 +1946,14 @@
      "vatWindfall": 73960798,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0,
+     "upstreamCrude": 211414973,
+     "downstreamMargin": 78627372,
+     "taxNet": 73960798,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": -0.0007,
+      "taxes": 0.0694
+     },
      "totalShock": 364003142,
      "taxChanges": {
       "vat": [],
@@ -1672,6 +1984,14 @@
      "vatWindfall": 446999658,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0,
+     "upstreamCrude": 1740252667,
+     "downstreamMargin": 494745623,
+     "taxNet": 446999658,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0445,
+      "taxes": 0.0635
+     },
      "totalShock": 2681997947,
      "taxChanges": {
       "vat": [],
@@ -1702,6 +2022,14 @@
      "vatWindfall": 104489852,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0,
+     "upstreamCrude": 350178716,
+     "downstreamMargin": 85195667,
+     "taxNet": 102756496,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0073,
+      "taxes": 0.0672
+     },
      "totalShock": 539864234,
      "taxChanges": {
       "vat": [],
@@ -1732,6 +2060,14 @@
      "vatWindfall": 28844082,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.1063,
+     "upstreamCrude": 88075515,
+     "downstreamMargin": 27300812,
+     "taxNet": -26899421,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0061,
+      "taxes": -0.0365
+     },
      "totalShock": 144220408,
      "taxChanges": {
       "vat": [],
@@ -1798,6 +2134,14 @@
      "vatWindfall": 50918672,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0459,
+     "upstreamCrude": 249584272,
+     "downstreamMargin": -60996599,
+     "taxNet": -8148050,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": -0.0569,
+      "taxes": 0.0124
+     },
      "totalShock": 239506346,
      "taxChanges": {
       "vat": [],
@@ -1859,6 +2203,14 @@
      "vatWindfall": 38845292,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.2734,
+     "upstreamCrude": 122395529,
+     "downstreamMargin": 46497045,
+     "taxNet": -125658844,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0977,
+      "taxes": -0.1882
+     },
      "totalShock": 207737866,
      "taxChanges": {
       "vat": [],
@@ -1900,6 +2252,14 @@
      "vatWindfall": 421589705,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0,
+     "upstreamCrude": 1482220394,
+     "downstreamMargin": 434096448,
+     "taxNet": -33581108,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": -0.0203,
+      "taxes": 0.0555
+     },
      "totalShock": 2337906547,
      "taxChanges": {
       "vat": [],
@@ -1946,6 +2306,14 @@
      "vatWindfall": 14880389,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0,
+     "upstreamCrude": 51255365,
+     "downstreamMargin": 19603633,
+     "taxNet": 14880389,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0427,
+      "taxes": 0.0663
+     },
      "totalShock": 85739387,
      "taxChanges": {
       "vat": [],
@@ -1976,6 +2344,14 @@
      "vatWindfall": 13910241,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.05,
+     "upstreamCrude": 62627526,
+     "downstreamMargin": 19197423,
+     "taxNet": 4808260,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": -0.0036,
+      "taxes": -0.0042
+     },
      "totalShock": 95735190,
      "taxChanges": {
       "vat": [],
@@ -2012,6 +2388,14 @@
      "vatWindfall": 7521621,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0787,
+     "upstreamCrude": 26805968,
+     "downstreamMargin": 9011274,
+     "taxNet": 6071445,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0407,
+      "taxes": -0.0128
+     },
      "totalShock": 43338862,
      "taxChanges": {
       "vat": [],
@@ -2048,6 +2432,14 @@
      "vatWindfall": 0,
      "stateCostFixedPrice": 22500550,
      "reliefPerLitreNow": 0.0,
+     "upstreamCrude": 14108045,
+     "downstreamMargin": -14108045,
+     "taxNet": 0,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": -0.2727,
+      "taxes": 0.0
+     },
      "totalShock": 22500550,
      "taxChanges": {
       "vat": [],
@@ -2078,6 +2470,14 @@
      "vatWindfall": 153086769,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0,
+     "upstreamCrude": 674143765,
+     "downstreamMargin": 54840849,
+     "taxNet": 153086605,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": -0.1156,
+      "taxes": 0.033
+     },
      "totalShock": 882071383,
      "taxChanges": {
       "vat": [],
@@ -2108,6 +2508,14 @@
      "vatWindfall": 188499954,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.3074,
+     "upstreamCrude": 906241214,
+     "downstreamMargin": 421485643,
+     "taxNet": -564767636,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0188,
+      "taxes": -0.2404
+     },
      "totalShock": 1633104034,
      "taxChanges": {
       "vat": [
@@ -2165,6 +2573,14 @@
      "vatWindfall": 61400413,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0795,
+     "upstreamCrude": 191622094,
+     "downstreamMargin": 75336224,
+     "taxNet": -5235929,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0204,
+      "taxes": -0.012
+     },
      "totalShock": 328358732,
      "taxChanges": {
       "vat": [],
@@ -2336,6 +2752,14 @@
      "vatWindfall": 49943218,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0334,
+     "upstreamCrude": 240441552,
+     "downstreamMargin": -2616703,
+     "taxNet": 24621304,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0049,
+      "taxes": 0.0249
+     },
      "totalShock": 287768067,
      "taxChanges": {
       "vat": [],
@@ -2366,6 +2790,14 @@
      "vatWindfall": 124174346,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.276,
+     "upstreamCrude": 350030487,
+     "downstreamMargin": 146666896,
+     "taxNet": -283682844,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.0214,
+      "taxes": -0.2025
+     },
      "totalShock": 620871729,
      "taxChanges": {
       "vat": [],
@@ -2412,6 +2844,14 @@
      "vatWindfall": 22395154,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.1944,
+     "upstreamCrude": 70951753,
+     "downstreamMargin": 30844401,
+     "taxNet": -31013770,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": 0.074,
+      "taxes": -0.1181
+     },
      "totalShock": 124191308,
      "taxChanges": {
       "vat": [],
@@ -2458,6 +2898,14 @@
      "vatWindfall": 23421164,
      "stateCostFixedPrice": 0,
      "reliefPerLitreNow": 0.0,
+     "upstreamCrude": 109537795,
+     "downstreamMargin": -7706645,
+     "taxNet": 23421164,
+     "perLitreNow": {
+      "crude": 0.2727,
+      "margin": -0.055,
+      "taxes": 0.0501
+     },
      "totalShock": 125252314,
      "taxChanges": {
       "vat": [],
@@ -2473,5 +2921,223 @@
     }
    }
   }
- }
+ },
+ "flowSeries": [
+  {
+   "date": "2026-03-02",
+   "crude": 0.0035,
+   "margin": -0.0007,
+   "taxes": 0.0017
+  },
+  {
+   "date": "2026-03-09",
+   "crude": 0.0941,
+   "margin": -0.0208,
+   "taxes": 0.0154
+  },
+  {
+   "date": "2026-03-16",
+   "crude": 0.1424,
+   "margin": -0.0029,
+   "taxes": 0.0278
+  },
+  {
+   "date": "2026-03-23",
+   "crude": 0.2185,
+   "margin": -0.0009,
+   "taxes": 0.0002
+  },
+  {
+   "date": "2026-03-30",
+   "crude": 0.2335,
+   "margin": -0.0087,
+   "taxes": -0.0346
+  },
+  {
+   "date": "2026-04-06",
+   "crude": 0.2846,
+   "margin": -0.0381,
+   "taxes": -0.0522
+  },
+  {
+   "date": "2026-04-13",
+   "crude": 0.2762,
+   "margin": -0.0506,
+   "taxes": -0.0553
+  },
+  {
+   "date": "2026-04-20",
+   "crude": 0.1985,
+   "margin": 0.011,
+   "taxes": -0.0587
+  },
+  {
+   "date": "2026-04-27",
+   "crude": 0.2075,
+   "margin": 0.0135,
+   "taxes": -0.0568
+  },
+  {
+   "date": "2026-05-04",
+   "crude": 0.2575,
+   "margin": -0.0118,
+   "taxes": -0.0627
+  },
+  {
+   "date": "2026-05-11",
+   "crude": 0.1768,
+   "margin": 0.0782,
+   "taxes": -0.0605
+  },
+  {
+   "date": "2026-05-18",
+   "crude": 0.2145,
+   "margin": 0.0428,
+   "taxes": -0.0606
+  },
+  {
+   "date": "2026-05-25",
+   "crude": 0.2,
+   "margin": 0.0692,
+   "taxes": -0.0579
+  },
+  {
+   "date": "2026-06-01",
+   "crude": 0.1372,
+   "margin": 0.0789,
+   "taxes": -0.0675
+  },
+  {
+   "date": "2026-06-08",
+   "crude": 0.1458,
+   "margin": 0.0429,
+   "taxes": -0.0729
+  },
+  {
+   "date": "2026-06-15",
+   "crude": 0.1082,
+   "margin": 0.0631,
+   "taxes": -0.0761
+  },
+  {
+   "date": "2026-06-22",
+   "crude": 0.0487,
+   "margin": 0.0725,
+   "taxes": -0.078
+  },
+  {
+   "date": "2026-06-29",
+   "crude": 0.0177,
+   "margin": 0.0998,
+   "taxes": -0.0801
+  },
+  {
+   "date": "2026-07-06",
+   "crude": -0.0012,
+   "margin": 0.1164,
+   "taxes": -0.0159
+  },
+  {
+   "date": "2026-07-13",
+   "crude": 0.0324,
+   "margin": 0.1137,
+   "taxes": -0.0086
+  },
+  {
+   "date": "2026-07-20",
+   "crude": 0.076,
+   "margin": 0.1232,
+   "taxes": 0.0022
+  },
+  {
+   "date": "2026-07-27",
+   "crude": 0.1467,
+   "margin": 0.0792,
+   "taxes": 0.0074
+  },
+  {
+   "date": "2026-08-03",
+   "crude": 0.1124,
+   "margin": 0.1284,
+   "taxes": 0.013
+  },
+  {
+   "date": "2026-08-10",
+   "crude": 0.0959,
+   "margin": 0.1107,
+   "taxes": 0.0097
+  },
+  {
+   "date": "2026-08-17",
+   "crude": 0.1153,
+   "margin": 0.1244,
+   "taxes": -0.0045
+  },
+  {
+   "date": "2026-08-24",
+   "crude": 0.121,
+   "margin": 0.1322,
+   "taxes": -0.002
+  },
+  {
+   "date": "2026-08-31",
+   "crude": 0.0932,
+   "margin": 0.1737,
+   "taxes": 0.0006
+  },
+  {
+   "date": "2026-09-07",
+   "crude": 0.1535,
+   "margin": 0.174,
+   "taxes": 0.0408
+  },
+  {
+   "date": "2026-09-14",
+   "crude": 0.2318,
+   "margin": 0.1165,
+   "taxes": 0.0445
+  },
+  {
+   "date": "2026-09-21",
+   "crude": 0.2789,
+   "margin": 0.0962,
+   "taxes": 0.0502
+  },
+  {
+   "date": "2026-09-28",
+   "crude": 0.2565,
+   "margin": 0.1292,
+   "taxes": 0.052
+  },
+  {
+   "date": "2026-10-05",
+   "crude": 0.2808,
+   "margin": 0.0797,
+   "taxes": -0.0303
+  },
+  {
+   "date": "2026-10-12",
+   "crude": 0.3242,
+   "margin": 0.0369,
+   "taxes": -0.0365
+  },
+  {
+   "date": "2026-10-19",
+   "crude": 0.2969,
+   "margin": 0.0514,
+   "taxes": -0.0385
+  },
+  {
+   "date": "2026-10-26",
+   "crude": 0.2947,
+   "margin": 0.022,
+   "taxes": -0.0443
+  },
+  {
+   "date": "2026-11-02",
+   "crude": 0.2657,
+   "margin": 0.0275,
+   "taxes": -0.0488
+  }
+ ]
 }

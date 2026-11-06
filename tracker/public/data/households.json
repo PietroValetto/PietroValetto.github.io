@@ -1,0 +1,201 @@
+{
+ "source": "Eurostat lfst_hhnhtych (private households), demo_pjan (population)",
+ "areas": {
+  "AT": {
+   "households": 4210500,
+   "householdsYear": 2025,
+   "population": 9197213,
+   "populationYear": 2025,
+   "name": "Austria"
+  },
+  "BE": {
+   "households": 5243300,
+   "householdsYear": 2025,
+   "population": 11883495,
+   "populationYear": 2025,
+   "name": "Belgium"
+  },
+  "BG": {
+   "households": 2850000,
+   "householdsYear": 2025,
+   "population": 6437360,
+   "populationYear": 2025,
+   "name": "Bulgaria"
+  },
+  "CY": {
+   "households": 390100,
+   "householdsYear": 2025,
+   "population": 982966,
+   "populationYear": 2025,
+   "name": "Cyprus"
+  },
+  "CZ": {
+   "households": 4579000,
+   "householdsYear": 2025,
+   "population": 10909500,
+   "populationYear": 2025,
+   "name": "Czechia"
+  },
+  "DE": {
+   "households": 41662700,
+   "householdsYear": 2025,
+   "population": 83577140,
+   "populationYear": 2025,
+   "name": "Germany"
+  },
+  "DK": {
+   "households": 3146300,
+   "householdsYear": 2025,
+   "population": 5992734,
+   "populationYear": 2025,
+   "name": "Denmark"
+  },
+  "EE": {
+   "households": 742000,
+   "householdsYear": 2025,
+   "population": 1369995,
+   "populationYear": 2025,
+   "name": "Estonia"
+  },
+  "ES": {
+   "households": 19736500,
+   "householdsYear": 2025,
+   "population": 49128297,
+   "populationYear": 2025,
+   "name": "Spain"
+  },
+  "FI": {
+   "households": 2978800,
+   "householdsYear": 2025,
+   "population": 5635971,
+   "populationYear": 2025,
+   "name": "Finland"
+  },
+  "FR": {
+   "households": 32382000,
+   "householdsYear": 2025,
+   "population": 68882600,
+   "populationYear": 2025,
+   "name": "France"
+  },
+  "GR": {
+   "households": 4055400,
+   "householdsYear": 2025,
+   "population": 10372335,
+   "populationYear": 2025,
+   "name": "Greece"
+  },
+  "HR": {
+   "households": 1466500,
+   "householdsYear": 2025,
+   "population": 3874350,
+   "populationYear": 2025,
+   "name": "Croatia"
+  },
+  "HU": {
+   "households": 4008300,
+   "householdsYear": 2025,
+   "population": 9539502,
+   "populationYear": 2025,
+   "name": "Hungary"
+  },
+  "IE": {
+   "households": 2328300,
+   "householdsYear": 2025,
+   "population": 5440278,
+   "populationYear": 2025,
+   "name": "Ireland"
+  },
+  "IT": {
+   "households": 26443900,
+   "householdsYear": 2025,
+   "population": 58943464,
+   "populationYear": 2025,
+   "name": "Italy"
+  },
+  "LT": {
+   "households": 1760200,
+   "householdsYear": 2025,
+   "population": 2890664,
+   "populationYear": 2025,
+   "name": "Lithuania"
+  },
+  "LU": {
+   "households": 288200,
+   "householdsYear": 2025,
+   "population": 681973,
+   "populationYear": 2025,
+   "name": "Luxembourg"
+  },
+  "LV": {
+   "households": 888000,
+   "householdsYear": 2025,
+   "population": 1860565,
+   "populationYear": 2025,
+   "name": "Latvia"
+  },
+  "MT": {
+   "households": 242800,
+   "householdsYear": 2025,
+   "population": 574250,
+   "populationYear": 2025,
+   "name": "Malta"
+  },
+  "NL": {
+   "households": 8658800,
+   "householdsYear": 2025,
+   "population": 18044027,
+   "populationYear": 2025,
+   "name": "Netherlands"
+  },
+  "PL": {
+   "households": 15521300,
+   "householdsYear": 2025,
+   "population": 36497495,
+   "populationYear": 2025,
+   "name": "Poland"
+  },
+  "PT": {
+   "households": 4562100,
+   "householdsYear": 2025,
+   "population": 10749635,
+   "populationYear": 2025,
+   "name": "Portugal"
+  },
+  "RO": {
+   "households": 7594400,
+   "householdsYear": 2025,
+   "population": 19043151,
+   "populationYear": 2025,
+   "name": "Romania"
+  },
+  "SE": {
+   "households": 4837300,
+   "householdsYear": 2025,
+   "population": 10587710,
+   "populationYear": 2025,
+   "name": "Sweden"
+  },
+  "SI": {
+   "households": 868900,
+   "householdsYear": 2025,
+   "population": 2130850,
+   "populationYear": 2025,
+   "name": "Slovenia"
+  },
+  "SK": {
+   "households": 1726600,
+   "householdsYear": 2025,
+   "population": 5419451,
+   "populationYear": 2025,
+   "name": "Slovakia"
+  },
+  "EU": {
+   "households": 203172200,
+   "householdsYear": 2025,
+   "population": 450646971,
+   "populationYear": 2025,
+   "name": "European Union"
+  }
+ }
+}

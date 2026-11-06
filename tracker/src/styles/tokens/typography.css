@@ -1,0 +1,54 @@
+:root{
+--font-display:'Archivo','Helvetica Neue',Arial,sans-serif;   /* headlines, numbers, names */
+--font-body:'Inter','Helvetica Neue',Arial,sans-serif;        /* body, captions, sources, UI */
+
+--weight-body:400;
+--weight-medium:500;
+--weight-semibold:600;   /* pull-quotes, comparison columns only */
+--weight-bold:700;       /* the default display weight */
+--weight-black:800;      /* covers, big numbers */
+
+/* Tracking - display type is always negative, kickers always positive */
+--track-stat:-.05em;
+--track-cover:-.035em;
+--track-title:-.02em;
+--track-subhead:-.015em;
+--track-tight:-.01em;
+--track-kicker:.20em;
+--track-kicker-sm:.14em;
+
+/* Display scale (post-sized; scale proportionally for 1080px exports) */
+--text-stat-xl:110px;
+--text-stat:92px;
+--text-display:52px;
+--text-cover:42px;
+--text-hero:38px;
+--text-lockup:30px;
+--text-h2:28px;
+--text-h3:24px;
+--text-lead:22px;
+--text-quote:20px;
+--text-block-quote:19px;
+--text-name:18px;
+--text-lg:17px;
+--text-md:16px;
+--text-row-title:15px;
+--text-base:14px;
+--text-sm:13px;
+--text-xs:12px;
+--text-source:11.5px;
+--text-kicker:11px;
+--text-kicker-sm:10px;
+
+/* Leading */
+--leading-stat:.85;
+--leading-cover:1.0;
+--leading-title:1.12;
+--leading-quote:1.28;
+--leading-body:1.5;
+--leading-prose:1.6;
+--leading-loose:1.7;
+
+/* Numerals stand tabular wherever they are figures rather than prose */
+--figures-tabular:'tnum' 1; /* @kind other */
+}

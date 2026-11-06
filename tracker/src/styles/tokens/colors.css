@@ -1,0 +1,66 @@
+:root{
+/* --- Brand ------------------------------------------------------------- */
+--pe-green:#1F8A5B;          /* Equal Green - primary, Substack accent */
+--pe-green-deep:#12563A;     /* Deep Green - links, depth (inherited) */
+--pe-amber:#F0A93B;          /* Amber - the one highlight per frame */
+--pe-clay:#E1663C;           /* Clay - warm accent, rare (inherited) */
+--pe-ink:#1B1712;            /* Ink - text and dark grounds */
+
+/* --- Grounds ----------------------------------------------------------- */
+--pe-paper:#FAF7F0;          /* post + page ground */
+--pe-cream:#F5EFE3;          /* type on ink; older paper value */
+--pe-card:#FBF8F1;           /* cards, quote fields */
+--pe-canvas:#E7E1D4;         /* the desk the posts sit on */
+--pe-white:#FFFFFF;
+
+/* --- Text ------------------------------------------------------------- */
+--pe-slate:#6B655C;          /* secondary text, captions */
+--pe-mute:#A8A296;           /* sources, page numbers */
+--pe-ink-soft:#3D3830;       /* body inside tinted boxes */
+
+/* --- Hairlines, plates, tints ----------------------------------------- */
+--pe-rule-soft:rgba(27,23,18,.08);
+--pe-rule:rgba(27,23,18,.12);
+--pe-rule-mid:rgba(27,23,18,.18);
+--pe-rule-strong:rgba(27,23,18,.22);
+--pe-rule-on-dark:rgba(255,255,255,.16);
+--pe-frame-on-dark:rgba(255,255,255,.90);
+--pe-amber-tint:rgba(240,169,59,.14);
+--pe-amber-tint-strong:rgba(240,169,59,.16);
+--pe-green-tint:rgba(31,138,91,.20);
+--pe-plate-ink:rgba(27,23,18,.62);
+--pe-disc-ink:rgba(27,23,18,.55);
+--pe-on-ink-70:rgba(245,239,227,.72);
+--pe-on-ink-55:rgba(245,239,227,.55);
+--pe-on-green-75:rgba(255,255,255,.75);
+--pe-on-green-70:rgba(255,255,255,.70);
+--pe-on-dark-90:rgba(255,255,255,.90);
+--pe-on-dark-50:rgba(255,255,255,.50);
+
+/* --- Semantic aliases -------------------------------------------------- */
+--surface-page:var(--pe-paper);
+--surface-card:var(--pe-card);
+--surface-canvas:var(--pe-canvas);
+--surface-brand:var(--pe-green);
+--surface-dark:var(--pe-ink);
+--text-primary:var(--pe-ink);
+--text-secondary:var(--pe-slate);
+--text-muted:var(--pe-mute);
+--text-accent:var(--pe-green);
+--text-on-dark:var(--pe-cream);
+--text-on-brand:var(--pe-white);
+--highlight:var(--pe-amber);
+--divider:var(--pe-rule);
+--divider-strong:var(--pe-rule-strong);
+--link:var(--pe-green-deep);
+--link-hover:var(--pe-green);
+--focus-ring:var(--pe-green);
+--selection:var(--pe-green-tint);
+
+/* --- Data series (charts: never more than two) ------------------------- */
+--series-story:var(--pe-amber);   /* the line/bar the post is about */
+--series-base:var(--pe-green);    /* the comparison series */
+--series-track:var(--pe-rule-soft);
+--grid-line:var(--pe-rule-soft);
+--axis-line:var(--pe-rule-strong);
+}

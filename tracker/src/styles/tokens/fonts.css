@@ -1,0 +1,3 @@
+/* Popular Economics loads both faces from Google Fonts. No binaries shipped with the
+   brand sources; Archivo and Inter are the real brand faces, not substitutes. */
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap");

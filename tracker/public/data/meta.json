@@ -1,0 +1,21 @@
+{
+ "builtAt": "2026-11-06T11:30:36.715368+00:00",
+ "latestBulletin": "2026-11-02",
+ "bulletinWeeks": 44,
+ "sensitivity": {
+  "petrol": {
+   "lastBulletin": 16035808121,
+   "excluding2022Seasonality": 18162641017,
+   "euDirectFormula": 15054135955
+  },
+  "diesel": {
+   "lastBulletin": 61318544124,
+   "excluding2022Seasonality": 69933602519,
+   "euDirectFormula": 60755558373
+  }
+ },
+ "litresPerTonne": {
+  "petrol": 1342.0,
+  "diesel": 1195.0
+ }
+}

@@ -1,0 +1,12 @@
+/* Element defaults only. Components carry their own styling via the tokens. */
+*{box-sizing:border-box}
+body{margin:0;font-family:var(--font-body);font-size:var(--text-base);line-height:var(--leading-prose);color:var(--text-primary);background:var(--surface-page);-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:var(--font-display);font-weight:var(--weight-bold);letter-spacing:var(--track-title);line-height:var(--leading-title);margin:0}
+p{margin:0}
+a{color:var(--link);text-decoration:none}
+a:hover{color:var(--link-hover)}
+strong,b{font-weight:var(--weight-bold)}
+hr{border:0;border-top:var(--rule-hairline) solid var(--divider);margin:var(--space-10) 0}
+::selection{background:var(--selection)}
+:focus-visible{outline:2px solid var(--focus-ring);outline-offset:2px}
+[data-tabular]{font-feature-settings:var(--figures-tabular)}

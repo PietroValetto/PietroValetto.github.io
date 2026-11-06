@@ -1,0 +1,10 @@
+:root{
+/* Every export size the brand actually ships. */
+--format-post:1080 / 1350; /* @kind other */      /* Instagram carousel + stat cards, 4:5 */
+--format-post-w:1080px;
+--format-post-h:1350px;
+--format-reel:1080 / 1920; /* @kind other */      /* Reels, 9:16 */
+--format-square:1 / 1; /* @kind other */          /* avatar, publication logo (1024) */
+--format-banner:1200 / 600; /* @kind other */     /* Substack header, welcome email header, 2:1 */
+--format-feature:1456 / 1048; /* @kind other */   /* Substack post feature + social share card */
+}

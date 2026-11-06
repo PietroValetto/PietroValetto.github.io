@@ -17,8 +17,14 @@ export interface Entry {
   households: number;
   administeredPrice?: boolean;
   administeredSince?: string | null;
+  upstreamCrude: number;
+  downstreamMargin: number;
+  taxNet: number;
+  perLitreNow: { crude: number; margin: number; taxes: number };
   rank?: Record<string, number>;
 }
+
+export interface FlowPoint { date: string; crude: number; margin: number; taxes: number }
 
 export interface Deficit {
   warStartDate: string;
@@ -27,6 +33,7 @@ export interface Deficit {
   endDate: string;
   measuredThrough: string;
   daysSinceWar: number;
+  flowSeries: FlowPoint[];
   scenarios: Record<Scenario, { EU: Entry; countries: Record<string, Entry> }>;
 }
 
@@ -44,11 +51,26 @@ export interface Households {
   source: string;
   areas: Record<string, { households: number; population: number; householdsYear: number; name: string }>;
 }
-export interface Meta { builtAt: string; latestBulletin: string; sensitivity: Record<Fuel, Record<string, number>> }
+export interface CrossCheck { pretaxPremium: number; upstream: number; downstream: number; pretaxPremiumToTE: number; upstreamToTE: number; downstreamToTE: number; comparisonEnd: string }
+export interface Meta {
+  builtAt: string;
+  latestBulletin: string;
+  latestBrentDay: string;
+  sensitivity: Record<Fuel, Record<string, number>>;
+  crossCheckFlatBaseline: Record<Fuel, CrossCheck>;
+}
+export interface People {
+  asOf: string;
+  tank: Record<Fuel, number>;
+  carSinceWar: Record<Fuel, number>;
+  truckSinceWar: number;
+  truckPerWeek: number;
+  assumptions: { carKmPerYear: number; carLPer100km: Record<Fuel, number>; truckKmPerYear: number; truckLPer100km: number; tankLitres: number; source: string };
+}
 export interface Demand { eurostatUpdated: string; gaps: string[] }
 
 export interface FuelData { ts: TimeSeries; cf: Counterfactual; current: Current; deficit: Deficit }
-export interface AllData { fuels: Record<Fuel, FuelData>; households: Households; meta: Meta; demand: Demand }
+export interface AllData { fuels: Record<Fuel, FuelData>; households: Households; meta: Meta; demand: Demand; people: People | null }
 
 const get = <T,>(name: string): Promise<T> =>
   fetch(`${import.meta.env.BASE_URL}data/${name}.json`).then((r) => {
@@ -66,10 +88,11 @@ export async function loadAll(): Promise<AllData> {
     ]);
     return { ts, cf, current, deficit };
   };
-  const [petrol, diesel, households, meta, demand] = await Promise.all([
+  const [petrol, diesel, households, meta, demand, people] = await Promise.all([
     fuel("petrol"), fuel("diesel"), get<Households>("households"), get<Meta>("meta"), get<Demand>("monthly-demand"),
+    get<People>("people").catch(() => null), // optional: the per-person row hides if missing
   ]);
-  return { fuels: { petrol, diesel }, households, meta, demand };
+  return { fuels: { petrol, diesel }, households, meta, demand, people };
 }
 
 export const entry = (d: AllData, f: Fuel, s: Scenario, area: string): Entry =>

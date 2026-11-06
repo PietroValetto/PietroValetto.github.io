@@ -97,12 +97,12 @@ export function MoneyFlow({ data, fuel, scenario }: { data: AllData; fuel: Fuel;
         <span><i className="sw flow-tax" /> Taxes (VAT minus tax cuts)</span>
       </p>
       <p className="chart-sub">
-        Crude: Brent spot price (EIA) in euros, converted to the crude content of a litre of fuel. Method follows{" "}
-        <a href="https://www.transportenvironment.org/" target="_blank" rel="noreferrer">Transport &amp; Environment</a>'s excess-profits
-        tracker. Cross-check: on T&amp;E's own approach (flat January–February baseline), our data give {euroShort(te)} to{" "}
-        {longDate(cc.diesel.comparisonEnd)}, of which {euroShort(teDown)} in margins. T&amp;E report about €63.7 billion. Part of the gap
-        is volumes (they use 2025 sales excluding biofuels, worth about €6 billion here); the rest is their later start date and
-        more conservative weekly interpolation. Figures to {longDate(data.fuels.petrol.deficit.endDate)}; total extra cost {euro(total)}.
+        Crude: Brent spot price (EIA) in euros, converted to the crude content of a litre of fuel. This split adapts the method of 
+        <a href="https://www.transportenvironment.org/topics/energy/oil" target="_blank" rel="noreferrer">Transport &amp; Environment's excess-profits tracker</a> 
+        (<a href="https://uploads.transportenvironment.org/production/files/Oil-Profits-Methodological-Note.pdf" target="_blank" rel="noreferrer">methodological note</a>). T&amp;E measure against a flat January–February
+        baseline; applied to our data, that approach gives {euroShort(te)} to {longDate(cc.diesel.comparisonEnd)}, of which {euroShort(teDown)} in
+        margins. Differences from T&amp;E's published estimates come mainly from volumes (they count 2025 sales excluding biofuels) and from their war period starting a week later.
+        Figures to {longDate(data.fuels.petrol.deficit.endDate)}; total extra cost {euro(total)}.
       </p>
     </section>
   );

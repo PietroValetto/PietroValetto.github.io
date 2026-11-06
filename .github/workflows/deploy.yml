@@ -67,3 +67,6 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          # GitHub Pages is sometimes slow to publish; the default 10-minute limit has cancelled deploys.
+          timeout: 1800000

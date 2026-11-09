@@ -1,0 +1,16 @@
+:root{
+--radius-bar:3px;       /* the amber rule and chart bars */
+--radius-xs:2px;
+--radius-sm:4px;
+--radius-md:6px;        /* posts, buttons, tinted boxes */
+--radius-lg:8px;        /* export shots, subscribe panels */
+--radius-xl:16px;       /* matted frame on 9:16 */
+--radius-2xl:22px;      /* phone-shaped reel stage */
+--radius-circle:50%;
+--radius-pill:999px;
+--rule-hairline:1px;
+--rule-accent:3px;      /* amber left border on quote / takeaway */
+--rule-nameplate:4px;   /* amber left border on a lower-third */
+--rule-frame:2px;       /* matted frame stroke */
+--rule-checkbox:2px;
+}

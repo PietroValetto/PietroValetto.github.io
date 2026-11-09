@@ -1,0 +1,58 @@
+---
+import "../styles/global.css";
+import { SITE } from "../site";
+
+interface Props { title?: string; description?: string; }
+const { title, description = SITE.description } = Astro.props;
+const fullTitle = title ? `${title} · ${SITE.name}` : `${SITE.name} · ${SITE.role}`;
+const path = Astro.url.pathname;
+const nav = [
+  { href: "/research/", label: "Research" },
+  { href: "/popular-economics/", label: "Popular Economics" },
+  { href: "/tracker/", label: "Fuel Tracker" },
+  { href: "/media/", label: "Media" },
+  { href: "/cv.pdf", label: "CV" },
+];
+const l = SITE.links;
+const footer = [
+  ["Email", `mailto:${SITE.email}`], ["Google Scholar", l.scholar], ["ORCID", l.orcid], ["GitHub", l.github],
+  ["LinkedIn", l.linkedin], ["X", l.x], ["Bluesky", l.bluesky], ["Substack", SITE.pe.substack],
+].filter(([, u]) => u);
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={new URL(path, Astro.site)} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={new URL(path, Astro.site)} />
+    <meta name="twitter:card" content="summary" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="/">{SITE.name}</a>
+        <nav aria-label="Main">
+          <ul>
+            {nav.map((n) => (
+              <li><a href={n.href} aria-current={path.startsWith(n.href) ? "page" : undefined}>{n.label}</a></li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="wrap"><slot /></main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <span>© {new Date().getFullYear()} {SITE.name}</span>
+        <span>{footer.map(([label, url], i) => <>{i > 0 && " · "}<a href={url}>{label}</a></>)}</span>
+      </div>
+    </footer>
+  </body>
+</html>

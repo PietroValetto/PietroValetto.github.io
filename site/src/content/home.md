@@ -1,0 +1,5 @@
+I'm a PhD researcher at the [Centre for Social Policy Herman Deleeck](https://www.uantwerpen.be/en/research-groups/csb/), University of Antwerp. I study wealth inequality and poverty trends across the European Union and the United States: in particular, how household net worth affects eligibility for welfare programmes, and the distribution of housing wealth.
+
+I'm passionate about using econometrics to dissect what's happening in the world and translate it into analyses that can help guide policymakers' decisions. That's why I also work on projects such as measuring the impact of AI on the European labour market and [tracking the cost of energy price spikes for consumers](/tracker/).
+
+I believe social scientists have a responsibility to communicate effectively with the public and to be part of the wider policy conversation. That's why I started [Popular Economics](/popular-economics/), a newsletter and video series where I take new research and data and turn them into stories anyone can follow.

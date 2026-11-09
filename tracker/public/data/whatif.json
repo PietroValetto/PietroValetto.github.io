@@ -1,0 +1,70 @@
+{
+ "asOf": "2026-10-14",
+ "note": "Hand-curated. Unit costs are rounded, conservative mid-points of published ranges; check sources before reuse.",
+ "items": [
+  {
+   "id": "heatpumps",
+   "unitCost": 15000,
+   "unit": "homes switched to a heat pump",
+   "detail": "Air-to-water heat pump retrofit, about €15,000 installed",
+   "range": "€9,000–20,000 across European countries outside Germany",
+   "source": "Miara & Rosenow (2026), Energy and Buildings",
+   "url": "https://www.earth.org.uk/bibliography/miara2026Germany.html"
+  },
+  {
+   "id": "solar",
+   "unitCost": 9000,
+   "unit": "homes with rooftop solar",
+   "detail": "6 kWp rooftop system at about €1,500 per kWp",
+   "range": "about €1,300–1,700 per kWp for home systems",
+   "source": "Fraunhofer ISE, Aktuelle Fakten zur Photovoltaik (as reported by German price comparisons)",
+   "url": "https://www.ise.fraunhofer.de/de/veroeffentlichungen/studien/aktuelle-fakten-zur-photovoltaik-in-deutschland.html",
+   "yield": { "perUnitMWhPerYear": 6, "assumption": "about 1,000 kWh per kWp per year, an EU-wide rough average" }
+  },
+  {
+   "id": "wind",
+   "unitCost": 1600000,
+   "unit": "MW of onshore wind",
+   "detail": "Onshore wind at about €1.6 million per MW",
+   "range": "€7 billion of investment decisions for 4.5 GW of onshore wind in H1 2026",
+   "source": "WindEurope, H1 2026 statistics (via Anadolu Agency)",
+   "url": "https://www.aa.com.tr/en/energy/wind/europe-installs-88-gw-new-wind-power-capacity-in-h126/59394",
+   "yield": { "perUnitMWhPerYear": 2190, "assumption": "25% capacity factor" }
+  },
+  {
+   "id": "ev",
+   "unitCost": 5000,
+   "unit": "electric-car purchase grants",
+   "detail": "A €5,000 grant per electric car",
+   "range": "illustrative; similar to national EV purchase incentives",
+   "source": "Illustrative grant level",
+   "url": null
+  }
+ ],
+ "forScale": [
+  {
+   "id": "euBudgetClimate",
+   "label": "EU budget climate spending",
+   "perYear": 94600000000,
+   "detail": "€662 billion across the 2021–27 EU budget and NextGenerationEU (34%), about €95 billion a year",
+   "source": "European Commission, climate mainstreaming",
+   "url": "https://commission.europa.eu/strategy-and-policy/eu-budget/performance-and-reporting/horizontal-priorities/green-budgeting/climate-mainstreaming_en"
+  },
+  {
+   "id": "mff2028",
+   "label": "Proposed 2028–34 EU budget climate earmark",
+   "perYear": 100000000000,
+   "detail": "About €700 billion over 2028–34 under the proposed 35% target, about €100 billion a year (still under negotiation)",
+   "source": "Commission proposal, as analysed by CAN Europe",
+   "url": "https://caneurope.org/mff-proposal-2028-2034/"
+  },
+  {
+   "id": "investmentGap",
+   "label": "EU climate investment gap",
+   "perYear": 344000000000,
+   "detail": "€878 billion needed a year for 2026–30 against €534 billion invested in 2025",
+   "source": "I4CE, The State of Europe's Climate Investment 2026",
+   "url": "https://www.i4ce.org/wp-content/uploads/2026/06/The_State_of_Europe_s_Climate_Investment_report_2026_V2-1.pdf"
+  }
+ ]
+}

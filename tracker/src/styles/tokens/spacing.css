@@ -1,0 +1,31 @@
+:root{
+--space-1:4px;
+--space-2:6px;
+--space-3:8px;
+--space-4:12px;
+--space-5:14px;
+--space-6:16px;
+--space-7:18px;
+--space-8:20px;
+--space-9:22px;
+--space-10:26px;
+--space-11:30px;
+--space-12:34px;
+--space-13:38px;
+--space-14:44px;
+--space-15:52px;
+--space-16:60px;
+
+/* Frame padding, measured off the source posts */
+--pad-post-y:34px;      /* 4:5 carousel slide */
+--pad-post-x:30px;
+--pad-feature:44px;     /* 1456x1048 Substack feature image */
+--pad-reel-x:24px;      /* 9:16 overlay safe inset */
+--pad-frame-inset:12px; /* matted frame offset from the edge */
+--bug-inset:16px;       /* logo bug from the top-right corner */
+
+/* Measures */
+--measure-body:250px;   /* subtitle copy on a 1080-wide post */
+--measure-prose:620px;  /* justified prose in documents */
+--measure-lead:520px;
+}

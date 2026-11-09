@@ -1,0 +1,35 @@
+---
+import { SITE } from "../site";
+
+// Icons from Simple Icons (CC0), stored in src/icons and inlined so they take the text colour.
+const icons = import.meta.glob<string>("../icons/*.svg", { query: "?raw", import: "default", eager: true });
+const svg = (name: string) => (icons[`../icons/${name}.svg`] ?? "").replace(/<title>.*?<\/title>/, "").replace("<svg ", '<svg aria-hidden="true" fill="currentColor" ');
+interface Props { variant?: "row" | "cards" }
+const { variant = "row" } = Astro.props;
+---
+<ul class:list={["socials", variant]}>
+  {SITE.socials.map((s) => (
+    <li>
+      <a href={s.url} rel="me noopener" aria-label={`${s.name} ${s.handle}`}>
+        <span class="ico" set:html={svg(s.icon)} />
+        <span class="txt"><span class="name">{s.name}</span>{variant === "cards" && <span class="handle">{s.handle}</span>}</span>
+      </a>
+    </li>
+  ))}
+</ul>
+
+<style>
+  .socials { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+  .socials a { display: inline-flex; align-items: center; gap: 8px; text-decoration: none; color: var(--ink); }
+  .ico { display: inline-flex; width: 16px; height: 16px; color: var(--green); }
+  .ico :global(svg) { width: 100%; height: 100%; }
+  .row a { padding: 6px 12px; border: 1px solid var(--rule); border-radius: 999px; font-size: 14.5px; background: var(--card); }
+  .row a:hover { border-color: var(--green); color: var(--link); }
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; }
+  .cards a { display: flex; padding: 12px 14px; border: 1px solid var(--rule); border-radius: 10px; background: var(--card); width: 100%; }
+  .cards a:hover { border-color: var(--green); }
+  .cards .ico { width: 22px; height: 22px; }
+  .txt { display: flex; flex-direction: column; line-height: 1.25; }
+  .name { font-weight: 600; font-size: 15px; }
+  .handle { color: var(--slate); font-size: 13.5px; }
+</style>

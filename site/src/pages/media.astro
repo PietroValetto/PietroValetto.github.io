@@ -1,0 +1,91 @@
+---
+import Base from "../layouts/Base.astro";
+import LangFlag from "../components/LangFlag.astro";
+import Socials from "../components/Socials.astro";
+import { getCollection, render } from "astro:content";
+
+const SECTIONS = [
+  { id: "writing", label: "Writing & commentary", intro: "Op-eds, policy briefs and research pieces I've written." },
+  { id: "featured", label: "Featured in", intro: "Coverage of my work as an economics communicator." },
+  { id: "appearances", label: "Podcasts & video", intro: "Shows I host, and guest appearances on others." },
+] as const;
+const TYPE: Record<string, string> = {
+  "op-ed": "Op-ed", "policy brief": "Policy brief", "research column": "Research column", article: "Article",
+  interview: "Interview", feature: "Feature", list: "List", podcast: "Podcast", video: "Video", talk: "Talk", report: "Report",
+};
+const fmt = (d?: string) => {
+  if (!d) return undefined;
+  const [y, m, day] = d.split("-").map(Number);
+  if (!m) return String(y);
+  return new Date(Date.UTC(y, m - 1, day || 1)).toLocaleDateString("en-GB", { ...(day ? { day: "numeric" } : {}), month: "short", year: "numeric", timeZone: "UTC" });
+};
+const all = await getCollection("media");
+const langs = [...new Set(all.map((e) => e.data.lang))];
+const sections = await Promise.all(SECTIONS.map(async (s) => ({
+  ...s,
+  items: await Promise.all(all.filter((e) => e.data.section === s.id)
+    .sort((a, b) => Number(!a.data.url) - Number(!b.data.url) || (b.data.date ?? "").localeCompare(a.data.date ?? ""))  // linked items first, then newest
+    .map(async (e) => ({ ...e.data, Content: (await render(e)).Content, hasBody: !!e.body?.trim() }))),
+})));
+---
+<Base title="Media" description="Op-eds, press coverage, podcasts and videos featuring Pietro Valetto.">
+  <h1>Media</h1>
+  <p class="lede">Writing, press and guest appearances. The flag shows the language of each piece.
+    {langs.length > 1 && <span class="legend">{langs.map((l) => <span><LangFlag lang={l} />{({ en: "English", it: "Italian", fr: "French", de: "German", es: "Spanish", nl: "Dutch" } as Record<string, string>)[l] ?? l}</span>)}</span>}
+  </p>
+  <nav class="jump" aria-label="Sections"><a href="#socials">Socials</a>{sections.filter((s) => s.items.length).map((s) => <a href={`#${s.id}`}>{s.label}</a>)}</nav>
+  <section id="socials">
+    <h2>Socials</h2>
+    <p class="sec-intro">Where I post short explainers and behind-the-scenes.</p>
+    <Socials variant="cards" />
+  </section>
+
+  {sections.filter((s) => s.items.length).map((s) => (
+    <section id={s.id}>
+      <h2>{s.label}</h2>
+      <p class="sec-intro">{s.intro}</p>
+      <ul class="cards">
+        {s.items.map(({ title, url, outlet, date, type, lang, thumb, blurb, Content, hasBody }) => (
+          <li class="card-row">
+            <a class="thumb" href={url} tabindex="-1" aria-hidden="true">
+              {thumb
+                ? <img src={thumb} alt="" loading="lazy" width="320" height="180" />
+                : <span class="thumb-fallback"><span>{outlet}</span></span>}
+              {(type === "podcast" || type === "video") && <span class="badge">{type === "video" ? "▶ Video" : "🎧 Podcast"}</span>}
+            </a>
+            <div class="body">
+              <h3><LangFlag lang={lang} />{url ? <a href={url}>{title}</a> : title}</h3>
+              <p class="meta">{[outlet, TYPE[type], fmt(date)].filter(Boolean).join(" · ")}</p>
+              {blurb && <p class="blurb">{blurb}</p>}
+              {hasBody && <div class="blurb"><Content /></div>}
+            </div>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</Base>
+
+<style>
+  .legend { display: flex; flex-wrap: wrap; gap: 4px 16px; margin-top: 8px; font-size: 14px; }
+  .jump { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 15px; margin: 0 0 8px; }
+  .sec-intro { color: var(--slate); font-size: 15px; margin: -6px 0 12px; }
+  section { scroll-margin-top: 16px; }
+  .cards { list-style: none; margin: 0; padding: 0; display: grid; gap: 22px; }
+  .card-row { display: grid; grid-template-columns: 224px 1fr; gap: 18px; align-items: start; }
+  .thumb { position: relative; display: block; aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden; background: var(--green); box-shadow: 0 0 0 1px var(--rule); }
+  .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .2s ease; }
+  .card-row:hover .thumb img { transform: scale(1.03); }
+  .thumb-fallback { display: flex; align-items: center; justify-content: center; height: 100%; padding: 12px; text-align: center;
+    background: linear-gradient(135deg, #1F8A5B, #12563A); color: #FAF7F0; font: 700 17px/1.2 var(--serif); }
+  .badge { position: absolute; right: 6px; bottom: 6px; background: rgba(27, 23, 18, .82); color: #fff; font-size: 11.5px; font-weight: 600; padding: 2px 7px; border-radius: 4px; }
+  .body h3 { font-size: 17.5px; line-height: 1.3; margin: 2px 0 0; }
+  .body h3 a { color: var(--ink); text-decoration: none; }
+  .body h3 a:hover { color: var(--link); text-decoration: underline; }
+  .body .meta { margin: 4px 0 6px; font-size: 14px; }
+  .body .blurb { font-size: 15px; color: var(--slate); margin: 0; }
+  .body .blurb :global(p) { margin: 0; }
+  @media (max-width: 560px) {
+    .card-row { grid-template-columns: 1fr; gap: 10px; }
+  }
+</style>

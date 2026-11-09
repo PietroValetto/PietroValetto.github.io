@@ -1,6 +1,6 @@
 {
  "source": "Eurostat nrg_cb_oilm, gross inland deliveries (GID_OBS): O4652 motor gasoline, O46711 road diesel; 2021-2025 average litres/day by calendar month",
- "eurostatUpdated": "2026-11-04T23:00:00+0100",
+ "eurostatUpdated": "2026-11-06T23:00:00+0100",
  "gaps": [
   "EE/heating: 12 months missing",
   "EE/heating: filled from Oil Bulletin annual consumption (2024)"

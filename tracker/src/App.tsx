@@ -12,8 +12,9 @@ import { TaxSplit } from "./TaxSplit";
 import { EnergyBill } from "./EnergyBill";
 import { WhatIf } from "./WhatIf";
 import { Assumptions } from "./Assumptions";
+import { FEEDBACK_URL, SHOW_ENERGY } from "./config";
 
-const REPO_URL = "https://github.com/PietroValetto/eu-iran-war-fuel-cost";
+const REPO_URL = "https://github.com/PietroValetto/PietroValetto.github.io/tree/main/tracker";
 
 const BROWN_URL = "https://iranwarcost.watson.brown.edu/";
 
@@ -43,7 +44,7 @@ export default function App() {
 
   // Optional tabs only show when their data file loaded.
   const available = (t: Tab) =>
-    t === "fuel" || t === "whatif" || (t === "us" ? Boolean(data?.us) : Boolean(data?.household || data?.heating));
+    t === "fuel" || t === "whatif" || (t === "us" ? Boolean(data?.us) : SHOW_ENERGY && Boolean(data?.household || data?.heating));
 
   // Tabs and country pages are shareable: /#us opens the US comparison, /#IT opens Italy's breakdown.
   useEffect(() => {
@@ -82,6 +83,7 @@ export default function App() {
       <div className="title-row">
         <h1>EU Iran War Fuel Cost Tracker</h1>
         <button className="chip" onClick={() => setShowMethod(true)} aria-label="Open methodology explanation">Methodology</button>
+        {FEEDBACK_URL && <a className="chip" href={FEEDBACK_URL} target="_blank" rel="noreferrer">Feedback or questions?</a>}
       </div>
       <span className="amber-rule" aria-hidden="true" />
       <p className="intro">
@@ -111,7 +113,7 @@ export default function App() {
           <CountryMap data={data} fuel={fuel} scenario={scenario} onSelect={openCountry} />
         </>
       )}
-      {tab === "energy" && <EnergyBill data={data} scenario={scenario} onSelect={openCountry} />}
+      {SHOW_ENERGY && tab === "energy" && <EnergyBill data={data} scenario={scenario} onSelect={openCountry} />}
       {tab === "us" && data.us && <UsComparison us={data.us} />}
       {tab === "whatif" && <WhatIf data={data} scenario={scenario} />}
 
@@ -124,6 +126,7 @@ export default function App() {
           A <a href="https://populareconomics.substack.com/" target="_blank" rel="noreferrer">Popular Economics</a> project. Method adapted from
           Brown University Climate Solutions Lab's <a href="https://iranwarcost.watson.brown.edu/" target="_blank" rel="noreferrer">Iran War Energy Cost Tracker</a>.
           Code and data on <a href={REPO_URL} target="_blank" rel="noreferrer">GitHub</a>.
+          {FEEDBACK_URL && <> Spotted a problem or have a question? <a href={FEEDBACK_URL} target="_blank" rel="noreferrer">Send feedback</a>.</>}
         </p>
       </footer>
 

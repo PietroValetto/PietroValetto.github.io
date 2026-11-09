@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { useModal } from "./useModal";
 import { AllData, Scenario, entry } from "./data";
 import { euroShort, longDate, perLitre } from "./format";
+import { SHOW_ENERGY } from "./config";
 
 interface Props { data: AllData; scenario: Scenario; onScenario: (s: Scenario) => void; onClose: () => void }
 
@@ -73,8 +74,11 @@ export function Methodology({ data, scenario, onScenario, onClose }: Props) {
         <h3>Assumptions and range</h3>
         <p>The headline keeps the US tracker's choices so the two can be compared. The range under it shows the total under every combination of three alternatives: the pre-war price (last bulletin or February average), the seasonal window (2021–25, or without 2022), and the volumes (2021–25 averages, or Eurostat's actual 2026 deliveries where published). The Assumptions panel shows each combination. The map's <em>cost per car</em> divides each country's extra fuel cost by its passenger cars in use (Eurostat <code>road_eqs_carpda</code>). Diesel cost includes vans and trucks, so this is an indicator rather than a cost for each driver.</p>
 
+        {SHOW_ENERGY && (<>
         <h3>Energy bill tab</h3>
         <p>The Energy bill tab adds two things to the pump cost of petrol and diesel. The first is <strong>heating oil and other off-road gas oil</strong> (heating, farming, construction). It uses the same method as the Fuel tab: Oil Bulletin heating gas-oil prices, and Eurostat's monthly deliveries of "heating and other gasoil". The Oil Bulletin has no heating-oil prices for Bulgaria, the Netherlands or Slovakia. Estonia's volumes come from the Bulletin's annual consumption figures. The second is <strong>household electricity, gas, solid fuels and district heating</strong>. For each item and country we take the change in Eurostat's monthly consumer price index (HICP) against February 2026 and apply it to monthly household spending on that item (HICP item weight × household consumption). The no-war price is held flat at February's level. The 2021–2023 energy crisis makes past seasonal patterns unusable, and regulated tariffs barely move with the seasons anyway. Liquid fuels are excluded from the household items because heating oil is already counted. This covers households only, not businesses' electricity and gas. HICP data run about six weeks behind, and later months are estimated at the latest month's rate.</p>
+
+        </>)}
 
         <h3>What if…? tab</h3>
         <p>The What if…? tab divides the war's cost by typical unit costs for clean-energy investments: a heat-pump retrofit, a rooftop solar system, a megawatt of onshore wind, and an illustrative €5,000 electric-car grant. Each unit cost is a rounded, conservative mid-point of a published range, and every tile links its source. The "for scale" bars scale the war's cost so far to a full year and set it beside the EU budget's climate spending, the proposed 2028–34 climate earmark, and the EU's climate investment gap. These are different kinds of money (spending lost to prices versus investment and budgets), so the comparison shows scale only.</p>

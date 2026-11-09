@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { useModal } from "./useModal";
 import { taxMeasures } from "./TaxSplit";
 import { energyByCountry } from "./EnergyBill";
+import { SHOW_ENERGY } from "./config";
 import { AllData, FUELS, FUEL_LABEL, FUEL_SUB, Fuel, Scenario, entry } from "./data";
 import { useLive } from "./Headline";
 import { ChartLegend, PriceChart } from "./PriceChart";
@@ -91,7 +92,7 @@ export function CountryPanel({ data, code, fuel, scenario, onFuel, onClose }: Pr
           </div>
         </div>
 
-        {(data.household || data.heating) && (() => {
+        {SHOW_ENERGY && (data.household || data.heating) && (() => {
           const en = energyByCountry(data, scenario)[code];
           return (
             <p className="stat-note panel-energy" data-tabular>

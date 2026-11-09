@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { AllData, FUELS, Scenario, entry } from "./data";
 import { useLive } from "./Headline";
 import { euroShort } from "./format";
+import { SHOW_ENERGY } from "./config";
 
 interface Item {
   id: string; unitCost: number; unit: string; detail: string; range: string; source: string; url: string | null;
@@ -38,7 +39,7 @@ export function WhatIf({ data, scenario }: { data: AllData; scenario: Scenario }
     shock: { value: pump + relief, label: "Including tax cuts", note: "pump spending plus what governments gave up in fuel-tax cuts" },
     energy: { value: pump + heating + household, label: "Whole energy bill", note: "fuels, heating oil and household gas and electricity" },
   };
-  const bases: Base[] = data.household || data.heating ? ["pump", "shock", "energy"] : ["pump", "shock"];
+  const bases: Base[] = SHOW_ENERGY && (data.household || data.heating) ? ["pump", "shock", "energy"] : ["pump", "shock"];
   const amount = amounts[base].value;
   const days = Math.max(1, (Date.now() - new Date(d.warStartDate + "T00:00:00Z").getTime()) / 86_400_000);
   const perYear = (amount / days) * 365;
@@ -51,7 +52,7 @@ export function WhatIf({ data, scenario }: { data: AllData; scenario: Scenario }
       <p className="kicker">What if…?</p>
       <h2>What {euroShort(amount)} could have built instead</h2>
       <p className="lede">
-        The war's energy bill is money that leaves Europe for oil and gas producers and buys nothing lasting.
+        The war's fuel bill is money that leaves Europe for oil producers and buys nothing lasting.
         Here is what the same sum would pay for in the energy transition, which cuts exposure to the next shock.
       </p>
 

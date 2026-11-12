@@ -1,40 +1,40 @@
 {
- "builtAt": "2026-11-09T17:57:28.933380+00:00",
- "latestBulletin": "2026-11-02",
- "bulletinWeeks": 44,
+ "builtAt": "2026-11-12T16:26:43.406806+00:00",
+ "latestBulletin": "2026-11-09",
+ "bulletinWeeks": 45,
  "sensitivity": {
   "petrol": {
-   "lastBulletin": 16035808121,
-   "excluding2022Seasonality": 18162641017,
-   "euDirectFormula": 15054135955
+   "lastBulletin": 16493837972,
+   "excluding2022Seasonality": 18641005029,
+   "euDirectFormula": 15473037134
   },
   "diesel": {
-   "lastBulletin": 61318544124,
-   "excluding2022Seasonality": 69933602519,
-   "euDirectFormula": 60755558373
+   "lastBulletin": 63454403478,
+   "excluding2022Seasonality": 72274487701,
+   "euDirectFormula": 62884153579
   },
   "heating": {
-   "lastBulletin": 12243581392,
-   "excluding2022Seasonality": 13986902726,
-   "euDirectFormula": 12452331064
+   "lastBulletin": 12781428136,
+   "excluding2022Seasonality": 14569976963,
+   "euDirectFormula": 13016897528
   }
  },
  "crossCheckFlatBaseline": {
   "petrol": {
-   "pretaxPremium": 20886469189,
-   "upstream": 13355802370,
+   "pretaxPremium": 21523553273,
+   "upstream": 13845777966,
    "pretaxPremiumToTE": 18564194989,
    "upstreamToTE": 11493486680,
-   "downstream": 7530666819,
+   "downstream": 7677775307,
    "downstreamToTE": 7070708309,
    "comparisonEnd": "2026-10-12"
   },
   "diesel": {
-   "pretaxPremium": 66664702132,
-   "upstream": 34664945621,
+   "pretaxPremium": 69125000627,
+   "upstream": 35965646492,
    "pretaxPremiumToTE": 58612870006,
    "upstreamToTE": 29725561132,
-   "downstream": 31999756511,
+   "downstream": 33159354135,
    "downstreamToTE": 28887308874,
    "comparisonEnd": "2026-10-12"
   }
@@ -84,7 +84,8 @@
   "2026-10-12": 114.54,
   "2026-10-19": 110.02,
   "2026-10-26": 109.65,
-  "2026-11-02": 104.87
+  "2026-11-02": 104.87,
+  "2026-11-09": 95.74
  },
  "litresPerTonne": {
   "petrol": 1342.0,

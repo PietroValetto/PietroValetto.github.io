@@ -1,15 +1,15 @@
 {
- "asOf": "2026-11-02",
+ "asOf": "2026-11-09",
  "tank": {
-  "petrol": 12.22,
-  "diesel": 24.79
+  "petrol": 9.81,
+  "diesel": 22.19
  },
  "carSinceWar": {
-  "petrol": 101,
-  "diesel": 175
+  "petrol": 104,
+  "diesel": 181
  },
- "truckSinceWar": 6380,
- "truckPerWeek": 180,
+ "truckSinceWar": 6606,
+ "truckPerWeek": 181,
  "assumptions": {
   "carKmPerYear": 10000,
   "carLPer100km": {

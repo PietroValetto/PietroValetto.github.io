@@ -1,5 +1,5 @@
 {
- "builtAt": "2026-11-12T16:26:43.406806+00:00",
+ "builtAt": "2026-11-13T15:46:33.871254+00:00",
  "latestBulletin": "2026-11-09",
  "bulletinWeeks": 45,
  "sensitivity": {
@@ -22,24 +22,24 @@
  "crossCheckFlatBaseline": {
   "petrol": {
    "pretaxPremium": 21523553273,
-   "upstream": 13845777966,
+   "upstream": 13785441815,
    "pretaxPremiumToTE": 18564194989,
    "upstreamToTE": 11493486680,
-   "downstream": 7677775307,
+   "downstream": 7738111458,
    "downstreamToTE": 7070708309,
    "comparisonEnd": "2026-10-12"
   },
   "diesel": {
    "pretaxPremium": 69125000627,
-   "upstream": 35965646492,
+   "upstream": 35805476711,
    "pretaxPremiumToTE": 58612870006,
    "upstreamToTE": 29725561132,
-   "downstream": 33159354135,
+   "downstream": 33319523916,
    "downstreamToTE": 28887308874,
    "comparisonEnd": "2026-10-12"
   }
  },
- "latestBrentDay": "2026-11-03",
+ "latestBrentDay": "2026-11-11",
  "brentWeeklyEUR": {
   "2026-01-05": 53.02,
   "2026-01-12": 54.29,
@@ -85,7 +85,7 @@
   "2026-10-19": 110.02,
   "2026-10-26": 109.65,
   "2026-11-02": 104.87,
-  "2026-11-09": 95.74
+  "2026-11-09": 86.7
  },
  "litresPerTonne": {
   "petrol": 1342.0,

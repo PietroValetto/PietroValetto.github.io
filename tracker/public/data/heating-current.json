@@ -1,100 +1,100 @@
 {
- "bulletinDate": "2026-11-09",
- "euAvg": 1.675,
- "prevWeekAvg": 1.7463,
+ "bulletinDate": "2026-11-16",
+ "euAvg": 1.6329,
+ "prevWeekAvg": 1.671,
  "countries": [
   {
    "code": "AT",
    "name": "Austria",
-   "price": 1.7877,
-   "prevWeek": 1.8367,
+   "price": 1.739,
+   "prevWeek": 1.7877,
    "warStart": 1.0987,
    "warStartFebAvg": 1.083
   },
   {
    "code": "BE",
    "name": "Belgium",
-   "price": 1.4365,
-   "prevWeek": 1.5349,
+   "price": 1.3804,
+   "prevWeek": 1.4365,
    "warStart": 0.8124,
    "warStartFebAvg": 0.7857
   },
   {
    "code": "CY",
    "name": "Cyprus",
-   "price": 1.5882,
-   "prevWeek": 1.5907,
+   "price": 1.5533,
+   "prevWeek": 1.5882,
    "warStart": 0.9485,
    "warStartFebAvg": 0.9402
   },
   {
    "code": "CZ",
    "name": "Czechia",
-   "price": 1.4671,
-   "prevWeek": 1.563,
+   "price": 1.437,
+   "prevWeek": 1.4671,
    "warStart": 0.8276,
    "warStartFebAvg": 0.8294
   },
   {
    "code": "DE",
    "name": "Germany",
-   "price": 1.6909,
-   "prevWeek": 1.7169,
+   "price": 1.6572,
+   "prevWeek": 1.6909,
    "warStart": 0.9579,
    "warStartFebAvg": 0.9494
   },
   {
    "code": "DK",
    "name": "Denmark",
-   "price": 2.3958,
-   "prevWeek": 2.4899,
+   "price": 2.3289,
+   "prevWeek": 2.3958,
    "warStart": 1.7739,
    "warStartFebAvg": 1.7456
   },
   {
    "code": "EE",
    "name": "Estonia",
-   "price": 1.695,
-   "prevWeek": 1.745,
+   "price": 1.66,
+   "prevWeek": 1.695,
    "warStart": 1.031,
    "warStartFebAvg": 1.025
   },
   {
    "code": "ES",
    "name": "Spain",
-   "price": 1.5169,
-   "prevWeek": 1.5169,
+   "price": 1.4098,
+   "prevWeek": 1.4665,
    "warStart": 0.9116,
    "warStartFebAvg": 0.9008
   },
   {
    "code": "FI",
    "name": "Finland",
-   "price": 1.9873,
-   "prevWeek": 2.1062,
+   "price": 1.9563,
+   "prevWeek": 1.9873,
    "warStart": 1.3287,
    "warStartFebAvg": 1.3057
   },
   {
    "code": "FR",
    "name": "France",
-   "price": 1.7324,
-   "prevWeek": 1.9441,
+   "price": 1.703,
+   "prevWeek": 1.7324,
    "warStart": 1.2035,
    "warStartFebAvg": 1.1927
   },
   {
    "code": "GR",
    "name": "Greece",
-   "price": 1.519,
-   "prevWeek": 1.566,
+   "price": 1.455,
+   "prevWeek": 1.519,
    "warStart": 1.159,
    "warStartFebAvg": 1.1538
   },
   {
    "code": "HR",
    "name": "Croatia",
-   "price": 1.66,
+   "price": 1.56,
    "prevWeek": 1.66,
    "warStart": 0.89,
    "warStartFebAvg": 0.8775
@@ -102,7 +102,7 @@
   {
    "code": "HU",
    "name": "Hungary",
-   "price": 1.9784,
+   "price": 1.9221,
    "prevWeek": 1.9784,
    "warStart": 1.5207,
    "warStartFebAvg": 1.5183
@@ -110,24 +110,24 @@
   {
    "code": "IE",
    "name": "Ireland",
-   "price": 1.4391,
-   "prevWeek": 1.6234,
+   "price": 1.4044,
+   "prevWeek": 1.4391,
    "warStart": 0.9644,
    "warStartFebAvg": 0.9518
   },
   {
    "code": "IT",
    "name": "Italy",
-   "price": 1.9976,
-   "prevWeek": 2.0705,
+   "price": 1.9839,
+   "prevWeek": 1.9976,
    "warStart": 1.4037,
    "warStartFebAvg": 1.3939
   },
   {
    "code": "LT",
    "name": "Lithuania",
-   "price": 1.5533,
-   "prevWeek": 1.5784,
+   "price": 1.5134,
+   "prevWeek": 1.5533,
    "warStart": 0.9176,
    "warStartFebAvg": 0.9016
   },
@@ -135,15 +135,15 @@
    "code": "LU",
    "name": "Luxembourg",
    "price": 1.47,
-   "prevWeek": 1.601,
+   "prevWeek": 1.47,
    "warStart": 0.901,
    "warStartFebAvg": 0.8712
   },
   {
    "code": "LV",
    "name": "Latvia",
-   "price": 1.8469,
-   "prevWeek": 1.8627,
+   "price": 1.7759,
+   "prevWeek": 1.8469,
    "warStart": 1.1263,
    "warStartFebAvg": 1.1179
   },
@@ -158,40 +158,40 @@
   {
    "code": "PL",
    "name": "Poland",
-   "price": 1.6426,
-   "prevWeek": 1.7268,
+   "price": 1.5802,
+   "prevWeek": 1.6426,
    "warStart": 1.0186,
    "warStartFebAvg": 1.0016
   },
   {
    "code": "PT",
    "name": "Portugal",
-   "price": 2.186,
-   "prevWeek": 2.27,
+   "price": 2.128,
+   "prevWeek": 2.186,
    "warStart": 1.53,
    "warStartFebAvg": 1.5255
   },
   {
    "code": "RO",
    "name": "Romania",
-   "price": 1.5976,
-   "prevWeek": 1.5967,
+   "price": 1.5144,
+   "prevWeek": 1.5976,
    "warStart": 0.8632,
    "warStartFebAvg": 0.8383
   },
   {
    "code": "SE",
    "name": "Sweden",
-   "price": 1.8127,
-   "prevWeek": 1.911,
+   "price": 1.7457,
+   "prevWeek": 1.8127,
    "warStart": 1.211,
    "warStartFebAvg": 1.1902
   },
   {
    "code": "SI",
    "name": "Slovenia",
-   "price": 1.6061,
-   "prevWeek": 1.6002,
+   "price": 1.55,
+   "prevWeek": 1.6131,
    "warStart": 1.1087,
    "warStartFebAvg": 1.0911
   }

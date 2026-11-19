@@ -1,5 +1,5 @@
 {
- "endDate": "2026-11-09",
+ "endDate": "2026-11-16",
  "series": {
   "EU": [
    {
@@ -1276,6 +1276,41 @@
     "date": "2026-11-09",
     "price": 1.0957,
     "priceFebAvg": 1.082
+   },
+   {
+    "date": "2026-11-10",
+    "price": 1.0938,
+    "priceFebAvg": 1.0801
+   },
+   {
+    "date": "2026-11-11",
+    "price": 1.092,
+    "priceFebAvg": 1.0783
+   },
+   {
+    "date": "2026-11-12",
+    "price": 1.0901,
+    "priceFebAvg": 1.0764
+   },
+   {
+    "date": "2026-11-13",
+    "price": 1.0882,
+    "priceFebAvg": 1.0746
+   },
+   {
+    "date": "2026-11-14",
+    "price": 1.0863,
+    "priceFebAvg": 1.0727
+   },
+   {
+    "date": "2026-11-15",
+    "price": 1.0844,
+    "priceFebAvg": 1.0709
+   },
+   {
+    "date": "2026-11-16",
+    "price": 1.0825,
+    "priceFebAvg": 1.069
    }
   ],
   "AT": [
@@ -2553,6 +2588,41 @@
     "date": "2026-11-09",
     "price": 1.1662,
     "priceFebAvg": 1.1491
+   },
+   {
+    "date": "2026-11-10",
+    "price": 1.1643,
+    "priceFebAvg": 1.1472
+   },
+   {
+    "date": "2026-11-11",
+    "price": 1.1624,
+    "priceFebAvg": 1.1454
+   },
+   {
+    "date": "2026-11-12",
+    "price": 1.1605,
+    "priceFebAvg": 1.1435
+   },
+   {
+    "date": "2026-11-13",
+    "price": 1.1586,
+    "priceFebAvg": 1.1416
+   },
+   {
+    "date": "2026-11-14",
+    "price": 1.1567,
+    "priceFebAvg": 1.1398
+   },
+   {
+    "date": "2026-11-15",
+    "price": 1.1548,
+    "priceFebAvg": 1.1379
+   },
+   {
+    "date": "2026-11-16",
+    "price": 1.1529,
+    "priceFebAvg": 1.1361
    }
   ],
   "BE": [
@@ -3830,6 +3900,41 @@
     "date": "2026-11-09",
     "price": 0.8792,
     "priceFebAvg": 0.8502
+   },
+   {
+    "date": "2026-11-10",
+    "price": 0.8773,
+    "priceFebAvg": 0.8484
+   },
+   {
+    "date": "2026-11-11",
+    "price": 0.8755,
+    "priceFebAvg": 0.8466
+   },
+   {
+    "date": "2026-11-12",
+    "price": 0.8736,
+    "priceFebAvg": 0.8448
+   },
+   {
+    "date": "2026-11-13",
+    "price": 0.8717,
+    "priceFebAvg": 0.843
+   },
+   {
+    "date": "2026-11-14",
+    "price": 0.8698,
+    "priceFebAvg": 0.8412
+   },
+   {
+    "date": "2026-11-15",
+    "price": 0.868,
+    "priceFebAvg": 0.8394
+   },
+   {
+    "date": "2026-11-16",
+    "price": 0.8661,
+    "priceFebAvg": 0.8375
    }
   ],
   "CY": [
@@ -5107,6 +5212,41 @@
     "date": "2026-11-09",
     "price": 1.0213,
     "priceFebAvg": 1.0123
+   },
+   {
+    "date": "2026-11-10",
+    "price": 1.0193,
+    "priceFebAvg": 1.0103
+   },
+   {
+    "date": "2026-11-11",
+    "price": 1.0172,
+    "priceFebAvg": 1.0083
+   },
+   {
+    "date": "2026-11-12",
+    "price": 1.0152,
+    "priceFebAvg": 1.0062
+   },
+   {
+    "date": "2026-11-13",
+    "price": 1.0131,
+    "priceFebAvg": 1.0042
+   },
+   {
+    "date": "2026-11-14",
+    "price": 1.0111,
+    "priceFebAvg": 1.0022
+   },
+   {
+    "date": "2026-11-15",
+    "price": 1.009,
+    "priceFebAvg": 1.0002
+   },
+   {
+    "date": "2026-11-16",
+    "price": 1.007,
+    "priceFebAvg": 0.9981
    }
   ],
   "CZ": [
@@ -6384,6 +6524,41 @@
     "date": "2026-11-09",
     "price": 0.8879,
     "priceFebAvg": 0.8899
+   },
+   {
+    "date": "2026-11-10",
+    "price": 0.8862,
+    "priceFebAvg": 0.8882
+   },
+   {
+    "date": "2026-11-11",
+    "price": 0.8845,
+    "priceFebAvg": 0.8865
+   },
+   {
+    "date": "2026-11-12",
+    "price": 0.8829,
+    "priceFebAvg": 0.8848
+   },
+   {
+    "date": "2026-11-13",
+    "price": 0.8812,
+    "priceFebAvg": 0.8831
+   },
+   {
+    "date": "2026-11-14",
+    "price": 0.8795,
+    "priceFebAvg": 0.8814
+   },
+   {
+    "date": "2026-11-15",
+    "price": 0.8778,
+    "priceFebAvg": 0.8797
+   },
+   {
+    "date": "2026-11-16",
+    "price": 0.8761,
+    "priceFebAvg": 0.878
    }
   ],
   "DE": [
@@ -7661,6 +7836,41 @@
     "date": "2026-11-09",
     "price": 1.0161,
     "priceFebAvg": 1.0069
+   },
+   {
+    "date": "2026-11-10",
+    "price": 1.0145,
+    "priceFebAvg": 1.0053
+   },
+   {
+    "date": "2026-11-11",
+    "price": 1.0128,
+    "priceFebAvg": 1.0037
+   },
+   {
+    "date": "2026-11-12",
+    "price": 1.0112,
+    "priceFebAvg": 1.002
+   },
+   {
+    "date": "2026-11-13",
+    "price": 1.0096,
+    "priceFebAvg": 1.0004
+   },
+   {
+    "date": "2026-11-14",
+    "price": 1.0079,
+    "priceFebAvg": 0.9988
+   },
+   {
+    "date": "2026-11-15",
+    "price": 1.0063,
+    "priceFebAvg": 0.9972
+   },
+   {
+    "date": "2026-11-16",
+    "price": 1.0046,
+    "priceFebAvg": 0.9956
    }
   ],
   "DK": [
@@ -8938,6 +9148,41 @@
     "date": "2026-11-09",
     "price": 1.8703,
     "priceFebAvg": 1.8397
+   },
+   {
+    "date": "2026-11-10",
+    "price": 1.8676,
+    "priceFebAvg": 1.8371
+   },
+   {
+    "date": "2026-11-11",
+    "price": 1.8649,
+    "priceFebAvg": 1.8344
+   },
+   {
+    "date": "2026-11-12",
+    "price": 1.8622,
+    "priceFebAvg": 1.8318
+   },
+   {
+    "date": "2026-11-13",
+    "price": 1.8595,
+    "priceFebAvg": 1.8291
+   },
+   {
+    "date": "2026-11-14",
+    "price": 1.8568,
+    "priceFebAvg": 1.8265
+   },
+   {
+    "date": "2026-11-15",
+    "price": 1.854,
+    "priceFebAvg": 1.8239
+   },
+   {
+    "date": "2026-11-16",
+    "price": 1.8513,
+    "priceFebAvg": 1.8212
    }
   ],
   "EE": [
@@ -10215,6 +10460,41 @@
     "date": "2026-11-09",
     "price": 1.1114,
     "priceFebAvg": 1.1049
+   },
+   {
+    "date": "2026-11-10",
+    "price": 1.1091,
+    "priceFebAvg": 1.1027
+   },
+   {
+    "date": "2026-11-11",
+    "price": 1.1069,
+    "priceFebAvg": 1.1004
+   },
+   {
+    "date": "2026-11-12",
+    "price": 1.1046,
+    "priceFebAvg": 1.0982
+   },
+   {
+    "date": "2026-11-13",
+    "price": 1.1024,
+    "priceFebAvg": 1.0959
+   },
+   {
+    "date": "2026-11-14",
+    "price": 1.1001,
+    "priceFebAvg": 1.0937
+   },
+   {
+    "date": "2026-11-15",
+    "price": 1.0978,
+    "priceFebAvg": 1.0914
+   },
+   {
+    "date": "2026-11-16",
+    "price": 1.0956,
+    "priceFebAvg": 1.0892
    }
   ],
   "ES": [
@@ -11492,6 +11772,41 @@
     "date": "2026-11-09",
     "price": 0.9786,
     "priceFebAvg": 0.967
+   },
+   {
+    "date": "2026-11-10",
+    "price": 0.9768,
+    "priceFebAvg": 0.9651
+   },
+   {
+    "date": "2026-11-11",
+    "price": 0.9749,
+    "priceFebAvg": 0.9633
+   },
+   {
+    "date": "2026-11-12",
+    "price": 0.973,
+    "priceFebAvg": 0.9614
+   },
+   {
+    "date": "2026-11-13",
+    "price": 0.9711,
+    "priceFebAvg": 0.9595
+   },
+   {
+    "date": "2026-11-14",
+    "price": 0.9692,
+    "priceFebAvg": 0.9577
+   },
+   {
+    "date": "2026-11-15",
+    "price": 0.9673,
+    "priceFebAvg": 0.9558
+   },
+   {
+    "date": "2026-11-16",
+    "price": 0.9654,
+    "priceFebAvg": 0.954
    }
   ],
   "FI": [
@@ -12769,6 +13084,41 @@
     "date": "2026-11-09",
     "price": 1.4087,
     "priceFebAvg": 1.3838
+   },
+   {
+    "date": "2026-11-10",
+    "price": 1.4065,
+    "priceFebAvg": 1.3816
+   },
+   {
+    "date": "2026-11-11",
+    "price": 1.4042,
+    "priceFebAvg": 1.3794
+   },
+   {
+    "date": "2026-11-12",
+    "price": 1.402,
+    "priceFebAvg": 1.3772
+   },
+   {
+    "date": "2026-11-13",
+    "price": 1.3997,
+    "priceFebAvg": 1.375
+   },
+   {
+    "date": "2026-11-14",
+    "price": 1.3975,
+    "priceFebAvg": 1.3728
+   },
+   {
+    "date": "2026-11-15",
+    "price": 1.3952,
+    "priceFebAvg": 1.3706
+   },
+   {
+    "date": "2026-11-16",
+    "price": 1.393,
+    "priceFebAvg": 1.3684
    }
   ],
   "FR": [
@@ -14046,6 +14396,41 @@
     "date": "2026-11-09",
     "price": 1.2892,
     "priceFebAvg": 1.2778
+   },
+   {
+    "date": "2026-11-10",
+    "price": 1.2868,
+    "priceFebAvg": 1.2754
+   },
+   {
+    "date": "2026-11-11",
+    "price": 1.2844,
+    "priceFebAvg": 1.273
+   },
+   {
+    "date": "2026-11-12",
+    "price": 1.282,
+    "priceFebAvg": 1.2706
+   },
+   {
+    "date": "2026-11-13",
+    "price": 1.2796,
+    "priceFebAvg": 1.2682
+   },
+   {
+    "date": "2026-11-14",
+    "price": 1.2772,
+    "priceFebAvg": 1.2658
+   },
+   {
+    "date": "2026-11-15",
+    "price": 1.2748,
+    "priceFebAvg": 1.2634
+   },
+   {
+    "date": "2026-11-16",
+    "price": 1.2724,
+    "priceFebAvg": 1.2611
    }
   ],
   "GR": [
@@ -15323,6 +15708,41 @@
     "date": "2026-11-09",
     "price": 1.2246,
     "priceFebAvg": 1.2189
+   },
+   {
+    "date": "2026-11-10",
+    "price": 1.2228,
+    "priceFebAvg": 1.2171
+   },
+   {
+    "date": "2026-11-11",
+    "price": 1.2209,
+    "priceFebAvg": 1.2153
+   },
+   {
+    "date": "2026-11-12",
+    "price": 1.2191,
+    "priceFebAvg": 1.2134
+   },
+   {
+    "date": "2026-11-13",
+    "price": 1.2172,
+    "priceFebAvg": 1.2116
+   },
+   {
+    "date": "2026-11-14",
+    "price": 1.2154,
+    "priceFebAvg": 1.2098
+   },
+   {
+    "date": "2026-11-15",
+    "price": 1.2136,
+    "priceFebAvg": 1.2079
+   },
+   {
+    "date": "2026-11-16",
+    "price": 1.2117,
+    "priceFebAvg": 1.2061
    }
   ],
   "HR": [
@@ -16600,6 +17020,41 @@
     "date": "2026-11-09",
     "price": 0.957,
     "priceFebAvg": 0.9435
+   },
+   {
+    "date": "2026-11-10",
+    "price": 0.9551,
+    "priceFebAvg": 0.9416
+   },
+   {
+    "date": "2026-11-11",
+    "price": 0.9532,
+    "priceFebAvg": 0.9398
+   },
+   {
+    "date": "2026-11-12",
+    "price": 0.9514,
+    "priceFebAvg": 0.9379
+   },
+   {
+    "date": "2026-11-13",
+    "price": 0.9495,
+    "priceFebAvg": 0.9361
+   },
+   {
+    "date": "2026-11-14",
+    "price": 0.9476,
+    "priceFebAvg": 0.9342
+   },
+   {
+    "date": "2026-11-15",
+    "price": 0.9457,
+    "priceFebAvg": 0.9324
+   },
+   {
+    "date": "2026-11-16",
+    "price": 0.9438,
+    "priceFebAvg": 0.9305
    }
   ],
   "HU": [
@@ -17877,6 +18332,41 @@
     "date": "2026-11-09",
     "price": 1.6022,
     "priceFebAvg": 1.5995
+   },
+   {
+    "date": "2026-11-10",
+    "price": 1.5999,
+    "priceFebAvg": 1.5972
+   },
+   {
+    "date": "2026-11-11",
+    "price": 1.5976,
+    "priceFebAvg": 1.5949
+   },
+   {
+    "date": "2026-11-12",
+    "price": 1.5953,
+    "priceFebAvg": 1.5926
+   },
+   {
+    "date": "2026-11-13",
+    "price": 1.593,
+    "priceFebAvg": 1.5904
+   },
+   {
+    "date": "2026-11-14",
+    "price": 1.5908,
+    "priceFebAvg": 1.5881
+   },
+   {
+    "date": "2026-11-15",
+    "price": 1.5885,
+    "priceFebAvg": 1.5858
+   },
+   {
+    "date": "2026-11-16",
+    "price": 1.5862,
+    "priceFebAvg": 1.5835
    }
   ],
   "IE": [
@@ -19154,6 +19644,41 @@
     "date": "2026-11-09",
     "price": 1.0267,
     "priceFebAvg": 1.013
+   },
+   {
+    "date": "2026-11-10",
+    "price": 1.0249,
+    "priceFebAvg": 1.0113
+   },
+   {
+    "date": "2026-11-11",
+    "price": 1.0232,
+    "priceFebAvg": 1.0096
+   },
+   {
+    "date": "2026-11-12",
+    "price": 1.0214,
+    "priceFebAvg": 1.0078
+   },
+   {
+    "date": "2026-11-13",
+    "price": 1.0197,
+    "priceFebAvg": 1.0061
+   },
+   {
+    "date": "2026-11-14",
+    "price": 1.0179,
+    "priceFebAvg": 1.0044
+   },
+   {
+    "date": "2026-11-15",
+    "price": 1.0162,
+    "priceFebAvg": 1.0027
+   },
+   {
+    "date": "2026-11-16",
+    "price": 1.0144,
+    "priceFebAvg": 1.001
    }
   ],
   "IT": [
@@ -20431,6 +20956,41 @@
     "date": "2026-11-09",
     "price": 1.4801,
     "priceFebAvg": 1.4694
+   },
+   {
+    "date": "2026-11-10",
+    "price": 1.4779,
+    "priceFebAvg": 1.4673
+   },
+   {
+    "date": "2026-11-11",
+    "price": 1.4758,
+    "priceFebAvg": 1.4652
+   },
+   {
+    "date": "2026-11-12",
+    "price": 1.4737,
+    "priceFebAvg": 1.4631
+   },
+   {
+    "date": "2026-11-13",
+    "price": 1.4715,
+    "priceFebAvg": 1.4609
+   },
+   {
+    "date": "2026-11-14",
+    "price": 1.4694,
+    "priceFebAvg": 1.4588
+   },
+   {
+    "date": "2026-11-15",
+    "price": 1.4672,
+    "priceFebAvg": 1.4567
+   },
+   {
+    "date": "2026-11-16",
+    "price": 1.4651,
+    "priceFebAvg": 1.4546
    }
   ],
   "LT": [
@@ -21708,6 +22268,41 @@
     "date": "2026-11-09",
     "price": 0.9819,
     "priceFebAvg": 0.9646
+   },
+   {
+    "date": "2026-11-10",
+    "price": 0.9801,
+    "priceFebAvg": 0.9628
+   },
+   {
+    "date": "2026-11-11",
+    "price": 0.9783,
+    "priceFebAvg": 0.961
+   },
+   {
+    "date": "2026-11-12",
+    "price": 0.9765,
+    "priceFebAvg": 0.9593
+   },
+   {
+    "date": "2026-11-13",
+    "price": 0.9747,
+    "priceFebAvg": 0.9575
+   },
+   {
+    "date": "2026-11-14",
+    "price": 0.9729,
+    "priceFebAvg": 0.9557
+   },
+   {
+    "date": "2026-11-15",
+    "price": 0.9711,
+    "priceFebAvg": 0.954
+   },
+   {
+    "date": "2026-11-16",
+    "price": 0.9692,
+    "priceFebAvg": 0.9522
    }
   ],
   "LU": [
@@ -22985,6 +23580,41 @@
     "date": "2026-11-09",
     "price": 0.9684,
     "priceFebAvg": 0.936
+   },
+   {
+    "date": "2026-11-10",
+    "price": 0.9665,
+    "priceFebAvg": 0.9342
+   },
+   {
+    "date": "2026-11-11",
+    "price": 0.9647,
+    "priceFebAvg": 0.9324
+   },
+   {
+    "date": "2026-11-12",
+    "price": 0.9628,
+    "priceFebAvg": 0.9306
+   },
+   {
+    "date": "2026-11-13",
+    "price": 0.9609,
+    "priceFebAvg": 0.9287
+   },
+   {
+    "date": "2026-11-14",
+    "price": 0.959,
+    "priceFebAvg": 0.9269
+   },
+   {
+    "date": "2026-11-15",
+    "price": 0.9571,
+    "priceFebAvg": 0.9251
+   },
+   {
+    "date": "2026-11-16",
+    "price": 0.9552,
+    "priceFebAvg": 0.9233
    }
   ],
   "LV": [
@@ -24262,6 +24892,41 @@
     "date": "2026-11-09",
     "price": 1.2006,
     "priceFebAvg": 1.1916
+   },
+   {
+    "date": "2026-11-10",
+    "price": 1.1986,
+    "priceFebAvg": 1.1895
+   },
+   {
+    "date": "2026-11-11",
+    "price": 1.1965,
+    "priceFebAvg": 1.1874
+   },
+   {
+    "date": "2026-11-12",
+    "price": 1.1944,
+    "priceFebAvg": 1.1854
+   },
+   {
+    "date": "2026-11-13",
+    "price": 1.1923,
+    "priceFebAvg": 1.1833
+   },
+   {
+    "date": "2026-11-14",
+    "price": 1.1902,
+    "priceFebAvg": 1.1812
+   },
+   {
+    "date": "2026-11-15",
+    "price": 1.1881,
+    "priceFebAvg": 1.1791
+   },
+   {
+    "date": "2026-11-16",
+    "price": 1.186,
+    "priceFebAvg": 1.1771
    }
   ],
   "MT": [
@@ -25537,6 +26202,41 @@
    },
    {
     "date": "2026-11-09",
+    "price": 1.0,
+    "priceFebAvg": 1.0
+   },
+   {
+    "date": "2026-11-10",
+    "price": 1.0,
+    "priceFebAvg": 1.0
+   },
+   {
+    "date": "2026-11-11",
+    "price": 1.0,
+    "priceFebAvg": 1.0
+   },
+   {
+    "date": "2026-11-12",
+    "price": 1.0,
+    "priceFebAvg": 1.0
+   },
+   {
+    "date": "2026-11-13",
+    "price": 1.0,
+    "priceFebAvg": 1.0
+   },
+   {
+    "date": "2026-11-14",
+    "price": 1.0,
+    "priceFebAvg": 1.0
+   },
+   {
+    "date": "2026-11-15",
+    "price": 1.0,
+    "priceFebAvg": 1.0
+   },
+   {
+    "date": "2026-11-16",
     "price": 1.0,
     "priceFebAvg": 1.0
    }
@@ -26816,6 +27516,41 @@
     "date": "2026-11-09",
     "price": 1.0976,
     "priceFebAvg": 1.0792
+   },
+   {
+    "date": "2026-11-10",
+    "price": 1.0954,
+    "priceFebAvg": 1.077
+   },
+   {
+    "date": "2026-11-11",
+    "price": 1.0932,
+    "priceFebAvg": 1.0748
+   },
+   {
+    "date": "2026-11-12",
+    "price": 1.091,
+    "priceFebAvg": 1.0726
+   },
+   {
+    "date": "2026-11-13",
+    "price": 1.0887,
+    "priceFebAvg": 1.0704
+   },
+   {
+    "date": "2026-11-14",
+    "price": 1.0865,
+    "priceFebAvg": 1.0683
+   },
+   {
+    "date": "2026-11-15",
+    "price": 1.0843,
+    "priceFebAvg": 1.0661
+   },
+   {
+    "date": "2026-11-16",
+    "price": 1.0821,
+    "priceFebAvg": 1.0639
    }
   ],
   "PT": [
@@ -28093,6 +28828,41 @@
     "date": "2026-11-09",
     "price": 1.6057,
     "priceFebAvg": 1.6008
+   },
+   {
+    "date": "2026-11-10",
+    "price": 1.6035,
+    "priceFebAvg": 1.5987
+   },
+   {
+    "date": "2026-11-11",
+    "price": 1.6014,
+    "priceFebAvg": 1.5965
+   },
+   {
+    "date": "2026-11-12",
+    "price": 1.5993,
+    "priceFebAvg": 1.5944
+   },
+   {
+    "date": "2026-11-13",
+    "price": 1.5971,
+    "priceFebAvg": 1.5923
+   },
+   {
+    "date": "2026-11-14",
+    "price": 1.595,
+    "priceFebAvg": 1.5902
+   },
+   {
+    "date": "2026-11-15",
+    "price": 1.5929,
+    "priceFebAvg": 1.5881
+   },
+   {
+    "date": "2026-11-16",
+    "price": 1.5908,
+    "priceFebAvg": 1.586
    }
   ],
   "RO": [
@@ -29370,6 +30140,41 @@
     "date": "2026-11-09",
     "price": 0.9338,
     "priceFebAvg": 0.9067
+   },
+   {
+    "date": "2026-11-10",
+    "price": 0.9318,
+    "priceFebAvg": 0.9048
+   },
+   {
+    "date": "2026-11-11",
+    "price": 0.9298,
+    "priceFebAvg": 0.9029
+   },
+   {
+    "date": "2026-11-12",
+    "price": 0.9278,
+    "priceFebAvg": 0.901
+   },
+   {
+    "date": "2026-11-13",
+    "price": 0.9258,
+    "priceFebAvg": 0.899
+   },
+   {
+    "date": "2026-11-14",
+    "price": 0.9238,
+    "priceFebAvg": 0.8971
+   },
+   {
+    "date": "2026-11-15",
+    "price": 0.9219,
+    "priceFebAvg": 0.8952
+   },
+   {
+    "date": "2026-11-16",
+    "price": 0.9199,
+    "priceFebAvg": 0.8933
    }
   ],
   "SE": [
@@ -30647,6 +31452,41 @@
     "date": "2026-11-09",
     "price": 1.2781,
     "priceFebAvg": 1.2509
+   },
+   {
+    "date": "2026-11-10",
+    "price": 1.2762,
+    "priceFebAvg": 1.2492
+   },
+   {
+    "date": "2026-11-11",
+    "price": 1.2743,
+    "priceFebAvg": 1.2475
+   },
+   {
+    "date": "2026-11-12",
+    "price": 1.2724,
+    "priceFebAvg": 1.2458
+   },
+   {
+    "date": "2026-11-13",
+    "price": 1.2705,
+    "priceFebAvg": 1.2441
+   },
+   {
+    "date": "2026-11-14",
+    "price": 1.2686,
+    "priceFebAvg": 1.2424
+   },
+   {
+    "date": "2026-11-15",
+    "price": 1.2667,
+    "priceFebAvg": 1.2407
+   },
+   {
+    "date": "2026-11-16",
+    "price": 1.2649,
+    "priceFebAvg": 1.239
    }
   ],
   "SI": [
@@ -31924,6 +32764,41 @@
     "date": "2026-11-09",
     "price": 1.1719,
     "priceFebAvg": 1.1528
+   },
+   {
+    "date": "2026-11-10",
+    "price": 1.1702,
+    "priceFebAvg": 1.1511
+   },
+   {
+    "date": "2026-11-11",
+    "price": 1.1684,
+    "priceFebAvg": 1.1494
+   },
+   {
+    "date": "2026-11-12",
+    "price": 1.1666,
+    "priceFebAvg": 1.1476
+   },
+   {
+    "date": "2026-11-13",
+    "price": 1.1648,
+    "priceFebAvg": 1.1459
+   },
+   {
+    "date": "2026-11-14",
+    "price": 1.1631,
+    "priceFebAvg": 1.1442
+   },
+   {
+    "date": "2026-11-15",
+    "price": 1.1613,
+    "priceFebAvg": 1.1424
+   },
+   {
+    "date": "2026-11-16",
+    "price": 1.1595,
+    "priceFebAvg": 1.1407
    }
   ]
  }

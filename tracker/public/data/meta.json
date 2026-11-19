@@ -1,45 +1,45 @@
 {
- "builtAt": "2026-11-16T17:39:51.463475+00:00",
- "latestBulletin": "2026-11-09",
- "bulletinWeeks": 45,
+ "builtAt": "2026-11-19T16:55:20.983294+00:00",
+ "latestBulletin": "2026-11-16",
+ "bulletinWeeks": 46,
  "sensitivity": {
   "petrol": {
-   "lastBulletin": 16493837972,
-   "excluding2022Seasonality": 18641005029,
-   "euDirectFormula": 15473037134
+   "lastBulletin": 16861377111,
+   "excluding2022Seasonality": 19019925337,
+   "euDirectFormula": 15799540583
   },
   "diesel": {
-   "lastBulletin": 63454403478,
-   "excluding2022Seasonality": 72274487701,
-   "euDirectFormula": 62884153579
+   "lastBulletin": 65366032629,
+   "excluding2022Seasonality": 74363826511,
+   "euDirectFormula": 64790111736
   },
   "heating": {
-   "lastBulletin": 12781428136,
-   "excluding2022Seasonality": 14569976963,
-   "euDirectFormula": 13016897528
+   "lastBulletin": 13268516834,
+   "excluding2022Seasonality": 15094825762,
+   "euDirectFormula": 13537477076
   }
  },
  "crossCheckFlatBaseline": {
   "petrol": {
-   "pretaxPremium": 21523553273,
-   "upstream": 13785441815,
+   "pretaxPremium": 22075182458,
+   "upstream": 14105892130,
    "pretaxPremiumToTE": 18564194989,
    "upstreamToTE": 11493486680,
-   "downstream": 7738111458,
+   "downstream": 7969290328,
    "downstreamToTE": 7070708309,
    "comparisonEnd": "2026-10-12"
   },
   "diesel": {
-   "pretaxPremium": 69125000627,
-   "upstream": 35805476711,
+   "pretaxPremium": 71433949357,
+   "upstream": 36656151739,
    "pretaxPremiumToTE": 58612870006,
    "upstreamToTE": 29725561132,
-   "downstream": 33319523916,
+   "downstream": 34777797618,
    "downstreamToTE": 28887308874,
    "comparisonEnd": "2026-10-12"
   }
  },
- "latestBrentDay": "2026-11-11",
+ "latestBrentDay": "2026-11-17",
  "brentWeeklyEUR": {
   "2026-01-05": 53.02,
   "2026-01-12": 54.29,
@@ -85,7 +85,8 @@
   "2026-10-19": 110.02,
   "2026-10-26": 109.65,
   "2026-11-02": 104.87,
-  "2026-11-09": 86.7
+  "2026-11-09": 86.7,
+  "2026-11-16": 83.96
  },
  "litresPerTonne": {
   "petrol": 1342.0,

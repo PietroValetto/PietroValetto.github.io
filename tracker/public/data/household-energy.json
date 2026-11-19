@@ -7,12 +7,12 @@
   "solid": "Wood, coal and other solid fuels",
   "heat": "District heating"
  },
- "measuredThrough": "2026-10-01T00:00:00+02:00",
+ "measuredThrough": "2026-11-01T00:00:00+02:00",
  "EU": {
   "items": {
    "electricity": {
-    "total": -642927092,
-    "pctChange": 2.7,
+    "total": 702767304,
+    "pctChange": 5.62,
     "indexMonthly": [
      {
       "month": "2026-02",
@@ -45,12 +45,16 @@
      {
       "month": "2026-09",
       "index": 102.7
+     },
+     {
+      "month": "2026-10",
+      "index": 105.62
      }
     ]
    },
    "gas": {
-    "total": 5322146872,
-    "pctChange": 9.9,
+    "total": 7614412457,
+    "pctChange": 16.85,
     "indexMonthly": [
      {
       "month": "2026-02",
@@ -82,13 +86,17 @@
      },
      {
       "month": "2026-09",
-      "index": 109.9
+      "index": 110.2
+     },
+     {
+      "month": "2026-10",
+      "index": 116.85
      }
     ]
    },
    "solid": {
-    "total": 248504688,
-    "pctChange": 5.19,
+    "total": 449361255,
+    "pctChange": 8.98,
     "indexMonthly": [
      {
       "month": "2026-02",
@@ -121,12 +129,16 @@
      {
       "month": "2026-09",
       "index": 105.19
+     },
+     {
+      "month": "2026-10",
+      "index": 108.98
      }
     ]
    },
    "heat": {
-    "total": 122623959,
-    "pctChange": 1.1,
+    "total": 222046221,
+    "pctChange": 2.54,
     "indexMonthly": [
      {
       "month": "2026-02",
@@ -158,14 +170,18 @@
      },
      {
       "month": "2026-09",
-      "index": 101.1
+      "index": 101.17
+     },
+     {
+      "month": "2026-10",
+      "index": 102.54
      }
     ]
    }
   },
-  "total": 5050348427,
-  "dailyRate": 70121376,
-  "lastMonth": "2026-09",
+  "total": 8988587237,
+  "dailyRate": 125605823,
+  "lastMonth": "2026-10",
   "laggingCountries": []
  },
  "countries": {
@@ -174,8 +190,8 @@
     "electricity": {
      "weightPerMille": 23.03,
      "monthlySpend": 492946019,
-     "total": -148815868,
-     "pctChange": -4.9,
+     "total": -162587358,
+     "pctChange": -2.79,
      "monthly": [
       {
        "month": "2026-03",
@@ -211,14 +227,19 @@
        "month": "2026-09",
        "index": 95.1,
        "extra": -24139379
+      },
+      {
+       "month": "2026-10",
+       "index": 97.21,
+       "extra": -13771490
       }
      ]
     },
     "gas": {
      "weightPerMille": 10.69,
      "monthlySpend": 228814283,
-     "total": 70648662,
-     "pctChange": 8.38,
+     "total": 96750606,
+     "pctChange": 11.41,
      "monthly": [
       {
        "month": "2026-03",
@@ -254,14 +275,19 @@
        "month": "2026-09",
        "index": 108.38,
        "extra": 19165448
+      },
+      {
+       "month": "2026-10",
+       "index": 111.41,
+       "extra": 26101944
       }
      ]
     },
     "solid": {
      "weightPerMille": 3.78,
      "monthlySpend": 80909073,
-     "total": 12110378,
-     "pctChange": 5.4,
+     "total": 19385642,
+     "pctChange": 8.99,
      "monthly": [
       {
        "month": "2026-03",
@@ -297,14 +323,19 @@
        "month": "2026-09",
        "index": 105.4,
        "extra": 4368171
+      },
+      {
+       "month": "2026-10",
+       "index": 108.99,
+       "extra": 7275264
       }
      ]
     },
     "heat": {
      "weightPerMille": 8.69,
      "monthlySpend": 186005250,
-     "total": 5820647,
-     "pctChange": 3.75,
+     "total": 18775692,
+     "pctChange": 5.38,
      "monthly": [
       {
        "month": "2026-03",
@@ -338,15 +369,20 @@
       },
       {
        "month": "2026-09",
-       "index": 103.75,
-       "extra": 6970179
+       "index": 105.34,
+       "extra": 9926119
+      },
+      {
+       "month": "2026-10",
+       "index": 105.38,
+       "extra": 9999105
       }
      ]
     }
    },
-   "total": -60236181,
-   "lastMonth": "2026-09",
-   "dailyRate": 212147,
+   "total": -27675418,
+   "lastMonth": "2026-10",
+   "dailyRate": 954994,
    "consumptionYear": 2025
   },
   "BE": {
@@ -354,8 +390,8 @@
     "electricity": {
      "weightPerMille": 31.14,
      "monthlySpend": 842992497,
-     "total": 20648033,
-     "pctChange": 6.78,
+     "total": 154453785,
+     "pctChange": 15.87,
      "monthly": [
       {
        "month": "2026-03",
@@ -391,14 +427,19 @@
        "month": "2026-09",
        "index": 106.78,
        "extra": 57147900
+      },
+      {
+       "month": "2026-10",
+       "index": 115.87,
+       "extra": 133805752
       }
      ]
     },
     "gas": {
      "weightPerMille": 17.76,
      "monthlySpend": 480781848,
-     "total": 596993833,
-     "pctChange": 32.87,
+     "total": 826200861,
+     "pctChange": 47.67,
      "monthly": [
       {
        "month": "2026-03",
@@ -434,14 +475,19 @@
        "month": "2026-09",
        "index": 132.87,
        "extra": 158032214
+      },
+      {
+       "month": "2026-10",
+       "index": 147.67,
+       "extra": 229207028
       }
      ]
     },
     "solid": {
      "weightPerMille": 1.05,
      "monthlySpend": 28424603,
-     "total": 5152345,
-     "pctChange": 4.78,
+     "total": 6710356,
+     "pctChange": 5.48,
      "monthly": [
       {
        "month": "2026-03",
@@ -477,13 +523,18 @@
        "month": "2026-09",
        "index": 104.78,
        "extra": 1359413
+      },
+      {
+       "month": "2026-10",
+       "index": 105.48,
+       "extra": 1558011
       }
      ]
     }
    },
-   "total": 622794211,
-   "lastMonth": "2026-09",
-   "dailyRate": 7217984,
+   "total": 987365002,
+   "lastMonth": "2026-10",
+   "dailyRate": 11760348,
    "consumptionYear": 2025
   },
   "BG": {
@@ -491,7 +542,7 @@
     "electricity": {
      "weightPerMille": 38.45,
      "monthlySpend": 213828460,
-     "total": 19626972,
+     "total": 26169296,
      "pctChange": 3.06,
      "monthly": [
       {
@@ -528,14 +579,19 @@
        "month": "2026-09",
        "index": 103.06,
        "extra": 6542324
+      },
+      {
+       "month": "2026-10",
+       "index": 103.06,
+       "extra": 6542324
       }
      ]
     },
     "gas": {
      "weightPerMille": 2.25,
      "monthlySpend": 12512719,
-     "total": 8330044,
-     "pctChange": 16.37,
+     "total": 10873120,
+     "pctChange": 20.32,
      "monthly": [
       {
        "month": "2026-03",
@@ -571,14 +627,19 @@
        "month": "2026-09",
        "index": 116.37,
        "extra": 2048843
+      },
+      {
+       "month": "2026-10",
+       "index": 120.32,
+       "extra": 2543076
       }
      ]
     },
     "solid": {
      "weightPerMille": 14.67,
      "monthlySpend": 81582926,
-     "total": 15416186,
-     "pctChange": 5.31,
+     "total": 20766276,
+     "pctChange": 6.56,
      "monthly": [
       {
        "month": "2026-03",
@@ -614,13 +675,18 @@
        "month": "2026-09",
        "index": 105.31,
        "extra": 4335554
+      },
+      {
+       "month": "2026-10",
+       "index": 106.56,
+       "extra": 5350090
       }
      ]
     },
     "heat": {
      "weightPerMille": 5.69,
      "monthlySpend": 31643275,
-     "total": 5015265,
+     "total": 6687020,
      "pctChange": 5.28,
      "monthly": [
       {
@@ -657,13 +723,18 @@
        "month": "2026-09",
        "index": 105.28,
        "extra": 1671755
+      },
+      {
+       "month": "2026-10",
+       "index": 105.28,
+       "extra": 1671755
       }
      ]
     }
    },
-   "total": 48388467,
-   "lastMonth": "2026-09",
-   "dailyRate": 486616,
+   "total": 64495712,
+   "lastMonth": "2026-10",
+   "dailyRate": 519589,
    "consumptionYear": 2025
   },
   "CY": {
@@ -671,8 +742,8 @@
     "electricity": {
      "weightPerMille": 28.28,
      "monthlySpend": 49450644,
-     "total": 12512047,
-     "pctChange": 15.97,
+     "total": 22841760,
+     "pctChange": 20.89,
      "monthly": [
       {
        "month": "2026-03",
@@ -708,14 +779,19 @@
        "month": "2026-09",
        "index": 115.97,
        "extra": 7897970
+      },
+      {
+       "month": "2026-10",
+       "index": 120.89,
+       "extra": 10329713
       }
      ]
     },
     "gas": {
      "weightPerMille": 2.8,
      "monthlySpend": 4896103,
-     "total": 2797390,
-     "pctChange": -2.75,
+     "total": 3049057,
+     "pctChange": 5.14,
      "monthly": [
       {
        "month": "2026-03",
@@ -751,13 +827,18 @@
        "month": "2026-09",
        "index": 97.25,
        "extra": -134550
+      },
+      {
+       "month": "2026-10",
+       "index": 105.14,
+       "extra": 251667
       }
      ]
     },
     "solid": {
      "weightPerMille": 1.78,
      "monthlySpend": 3112523,
-     "total": 413254,
+     "total": 541405,
      "pctChange": 4.12,
      "monthly": [
       {
@@ -794,13 +875,18 @@
        "month": "2026-09",
        "index": 104.12,
        "extra": 128151
+      },
+      {
+       "month": "2026-10",
+       "index": 104.12,
+       "extra": 128151
       }
      ]
     }
    },
-   "total": 15722691,
-   "lastMonth": "2026-09",
-   "dailyRate": 263052,
+   "total": 26432222,
+   "lastMonth": "2026-10",
+   "dailyRate": 345469,
    "consumptionYear": 2025
   },
   "CZ": {
@@ -808,8 +894,8 @@
     "electricity": {
      "weightPerMille": 50.74,
      "monthlySpend": 679400143,
-     "total": -19783183,
-     "pctChange": -0.68,
+     "total": -24044176,
+     "pctChange": -0.63,
      "monthly": [
       {
        "month": "2026-03",
@@ -845,14 +931,19 @@
        "month": "2026-09",
        "index": 99.32,
        "extra": -4641439
+      },
+      {
+       "month": "2026-10",
+       "index": 99.37,
+       "extra": -4260993
       }
      ]
     },
     "gas": {
      "weightPerMille": 18.63,
      "monthlySpend": 249452595,
-     "total": -26164369,
-     "pctChange": -2.33,
+     "total": -32311575,
+     "pctChange": -2.46,
      "monthly": [
       {
        "month": "2026-03",
@@ -888,14 +979,19 @@
        "month": "2026-09",
        "index": 97.67,
        "extra": -5811434
+      },
+      {
+       "month": "2026-10",
+       "index": 97.54,
+       "extra": -6147206
       }
      ]
     },
     "solid": {
      "weightPerMille": 8.71,
      "monthlySpend": 116625448,
-     "total": 3038947,
-     "pctChange": 1.9,
+     "total": 6767502,
+     "pctChange": 3.2,
      "monthly": [
       {
        "month": "2026-03",
@@ -931,13 +1027,18 @@
        "month": "2026-09",
        "index": 101.9,
        "extra": 2220769
+      },
+      {
+       "month": "2026-10",
+       "index": 103.2,
+       "extra": 3728555
       }
      ]
     },
     "heat": {
      "weightPerMille": 16.48,
      "monthlySpend": 220664453,
-     "total": 12728117,
+     "total": 15527428,
      "pctChange": 1.27,
      "monthly": [
       {
@@ -974,13 +1075,18 @@
        "month": "2026-09",
        "index": 101.27,
        "extra": 2799311
+      },
+      {
+       "month": "2026-10",
+       "index": 101.27,
+       "extra": 2799311
       }
      ]
     }
    },
-   "total": -30180488,
-   "lastMonth": "2026-09",
-   "dailyRate": -181093,
+   "total": -34060821,
+   "lastMonth": "2026-10",
+   "dailyRate": -125172,
    "consumptionYear": 2025
   },
   "DE": {
@@ -988,8 +1094,8 @@
     "electricity": {
      "weightPerMille": 30.51,
      "monthlySpend": 6058462230,
-     "total": -462637026,
-     "pctChange": -1.49,
+     "total": -534588760,
+     "pctChange": -1.19,
      "monthly": [
       {
        "month": "2026-03",
@@ -1025,14 +1131,19 @@
        "month": "2026-09",
        "index": 98.51,
        "extra": -90255245
+      },
+      {
+       "month": "2026-10",
+       "index": 98.81,
+       "extra": -71951734
       }
      ]
     },
     "gas": {
      "weightPerMille": 15.8,
      "monthlySpend": 3137453400,
-     "total": 15764480,
-     "pctChange": -1.03,
+     "total": 100377918,
+     "pctChange": 1.37,
      "monthly": [
       {
        "month": "2026-03",
@@ -1066,16 +1177,21 @@
       },
       {
        "month": "2026-09",
-       "index": 98.97,
-       "extra": -32172410
+       "index": 100.3,
+       "extra": 9329999
+      },
+      {
+       "month": "2026-10",
+       "index": 101.37,
+       "extra": 43111029
       }
      ]
     },
     "solid": {
      "weightPerMille": 0.79,
      "monthlySpend": 156872670,
-     "total": 1681096,
-     "pctChange": 2.56,
+     "total": 8081053,
+     "pctChange": 4.08,
      "monthly": [
       {
        "month": "2026-03",
@@ -1111,14 +1227,19 @@
        "month": "2026-09",
        "index": 102.56,
        "extra": 4011033
+      },
+      {
+       "month": "2026-10",
+       "index": 104.08,
+       "extra": 6399957
       }
      ]
     },
     "heat": {
      "weightPerMille": 4.12,
      "monthlySpend": 818120760,
-     "total": 6957796,
-     "pctChange": 0.55,
+     "total": 21618865,
+     "pctChange": 1.79,
      "monthly": [
       {
        "month": "2026-03",
@@ -1154,13 +1275,18 @@
        "month": "2026-09",
        "index": 100.55,
        "extra": 4472868
+      },
+      {
+       "month": "2026-10",
+       "index": 101.79,
+       "extra": 14661069
       }
      ]
     }
    },
-   "total": -438233654,
-   "lastMonth": "2026-09",
-   "dailyRate": -3798125,
+   "total": -404510924,
+   "lastMonth": "2026-10",
+   "dailyRate": -250957,
    "consumptionYear": 2025
   },
   "DK": {
@@ -1168,8 +1294,8 @@
     "electricity": {
      "weightPerMille": 25.02,
      "monthlySpend": 362457651,
-     "total": -252713401,
-     "pctChange": 2.52,
+     "total": -153873970,
+     "pctChange": 27.27,
      "monthly": [
       {
        "month": "2026-03",
@@ -1205,14 +1331,19 @@
        "month": "2026-09",
        "index": 102.52,
        "extra": 9141487
+      },
+      {
+       "month": "2026-10",
+       "index": 127.27,
+       "extra": 98839431
       }
      ]
     },
     "gas": {
      "weightPerMille": 4.07,
      "monthlySpend": 58960937,
-     "total": 37380424,
-     "pctChange": 20.33,
+     "total": 56493902,
+     "pctChange": 32.42,
      "monthly": [
       {
        "month": "2026-03",
@@ -1248,14 +1379,19 @@
        "month": "2026-09",
        "index": 120.33,
        "extra": 11984471
+      },
+      {
+       "month": "2026-10",
+       "index": 132.42,
+       "extra": 19113478
       }
      ]
     },
     "solid": {
      "weightPerMille": 3.81,
      "monthlySpend": 55194390,
-     "total": 27219875,
-     "pctChange": 8.53,
+     "total": 34201630,
+     "pctChange": 12.65,
      "monthly": [
       {
        "month": "2026-03",
@@ -1291,14 +1427,19 @@
        "month": "2026-09",
        "index": 108.53,
        "extra": 4707276
+      },
+      {
+       "month": "2026-10",
+       "index": 112.65,
+       "extra": 6981755
       }
      ]
     },
     "heat": {
      "weightPerMille": 21.7,
      "monthlySpend": 314361752,
-     "total": -37003771,
-     "pctChange": -1.84,
+     "total": -41710527,
+     "pctChange": -1.5,
      "monthly": [
       {
        "month": "2026-03",
@@ -1334,13 +1475,18 @@
        "month": "2026-09",
        "index": 98.16,
        "extra": -5790548
+      },
+      {
+       "month": "2026-10",
+       "index": 98.5,
+       "extra": -4706756
       }
      ]
     }
    },
-   "total": -225116873,
-   "lastMonth": "2026-09",
-   "dailyRate": 668090,
+   "total": -104888965,
+   "lastMonth": "2026-10",
+   "dailyRate": 3878320,
    "consumptionYear": 2025
   },
   "EE": {
@@ -1348,8 +1494,8 @@
     "electricity": {
      "weightPerMille": 41.02,
      "monthlySpend": 72240322,
-     "total": -71823725,
-     "pctChange": -10.46,
+     "total": -78833421,
+     "pctChange": -9.7,
      "monthly": [
       {
        "month": "2026-03",
@@ -1385,14 +1531,19 @@
        "month": "2026-09",
        "index": 89.54,
        "extra": -7559121
+      },
+      {
+       "month": "2026-10",
+       "index": 90.3,
+       "extra": -7009696
       }
      ]
     },
     "gas": {
      "weightPerMille": 5.23,
      "monthlySpend": 9210553,
-     "total": 14475428,
-     "pctChange": 39.87,
+     "total": 19403551,
+     "pctChange": 53.51,
      "monthly": [
       {
        "month": "2026-03",
@@ -1428,14 +1579,19 @@
        "month": "2026-09",
        "index": 139.87,
        "extra": 3672499
+      },
+      {
+       "month": "2026-10",
+       "index": 153.51,
+       "extra": 4928123
       }
      ]
     },
     "solid": {
      "weightPerMille": 16.62,
      "monthlySpend": 29269482,
-     "total": 4551528,
-     "pctChange": 5.73,
+     "total": 6844191,
+     "pctChange": 7.83,
      "monthly": [
       {
        "month": "2026-03",
@@ -1471,14 +1627,19 @@
        "month": "2026-09",
        "index": 105.73,
        "extra": 1675841
+      },
+      {
+       "month": "2026-10",
+       "index": 107.83,
+       "extra": 2292663
       }
      ]
     },
     "heat": {
      "weightPerMille": 26.79,
      "monthlySpend": 47179869,
-     "total": 4619960,
-     "pctChange": 2.66,
+     "total": 6045815,
+     "pctChange": 3.02,
      "monthly": [
       {
        "month": "2026-03",
@@ -1514,13 +1675,18 @@
        "month": "2026-09",
        "index": 102.66,
        "extra": 1257004
+      },
+      {
+       "month": "2026-10",
+       "index": 103.02,
+       "extra": 1425855
       }
      ]
     }
    },
-   "total": -48176809,
-   "lastMonth": "2026-09",
-   "dailyRate": -31793,
+   "total": -46539864,
+   "lastMonth": "2026-10",
+   "dailyRate": 52805,
    "consumptionYear": 2025
   },
   "ES": {
@@ -1528,8 +1694,8 @@
     "electricity": {
      "weightPerMille": 32.44,
      "monthlySpend": 2470346550,
-     "total": -91024114,
-     "pctChange": 8.28,
+     "total": 162645720,
+     "pctChange": 10.27,
      "monthly": [
       {
        "month": "2026-03",
@@ -1565,14 +1731,19 @@
        "month": "2026-09",
        "index": 108.28,
        "extra": 204564720
+      },
+      {
+       "month": "2026-10",
+       "index": 110.27,
+       "extra": 253669834
       }
      ]
     },
     "gas": {
      "weightPerMille": 10.31,
      "monthlySpend": 785119388,
-     "total": -154940118,
-     "pctChange": 3.25,
+     "total": -91480182,
+     "pctChange": 8.08,
      "monthly": [
       {
        "month": "2026-03",
@@ -1608,13 +1779,18 @@
        "month": "2026-09",
        "index": 103.25,
        "extra": 25494477
+      },
+      {
+       "month": "2026-10",
+       "index": 108.08,
+       "extra": 63459936
       }
      ]
     }
    },
-   "total": -245964232,
-   "lastMonth": "2026-09",
-   "dailyRate": 7668640,
+   "total": 71165538,
+   "lastMonth": "2026-10",
+   "dailyRate": 10229993,
    "consumptionYear": 2025
   },
   "FI": {
@@ -1622,8 +1798,8 @@
     "electricity": {
      "weightPerMille": 32.76,
      "monthlySpend": 374225670,
-     "total": -350095136,
-     "pctChange": -15.8,
+     "total": -398013707,
+     "pctChange": -12.8,
      "monthly": [
       {
        "month": "2026-03",
@@ -1659,13 +1835,18 @@
        "month": "2026-09",
        "index": 84.2,
        "extra": -59127594
+      },
+      {
+       "month": "2026-10",
+       "index": 87.2,
+       "extra": -47918571
       }
      ]
     },
     "heat": {
      "weightPerMille": 21.09,
      "monthlySpend": 240916342,
-     "total": 596151,
+     "total": 1192302,
      "pctChange": 0.25,
      "monthly": [
       {
@@ -1702,13 +1883,18 @@
        "month": "2026-09",
        "index": 100.25,
        "extra": 596151
+      },
+      {
+       "month": "2026-10",
+       "index": 100.25,
+       "extra": 596151
       }
      ]
     }
    },
-   "total": -349498985,
-   "lastMonth": "2026-09",
-   "dailyRate": -1951048,
+   "total": -396821405,
+   "lastMonth": "2026-10",
+   "dailyRate": -1526530,
    "consumptionYear": 2025
   },
   "FR": {
@@ -1716,8 +1902,8 @@
     "electricity": {
      "weightPerMille": 29.07,
      "monthlySpend": 3745036016,
-     "total": 391723941,
-     "pctChange": 3.45,
+     "total": 567805792,
+     "pctChange": 4.7,
      "monthly": [
       {
        "month": "2026-03",
@@ -1753,14 +1939,19 @@
        "month": "2026-09",
        "index": 103.45,
        "extra": 129152547
+      },
+      {
+       "month": "2026-10",
+       "index": 104.7,
+       "extra": 176081851
       }
      ]
     },
     "gas": {
      "weightPerMille": 13.89,
      "monthlySpend": 1789423814,
-     "total": 1583170233,
-     "pctChange": 21.35,
+     "total": 2085066154,
+     "pctChange": 28.05,
      "monthly": [
       {
        "month": "2026-03",
@@ -1796,14 +1987,19 @@
        "month": "2026-09",
        "index": 121.35,
        "extra": 382100325
+      },
+      {
+       "month": "2026-10",
+       "index": 128.05,
+       "extra": 501895921
       }
      ]
     },
     "solid": {
      "weightPerMille": 1.4,
      "monthlySpend": 180359492,
-     "total": 16047664,
-     "pctChange": 4.25,
+     "total": 25927229,
+     "pctChange": 5.48,
      "monthly": [
       {
        "month": "2026-03",
@@ -1839,14 +2035,19 @@
        "month": "2026-09",
        "index": 104.25,
        "extra": 7670360
+      },
+      {
+       "month": "2026-10",
+       "index": 105.48,
+       "extra": 9879565
       }
      ]
     },
     "heat": {
      "weightPerMille": 2.23,
      "monthlySpend": 287286905,
-     "total": 110717623,
-     "pctChange": 6.38,
+     "total": 138795033,
+     "pctChange": 9.77,
      "monthly": [
       {
        "month": "2026-03",
@@ -1882,13 +2083,18 @@
        "month": "2026-09",
        "index": 106.38,
        "extra": 18322681
+      },
+      {
+       "month": "2026-10",
+       "index": 109.77,
+       "extra": 28077410
       }
      ]
     }
    },
-   "total": 2101659461,
-   "lastMonth": "2026-09",
-   "dailyRate": 17908197,
+   "total": 2817594208,
+   "lastMonth": "2026-10",
+   "dailyRate": 23094669,
    "consumptionYear": 2025
   },
   "GR": {
@@ -1896,8 +2102,8 @@
     "electricity": {
      "weightPerMille": 28.04,
      "monthlySpend": 393703097,
-     "total": 87519736,
-     "pctChange": 9.86,
+     "total": 146460808,
+     "pctChange": 14.97,
      "monthly": [
       {
        "month": "2026-03",
@@ -1933,14 +2139,19 @@
        "month": "2026-09",
        "index": 109.86,
        "extra": 38815798
+      },
+      {
+       "month": "2026-10",
+       "index": 114.97,
+       "extra": 58941072
       }
      ]
     },
     "gas": {
      "weightPerMille": 3.8,
      "monthlySpend": 53354913,
-     "total": 77754925,
-     "pctChange": 39.55,
+     "total": 108840251,
+     "pctChange": 58.26,
      "monthly": [
       {
        "month": "2026-03",
@@ -1976,14 +2187,19 @@
        "month": "2026-09",
        "index": 139.55,
        "extra": 21104512
+      },
+      {
+       "month": "2026-10",
+       "index": 158.26,
+       "extra": 31085326
       }
      ]
     },
     "solid": {
      "weightPerMille": 2.06,
      "monthlySpend": 28923979,
-     "total": 3915299,
-     "pctChange": 5.88,
+     "total": 6216395,
+     "pctChange": 7.96,
      "monthly": [
       {
        "month": "2026-03",
@@ -2019,13 +2235,18 @@
        "month": "2026-09",
        "index": 105.88,
        "extra": 1700064
+      },
+      {
+       "month": "2026-10",
+       "index": 107.96,
+       "extra": 2301096
       }
      ]
     }
    },
-   "total": 169189960,
-   "lastMonth": "2026-09",
-   "dailyRate": 2054012,
+   "total": 261517454,
+   "lastMonth": "2026-10",
+   "dailyRate": 2978306,
    "consumptionYear": 2025
   },
   "HR": {
@@ -2033,8 +2254,8 @@
     "electricity": {
      "weightPerMille": 43.51,
      "monthlySpend": 186764862,
-     "total": 1770845,
-     "pctChange": 0.19,
+     "total": 2243070,
+     "pctChange": 0.25,
      "monthly": [
       {
        "month": "2026-03",
@@ -2070,14 +2291,19 @@
        "month": "2026-09",
        "index": 100.19,
        "extra": 354169
+      },
+      {
+       "month": "2026-10",
+       "index": 100.25,
+       "extra": 472225
       }
      ]
     },
     "gas": {
      "weightPerMille": 18.4,
      "monthlySpend": 78981233,
-     "total": -10924940,
-     "pctChange": -3.79,
+     "total": -11584204,
+     "pctChange": -0.83,
      "monthly": [
       {
        "month": "2026-03",
@@ -2113,14 +2339,19 @@
        "month": "2026-09",
        "index": 96.21,
        "extra": -2992043
+      },
+      {
+       "month": "2026-10",
+       "index": 99.17,
+       "extra": -659264
       }
      ]
     },
     "solid": {
      "weightPerMille": 7.89,
      "monthlySpend": 33867496,
-     "total": 7237864,
-     "pctChange": 9.6,
+     "total": 11385368,
+     "pctChange": 12.25,
      "monthly": [
       {
        "month": "2026-03",
@@ -2156,14 +2387,19 @@
        "month": "2026-09",
        "index": 109.6,
        "extra": 3252499
+      },
+      {
+       "month": "2026-10",
+       "index": 112.25,
+       "extra": 4147504
       }
      ]
     },
     "heat": {
      "weightPerMille": 2.64,
      "monthlySpend": 11332090,
-     "total": 0,
-     "pctChange": 0.0,
+     "total": 2120,
+     "pctChange": 0.02,
      "monthly": [
       {
        "month": "2026-03",
@@ -2199,13 +2435,18 @@
        "month": "2026-09",
        "index": 100.0,
        "extra": 0
+      },
+      {
+       "month": "2026-10",
+       "index": 100.02,
+       "extra": 2120
       }
      ]
     }
    },
-   "total": -1916231,
-   "lastMonth": "2026-09",
-   "dailyRate": 20488,
+   "total": 2046354,
+   "lastMonth": "2026-10",
+   "dailyRate": 127825,
    "consumptionYear": 2025
   },
   "HU": {
@@ -2250,14 +2491,19 @@
        "month": "2026-09",
        "index": 100.0,
        "extra": 0
+      },
+      {
+       "month": "2026-10",
+       "index": 100.0,
+       "extra": 0
       }
      ]
     },
     "gas": {
      "weightPerMille": 16.51,
      "monthlySpend": 150500069,
-     "total": 4476161,
-     "pctChange": 0.36,
+     "total": 5342515,
+     "pctChange": 0.58,
      "monthly": [
       {
        "month": "2026-03",
@@ -2293,14 +2539,19 @@
        "month": "2026-09",
        "index": 100.36,
        "extra": 548691
+      },
+      {
+       "month": "2026-10",
+       "index": 100.58,
+       "extra": 866354
       }
      ]
     },
     "solid": {
      "weightPerMille": 4.12,
      "monthlySpend": 37556650,
-     "total": -7319265,
-     "pctChange": -1.57,
+     "total": -9028576,
+     "pctChange": -4.55,
      "monthly": [
       {
        "month": "2026-03",
@@ -2336,13 +2587,18 @@
        "month": "2026-09",
        "index": 98.43,
        "extra": -589546
+      },
+      {
+       "month": "2026-10",
+       "index": 95.45,
+       "extra": -1709311
       }
      ]
     },
     "heat": {
      "weightPerMille": 3.12,
      "monthlySpend": 28440958,
-     "total": 51684483,
+     "total": 56949330,
      "pctChange": 18.51,
      "monthly": [
       {
@@ -2379,13 +2635,18 @@
        "month": "2026-09",
        "index": 118.51,
        "extra": 5264847
+      },
+      {
+       "month": "2026-10",
+       "index": 118.51,
+       "extra": 5264847
       }
      ]
     }
    },
-   "total": 48841379,
-   "lastMonth": "2026-09",
-   "dailyRate": 174133,
+   "total": 53263269,
+   "lastMonth": "2026-10",
+   "dailyRate": 142642,
    "consumptionYear": 2025
   },
   "IE": {
@@ -2393,8 +2654,8 @@
     "electricity": {
      "weightPerMille": 31.69,
      "monthlySpend": 400215387,
-     "total": 59751674,
-     "pctChange": 4.67,
+     "total": 88438714,
+     "pctChange": 7.17,
      "monthly": [
       {
        "month": "2026-03",
@@ -2430,14 +2691,19 @@
        "month": "2026-09",
        "index": 104.67,
        "extra": 18708939
+      },
+      {
+       "month": "2026-10",
+       "index": 107.17,
+       "extra": 28687040
       }
      ]
     },
     "gas": {
      "weightPerMille": 12.35,
      "monthlySpend": 155969076,
-     "total": 16054492,
-     "pctChange": 3.25,
+     "total": 27283266,
+     "pctChange": 7.2,
      "monthly": [
       {
        "month": "2026-03",
@@ -2473,14 +2739,19 @@
        "month": "2026-09",
        "index": 103.25,
        "extra": 5075593
+      },
+      {
+       "month": "2026-10",
+       "index": 107.2,
+       "extra": 11228774
       }
      ]
     },
     "solid": {
      "weightPerMille": 3.65,
      "monthlySpend": 46096124,
-     "total": 1272409,
-     "pctChange": 0.52,
+     "total": 2292174,
+     "pctChange": 2.21,
      "monthly": [
       {
        "month": "2026-03",
@@ -2516,13 +2787,18 @@
        "month": "2026-09",
        "index": 100.52,
        "extra": 238864
+      },
+      {
+       "month": "2026-10",
+       "index": 102.21,
+       "extra": 1019765
       }
      ]
     }
    },
-   "total": 77078575,
-   "lastMonth": "2026-09",
-   "dailyRate": 800780,
+   "total": 118014154,
+   "lastMonth": "2026-10",
+   "dailyRate": 1320503,
    "consumptionYear": 2025
   },
   "IT": {
@@ -2530,8 +2806,8 @@
     "electricity": {
      "weightPerMille": 27.5,
      "monthlySpend": 2970417542,
-     "total": 1356999673,
-     "pctChange": 13.29,
+     "total": 2103205438,
+     "pctChange": 25.12,
      "monthly": [
       {
        "month": "2026-03",
@@ -2567,14 +2843,19 @@
        "month": "2026-09",
        "index": 113.29,
        "extra": 394711157
+      },
+      {
+       "month": "2026-10",
+       "index": 125.12,
+       "extra": 746205765
       }
      ]
     },
     "gas": {
      "weightPerMille": 30.88,
      "monthlySpend": 3335508861,
-     "total": 2985507930,
-     "pctChange": 20.25,
+     "total": 4210511184,
+     "pctChange": 36.73,
      "monthly": [
       {
        "month": "2026-03",
@@ -2610,14 +2891,19 @@
        "month": "2026-09",
        "index": 120.25,
        "extra": 675501795
+      },
+      {
+       "month": "2026-10",
+       "index": 136.73,
+       "extra": 1225003254
       }
      ]
     },
     "solid": {
      "weightPerMille": 3.85,
      "monthlySpend": 415858456,
-     "total": 57009704,
-     "pctChange": 3.0,
+     "total": 75752620,
+     "pctChange": 4.51,
      "monthly": [
       {
        "month": "2026-03",
@@ -2653,13 +2939,18 @@
        "month": "2026-09",
        "index": 103.0,
        "extra": 12495278
+      },
+      {
+       "month": "2026-10",
+       "index": 104.51,
+       "extra": 18742916
       }
      ]
     }
    },
-   "total": 4399517307,
-   "lastMonth": "2026-09",
-   "dailyRate": 36090274,
+   "total": 6389469242,
+   "lastMonth": "2026-10",
+   "dailyRate": 64191998,
    "consumptionYear": 2025
   },
   "LT": {
@@ -2667,8 +2958,8 @@
     "electricity": {
      "weightPerMille": 13.96,
      "monthlySpend": 53239950,
-     "total": -118334,
-     "pctChange": 3.23,
+     "total": 2104285,
+     "pctChange": 4.17,
      "monthly": [
       {
        "month": "2026-03",
@@ -2704,14 +2995,19 @@
        "month": "2026-09",
        "index": 103.23,
        "extra": 1718414
+      },
+      {
+       "month": "2026-10",
+       "index": 104.17,
+       "extra": 2222619
       }
      ]
     },
     "gas": {
      "weightPerMille": 9.12,
      "monthlySpend": 34781400,
-     "total": 20351740,
-     "pctChange": 9.76,
+     "total": 24240815,
+     "pctChange": 11.18,
      "monthly": [
       {
        "month": "2026-03",
@@ -2747,14 +3043,19 @@
        "month": "2026-09",
        "index": 109.76,
        "extra": 3394364
+      },
+      {
+       "month": "2026-10",
+       "index": 111.18,
+       "extra": 3889075
       }
      ]
     },
     "solid": {
      "weightPerMille": 8.08,
      "monthlySpend": 30815100,
-     "total": 15400609,
-     "pctChange": 15.86,
+     "total": 20825666,
+     "pctChange": 17.61,
      "monthly": [
       {
        "month": "2026-03",
@@ -2790,14 +3091,19 @@
        "month": "2026-09",
        "index": 115.86,
        "extra": 4886438
+      },
+      {
+       "month": "2026-10",
+       "index": 117.61,
+       "extra": 5425057
       }
      ]
     },
     "heat": {
      "weightPerMille": 24.06,
      "monthlySpend": 91758825,
-     "total": -9196524,
-     "pctChange": 1.53,
+     "total": -12371176,
+     "pctChange": -3.46,
      "monthly": [
       {
        "month": "2026-03",
@@ -2833,13 +3139,18 @@
        "month": "2026-09",
        "index": 101.53,
        "extra": 1402256
+      },
+      {
+       "month": "2026-10",
+       "index": 96.54,
+       "extra": -3174652
       }
      ]
     }
    },
-   "total": 26437491,
-   "lastMonth": "2026-09",
-   "dailyRate": 380049,
+   "total": 34799590,
+   "lastMonth": "2026-10",
+   "dailyRate": 269745,
    "consumptionYear": 2025
   },
   "LU": {
@@ -2847,7 +3158,7 @@
     "electricity": {
      "weightPerMille": 12.9,
      "monthlySpend": 28703682,
-     "total": -7978412,
+     "total": -11967618,
      "pctChange": -13.9,
      "monthly": [
       {
@@ -2884,14 +3195,19 @@
        "month": "2026-09",
        "index": 86.1,
        "extra": -3989206
+      },
+      {
+       "month": "2026-10",
+       "index": 86.1,
+       "extra": -3989206
       }
      ]
     },
     "gas": {
      "weightPerMille": 9.8,
      "monthlySpend": 21805898,
-     "total": -3594169,
-     "pctChange": -12.09,
+     "total": -6224805,
+     "pctChange": -12.06,
      "monthly": [
       {
        "month": "2026-03",
@@ -2927,14 +3243,19 @@
        "month": "2026-09",
        "index": 87.91,
        "extra": -2635406
+      },
+      {
+       "month": "2026-10",
+       "index": 87.94,
+       "extra": -2630636
       }
      ]
     },
     "solid": {
      "weightPerMille": 0.1,
      "monthlySpend": 222509,
-     "total": -15148,
-     "pctChange": 2.06,
+     "total": -3803,
+     "pctChange": 5.1,
      "monthly": [
       {
        "month": "2026-03",
@@ -2970,14 +3291,19 @@
        "month": "2026-09",
        "index": 102.06,
        "extra": 4581
+      },
+      {
+       "month": "2026-10",
+       "index": 105.1,
+       "extra": 11345
       }
      ]
     },
     "heat": {
      "weightPerMille": 0.2,
      "monthlySpend": 445018,
-     "total": 4563,
-     "pctChange": 2.01,
+     "total": 22268,
+     "pctChange": 3.98,
      "monthly": [
       {
        "month": "2026-03",
@@ -3013,13 +3339,18 @@
        "month": "2026-09",
        "index": 102.01,
        "extra": 8931
+      },
+      {
+       "month": "2026-10",
+       "index": 103.98,
+       "extra": 17705
       }
      ]
     }
    },
-   "total": -11583166,
-   "lastMonth": "2026-09",
-   "dailyRate": -220370,
+   "total": -18173958,
+   "lastMonth": "2026-10",
+   "dailyRate": -212606,
    "consumptionYear": 2025
   },
   "LV": {
@@ -3027,8 +3358,8 @@
     "electricity": {
      "weightPerMille": 31.6,
      "monthlySpend": 65178423,
-     "total": -21642024,
-     "pctChange": -1.78,
+     "total": -21738157,
+     "pctChange": -0.15,
      "monthly": [
       {
        "month": "2026-03",
@@ -3064,14 +3395,19 @@
        "month": "2026-09",
        "index": 98.22,
        "extra": -1159609
+      },
+      {
+       "month": "2026-10",
+       "index": 99.85,
+       "extra": -96133
       }
      ]
     },
     "gas": {
      "weightPerMille": 9.23,
      "monthlySpend": 19037875,
-     "total": 12423574,
-     "pctChange": 12.62,
+     "total": 14947452,
+     "pctChange": 13.26,
      "monthly": [
       {
        "month": "2026-03",
@@ -3107,14 +3443,19 @@
        "month": "2026-09",
        "index": 112.62,
        "extra": 2402399
+      },
+      {
+       "month": "2026-10",
+       "index": 113.26,
+       "extra": 2523878
       }
      ]
     },
     "solid": {
      "weightPerMille": 10.74,
      "monthlySpend": 22152414,
-     "total": 110855,
-     "pctChange": 4.62,
+     "total": 1192712,
+     "pctChange": 4.88,
      "monthly": [
       {
        "month": "2026-03",
@@ -3150,14 +3491,19 @@
        "month": "2026-09",
        "index": 104.62,
        "extra": 1024377
+      },
+      {
+       "month": "2026-10",
+       "index": 104.88,
+       "extra": 1081857
       }
      ]
     },
     "heat": {
      "weightPerMille": 41.22,
      "monthlySpend": 85020716,
-     "total": 11623958,
-     "pctChange": 3.57,
+     "total": 16615036,
+     "pctChange": 5.87,
      "monthly": [
       {
        "month": "2026-03",
@@ -3193,13 +3539,18 @@
        "month": "2026-09",
        "index": 103.57,
        "extra": 3037334
+      },
+      {
+       "month": "2026-10",
+       "index": 105.87,
+       "extra": 4991078
       }
      ]
     }
    },
-   "total": 2516363,
-   "lastMonth": "2026-09",
-   "dailyRate": 176817,
+   "total": 11017043,
+   "lastMonth": "2026-10",
+   "dailyRate": 274215,
    "consumptionYear": 2025
   },
   "MT": {
@@ -3242,6 +3593,11 @@
       },
       {
        "month": "2026-09",
+       "index": 100.0,
+       "extra": 0
+      },
+      {
+       "month": "2026-10",
        "index": 100.0,
        "extra": 0
       }
@@ -3287,12 +3643,17 @@
        "month": "2026-09",
        "index": 100.0,
        "extra": 0
+      },
+      {
+       "month": "2026-10",
+       "index": 100.0,
+       "extra": 0
       }
      ]
     }
    },
    "total": 0,
-   "lastMonth": "2026-09",
+   "lastMonth": "2026-10",
    "dailyRate": 0,
    "consumptionYear": 2025
   },
@@ -3301,8 +3662,8 @@
     "electricity": {
      "weightPerMille": 18.8,
      "monthlySpend": 780251700,
-     "total": -15056655,
-     "pctChange": 1.77,
+     "total": 14264199,
+     "pctChange": 3.76,
      "monthly": [
       {
        "month": "2026-03",
@@ -3338,14 +3699,19 @@
        "month": "2026-09",
        "index": 101.77,
        "extra": 13788726
+      },
+      {
+       "month": "2026-10",
+       "index": 103.76,
+       "extra": 29320854
       }
      ]
     },
     "gas": {
      "weightPerMille": 21.21,
      "monthlySpend": 880273328,
-     "total": 147228035,
-     "pctChange": 7.11,
+     "total": 235299580,
+     "pctChange": 10.01,
      "monthly": [
       {
        "month": "2026-03",
@@ -3381,6 +3747,11 @@
        "month": "2026-09",
        "index": 107.11,
        "extra": 62605074
+      },
+      {
+       "month": "2026-10",
+       "index": 110.01,
+       "extra": 88071545
       }
      ]
     },
@@ -3424,13 +3795,18 @@
        "month": "2026-09",
        "index": 100.0,
        "extra": 0
+      },
+      {
+       "month": "2026-10",
+       "index": 100.0,
+       "extra": 0
       }
      ]
     }
    },
-   "total": 132171380,
-   "lastMonth": "2026-09",
-   "dailyRate": 2546460,
+   "total": 249563779,
+   "lastMonth": "2026-10",
+   "dailyRate": 3786852,
    "consumptionYear": 2025
   },
   "PL": {
@@ -3475,14 +3851,19 @@
        "month": "2026-09",
        "index": 100.0,
        "extra": 0
+      },
+      {
+       "month": "2026-10",
+       "index": 100.0,
+       "extra": 0
       }
      ]
     },
     "gas": {
      "weightPerMille": 12.2,
      "monthlySpend": 529719120,
-     "total": 3395992,
-     "pctChange": -0.11,
+     "total": 5010480,
+     "pctChange": 0.3,
      "monthly": [
       {
        "month": "2026-03",
@@ -3518,14 +3899,19 @@
        "month": "2026-09",
        "index": 99.89,
        "extra": -556720
+      },
+      {
+       "month": "2026-10",
+       "index": 100.3,
+       "extra": 1614488
       }
      ]
     },
     "solid": {
      "weightPerMille": 16.95,
      "monthlySpend": 735962220,
-     "total": 56928279,
-     "pctChange": 7.52,
+     "total": 166200468,
+     "pctChange": 14.85,
      "monthly": [
       {
        "month": "2026-03",
@@ -3561,14 +3947,19 @@
        "month": "2026-09",
        "index": 107.52,
        "extra": 55354540
+      },
+      {
+       "month": "2026-10",
+       "index": 114.85,
+       "extra": 109272189
       }
      ]
     },
     "heat": {
      "weightPerMille": 29.14,
      "monthlySpend": 1265247144,
-     "total": 29648510,
-     "pctChange": 0.68,
+     "total": 61981248,
+     "pctChange": 2.56,
      "monthly": [
       {
        "month": "2026-03",
@@ -3604,13 +3995,18 @@
        "month": "2026-09",
        "index": 100.68,
        "extra": 8540723
+      },
+      {
+       "month": "2026-10",
+       "index": 102.56,
+       "extra": 32332738
       }
      ]
     }
    },
-   "total": 89972781,
-   "lastMonth": "2026-09",
-   "dailyRate": 2111285,
+   "total": 233192196,
+   "lastMonth": "2026-10",
+   "dailyRate": 4619981,
    "consumptionYear": 2025
   },
   "PT": {
@@ -3618,8 +4014,8 @@
     "electricity": {
      "weightPerMille": 21.82,
      "monthlySpend": 332657537,
-     "total": 17008056,
-     "pctChange": 1.17,
+     "total": 25512083,
+     "pctChange": 2.56,
      "monthly": [
       {
        "month": "2026-03",
@@ -3655,14 +4051,19 @@
        "month": "2026-09",
        "index": 101.17,
        "extra": 3901848
+      },
+      {
+       "month": "2026-10",
+       "index": 102.56,
+       "extra": 8504027
       }
      ]
     },
     "gas": {
      "weightPerMille": 5.59,
      "monthlySpend": 85222531,
-     "total": 27214136,
-     "pctChange": 3.03,
+     "total": 33267487,
+     "pctChange": 7.1,
      "monthly": [
       {
        "month": "2026-03",
@@ -3698,14 +4099,19 @@
        "month": "2026-09",
        "index": 103.03,
        "extra": 2585646
+      },
+      {
+       "month": "2026-10",
+       "index": 107.1,
+       "extra": 6053351
       }
      ]
     },
     "solid": {
      "weightPerMille": 0.92,
      "monthlySpend": 14025891,
-     "total": -513419,
-     "pctChange": 2.41,
+     "total": 38876,
+     "pctChange": 3.94,
      "monthly": [
       {
        "month": "2026-03",
@@ -3741,13 +4147,18 @@
        "month": "2026-09",
        "index": 102.41,
        "extra": 337812
+      },
+      {
+       "month": "2026-10",
+       "index": 103.94,
+       "extra": 552295
       }
      ]
     }
    },
-   "total": 43708773,
-   "lastMonth": "2026-09",
-   "dailyRate": 227510,
+   "total": 58818446,
+   "lastMonth": "2026-10",
+   "dailyRate": 487409,
    "consumptionYear": 2025
   },
   "RO": {
@@ -3755,8 +4166,8 @@
     "electricity": {
      "weightPerMille": 27.87,
      "monthlySpend": 529298215,
-     "total": 37775858,
-     "pctChange": 4.9,
+     "total": 77165695,
+     "pctChange": 7.44,
      "monthly": [
       {
        "month": "2026-03",
@@ -3792,14 +4203,19 @@
        "month": "2026-09",
        "index": 104.9,
        "extra": 25954544
+      },
+      {
+       "month": "2026-10",
+       "index": 107.44,
+       "extra": 39389837
       }
      ]
     },
     "gas": {
      "weightPerMille": 24.63,
      "monthlySpend": 467765160,
-     "total": -110574209,
-     "pctChange": -1.21,
+     "total": -112160314,
+     "pctChange": -0.34,
      "monthly": [
       {
        "month": "2026-03",
@@ -3835,14 +4251,19 @@
        "month": "2026-09",
        "index": 98.79,
        "extra": -5664662
+      },
+      {
+       "month": "2026-10",
+       "index": 99.66,
+       "extra": -1586105
       }
      ]
     },
     "solid": {
      "weightPerMille": 12.28,
      "monthlySpend": 233217871,
-     "total": 13677608,
-     "pctChange": 3.17,
+     "total": 25755364,
+     "pctChange": 5.18,
      "monthly": [
       {
        "month": "2026-03",
@@ -3878,14 +4299,19 @@
        "month": "2026-09",
        "index": 103.17,
        "extra": 7390866
+      },
+      {
+       "month": "2026-10",
+       "index": 105.18,
+       "extra": 12077756
       }
      ]
     },
     "heat": {
      "weightPerMille": 3.38,
      "monthlySpend": 64191890,
-     "total": 34574863,
-     "pctChange": 9.69,
+     "total": 43723027,
+     "pctChange": 14.25,
      "monthly": [
       {
        "month": "2026-03",
@@ -3921,13 +4347,18 @@
        "month": "2026-09",
        "index": 109.69,
        "extra": 6220504
+      },
+      {
+       "month": "2026-10",
+       "index": 114.25,
+       "extra": 9148164
       }
      ]
     }
    },
-   "total": -24545880,
-   "lastMonth": "2026-09",
-   "dailyRate": 1130042,
+   "total": 34483772,
+   "lastMonth": "2026-10",
+   "dailyRate": 1904182,
    "consumptionYear": 2025
   },
   "SE": {
@@ -3935,8 +4366,8 @@
     "electricity": {
      "weightPerMille": 40.63,
      "monthlySpend": 909408085,
-     "total": -1172304196,
-     "pctChange": -10.78,
+     "total": -1265728342,
+     "pctChange": -10.27,
      "monthly": [
       {
        "month": "2026-03",
@@ -3972,6 +4403,11 @@
        "month": "2026-09",
        "index": 89.22,
        "extra": -98067214
+      },
+      {
+       "month": "2026-10",
+       "index": 89.73,
+       "extra": -93424146
       }
      ]
     },
@@ -4015,14 +4451,19 @@
        "month": "2026-09",
        "index": 100.0,
        "extra": 0
+      },
+      {
+       "month": "2026-10",
+       "index": 100.0,
+       "extra": 0
       }
      ]
     },
     "solid": {
      "weightPerMille": 1.03,
      "monthlySpend": 23054155,
-     "total": 6520538,
-     "pctChange": 5.49,
+     "total": 8045483,
+     "pctChange": 6.61,
      "monthly": [
       {
        "month": "2026-03",
@@ -4058,14 +4499,19 @@
        "month": "2026-09",
        "index": 105.49,
        "extra": 1264707
+      },
+      {
+       "month": "2026-10",
+       "index": 106.61,
+       "extra": 1524945
       }
      ]
     },
     "heat": {
      "weightPerMille": 12.1,
      "monthlySpend": 270830367,
-     "total": -104212359,
-     "pctChange": -5.84,
+     "total": -110782710,
+     "pctChange": -2.43,
      "monthly": [
       {
        "month": "2026-03",
@@ -4101,13 +4547,18 @@
        "month": "2026-09",
        "index": 94.16,
        "extra": -15829725
+      },
+      {
+       "month": "2026-10",
+       "index": 97.57,
+       "extra": -6570351
       }
      ]
     }
    },
-   "total": -1269996017,
-   "lastMonth": "2026-09",
-   "dailyRate": -3754408,
+   "total": -1368465569,
+   "lastMonth": "2026-10",
+   "dailyRate": -3176437,
    "consumptionYear": 2025
   },
   "SI": {
@@ -4115,7 +4566,7 @@
     "electricity": {
      "weightPerMille": 27.32,
      "monthlySpend": 80619499,
-     "total": -34271853,
+     "total": -39167832,
      "pctChange": -6.07,
      "monthly": [
       {
@@ -4152,13 +4603,18 @@
        "month": "2026-09",
        "index": 93.93,
        "extra": -4895979
+      },
+      {
+       "month": "2026-10",
+       "index": 93.93,
+       "extra": -4895979
       }
      ]
     },
     "gas": {
      "weightPerMille": 7.32,
      "monthlySpend": 21600832,
-     "total": 4051788,
+     "total": 4804294,
      "pctChange": 3.48,
      "monthly": [
       {
@@ -4195,14 +4651,19 @@
        "month": "2026-09",
        "index": 103.48,
        "extra": 752506
+      },
+      {
+       "month": "2026-10",
+       "index": 103.48,
+       "extra": 752506
       }
      ]
     },
     "solid": {
      "weightPerMille": 7.45,
      "monthlySpend": 21984453,
-     "total": 5371720,
-     "pctChange": 3.88,
+     "total": 6735310,
+     "pctChange": 6.2,
      "monthly": [
       {
        "month": "2026-03",
@@ -4238,13 +4699,18 @@
        "month": "2026-09",
        "index": 103.88,
        "extra": 852244
+      },
+      {
+       "month": "2026-10",
+       "index": 106.2,
+       "extra": 1363590
       }
      ]
     },
     "heat": {
      "weightPerMille": 7.07,
      "monthlySpend": 20863099,
-     "total": 473930,
+     "total": 568716,
      "pctChange": 0.45,
      "monthly": [
       {
@@ -4281,13 +4747,18 @@
        "month": "2026-09",
        "index": 100.45,
        "extra": 94786
+      },
+      {
+       "month": "2026-10",
+       "index": 100.45,
+       "extra": 94786
       }
      ]
     }
    },
-   "total": -24374415,
-   "lastMonth": "2026-09",
-   "dailyRate": -106548,
+   "total": -27059512,
+   "lastMonth": "2026-10",
+   "dailyRate": -86616,
    "consumptionYear": 2025
   },
   "SK": {
@@ -4332,13 +4803,18 @@
        "month": "2026-09",
        "index": 100.0,
        "extra": 0
+      },
+      {
+       "month": "2026-10",
+       "index": 100.0,
+       "extra": 0
       }
      ]
     },
     "gas": {
      "weightPerMille": 27.54,
      "monthlySpend": 182674886,
-     "total": 325410,
+     "total": 411044,
      "pctChange": 0.05,
      "monthly": [
       {
@@ -4375,14 +4851,19 @@
        "month": "2026-09",
        "index": 100.05,
        "extra": 85634
+      },
+      {
+       "month": "2026-10",
+       "index": 100.05,
+       "extra": 85634
       }
      ]
     },
     "solid": {
      "weightPerMille": 8.0,
      "monthlySpend": 53064600,
-     "total": 3276362,
-     "pctChange": 1.81,
+     "total": 4727914,
+     "pctChange": 2.74,
      "monthly": [
       {
        "month": "2026-03",
@@ -4418,14 +4899,19 @@
        "month": "2026-09",
        "index": 101.81,
        "extra": 959061
+      },
+      {
+       "month": "2026-10",
+       "index": 102.74,
+       "extra": 1451552
       }
      ]
     },
     "heat": {
      "weightPerMille": 22.6,
      "monthlySpend": 149907495,
-     "total": -1429253,
-     "pctChange": -0.13,
+     "total": -1593266,
+     "pctChange": -0.11,
      "monthly": [
       {
        "month": "2026-03",
@@ -4461,13 +4947,18 @@
        "month": "2026-09",
        "index": 99.87,
        "extra": -199158
+      },
+      {
+       "month": "2026-10",
+       "index": 99.89,
+       "extra": -164013
       }
      ]
     }
    },
-   "total": 2172519,
-   "lastMonth": "2026-09",
-   "dailyRate": 28185,
+   "total": 3545692,
+   "lastMonth": "2026-10",
+   "dailyRate": 44296,
    "consumptionYear": 2025
   }
  }

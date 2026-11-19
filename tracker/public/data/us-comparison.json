@@ -1,54 +1,54 @@
 {
  "stale": false,
  "brownUrl": "https://iranwarcost.watson.brown.edu/",
- "brownAsOf": "2026-11-16",
- "euAsOf": "2026-11-09",
- "eurPerUsd": 0.90794,
- "fxDate": "2026-11-16",
+ "brownAsOf": "2026-11-19",
+ "euAsOf": "2026-11-16",
+ "eurPerUsd": 0.90975,
+ "fxDate": "2026-11-19",
  "fxSource": "ECB euro reference rate",
  "us": {
-  "households": 130999817,
+  "households": 130999513,
   "fuels": {
    "petrol": {
-    "totalExtraCostUSD": 88194587194,
-    "totalSamePeriodUSD": 85894960677,
+    "totalExtraCostUSD": 89127973766,
+    "totalSamePeriodUSD": 88194587194,
     "warStartPriceUSDPerGallon": 2.982,
-    "currentPriceUSDPerGallon": 3.812,
-    "pctChange": 27.83,
-    "increaseEURPerLitre": 0.1991,
+    "currentPriceUSDPerGallon": 3.721,
+    "pctChange": 24.78,
+    "increaseEURPerLitre": 0.1776,
     "litresPerHouseholdPerYear": 3939
    },
    "diesel": {
-    "totalExtraCostUSD": 72365870843,
-    "totalSamePeriodUSD": 70081525216,
+    "totalExtraCostUSD": 73408831585,
+    "totalSamePeriodUSD": 72365870843,
     "warStartPriceUSDPerGallon": 3.67,
-    "currentPriceUSDPerGallon": 5.999,
-    "pctChange": 63.46,
-    "increaseEURPerLitre": 0.5586,
+    "currentPriceUSDPerGallon": 5.93,
+    "pctChange": 61.58,
+    "increaseEURPerLitre": 0.5431,
     "litresPerHouseholdPerYear": 1727
    }
   },
-  "totalExtraCostUSD": 160560458037,
-  "totalSamePeriodUSD": 155976485893,
-  "perHouseholdUSD": 1225.65,
-  "perHouseholdSamePeriodUSD": 1190.66,
-  "perHouseholdSamePeriodEUR": 1081.04
+  "totalExtraCostUSD": 162536805351,
+  "totalSamePeriodUSD": 160560458037,
+  "perHouseholdUSD": 1240.74,
+  "perHouseholdSamePeriodUSD": 1225.66,
+  "perHouseholdSamePeriodEUR": 1115.05
  },
  "eu": {
   "households": 203172200,
-  "totalExtraCostEUR": 79948241450,
+  "totalExtraCostEUR": 82227409740,
   "fuels": {
    "petrol": {
-    "pctChange": 14.63,
-    "increaseEURPerLitre": 0.2395,
+    "pctChange": 11.74,
+    "increaseEURPerLitre": 0.1921,
     "litresPerHouseholdPerYear": 500
    },
    "diesel": {
-    "pctChange": 31.53,
-    "increaseEURPerLitre": 0.5027,
+    "pctChange": 28.56,
+    "increaseEURPerLitre": 0.4553,
     "litresPerHouseholdPerYear": 1157
    }
   },
-  "perHouseholdEUR": 393.5
+  "perHouseholdEUR": 404.72
  }
 }

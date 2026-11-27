@@ -1,38 +1,38 @@
 {
  "stale": false,
  "brownUrl": "https://iranwarcost.watson.brown.edu/",
- "brownAsOf": "2026-11-26",
+ "brownAsOf": "2026-11-27",
  "euAsOf": "2026-11-23",
- "eurPerUsd": 0.91116,
- "fxDate": "2026-11-26",
+ "eurPerUsd": 0.91266,
+ "fxDate": "2026-11-27",
  "fxSource": "ECB euro reference rate",
  "us": {
-  "households": 130998739,
+  "households": 131000729,
   "fuels": {
    "petrol": {
-    "totalExtraCostUSD": 91053130053,
+    "totalExtraCostUSD": 91319758807,
     "totalSamePeriodUSD": 90242459644,
     "warStartPriceUSDPerGallon": 2.982,
-    "currentPriceUSDPerGallon": 3.555,
-    "pctChange": 19.22,
-    "increaseEURPerLitre": 0.1379,
+    "currentPriceUSDPerGallon": 3.548,
+    "pctChange": 18.98,
+    "increaseEURPerLitre": 0.1365,
     "litresPerHouseholdPerYear": 3939
    },
    "diesel": {
-    "totalExtraCostUSD": 75827598875,
+    "totalExtraCostUSD": 76172290901,
     "totalSamePeriodUSD": 74789738589,
     "warStartPriceUSDPerGallon": 3.67,
-    "currentPriceUSDPerGallon": 5.725,
-    "pctChange": 55.99,
-    "increaseEURPerLitre": 0.4946,
+    "currentPriceUSDPerGallon": 5.705,
+    "pctChange": 55.45,
+    "increaseEURPerLitre": 0.4906,
     "litresPerHouseholdPerYear": 1727
    }
   },
-  "totalExtraCostUSD": 166880728928,
+  "totalExtraCostUSD": 167492049708,
   "totalSamePeriodUSD": 165032198233,
-  "perHouseholdUSD": 1273.91,
-  "perHouseholdSamePeriodUSD": 1259.8,
-  "perHouseholdSamePeriodEUR": 1147.88
+  "perHouseholdUSD": 1278.56,
+  "perHouseholdSamePeriodUSD": 1259.78,
+  "perHouseholdSamePeriodEUR": 1149.75
  },
  "eu": {
   "households": 203172200,
